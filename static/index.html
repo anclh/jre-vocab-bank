@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="JRE English — HKSAR press-release vocabulary bank for exam prep" />
+  <title>JRE 英文時事詞彙庫 · Vocab Bank</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect rx='8' width='32' height='32' fill='%233d9cf0'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-size='14' font-family='sans-serif' font-weight='700' fill='%230a1220'%3EJRE%3C/text%3E%3C/svg%3E" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-mark">JRE</div>
+        <div>
+          <h1>英文時事詞彙庫</h1>
+          <p>HKSAR Press Releases · English Vocab Bank</p>
+        </div>
+      </div>
+      <nav class="nav-tabs" id="nav" aria-label="Sections">
+        <button type="button" data-panel="today" class="active">今日精選</button>
+        <button type="button" data-panel="vocab">詞彙卡</button>
+        <button type="button" data-panel="feed">新聞稿</button>
+        <button type="button" data-panel="programmes">項目對照</button>
+        <button type="button" data-panel="saved">我的生字</button>
+      </nav>
+      <div class="header-actions">
+        <button type="button" class="icon-btn" id="btnTheme" title="切換深淺色 / Toggle theme" aria-label="Toggle theme">◐</button>
+        <button type="button" class="icon-btn" id="btnRefresh" title="重新擷取 RSS / Refresh" aria-label="Refresh feed">↻</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-card">
+        <h2>從政府新聞學英文</h2>
+        <p class="lede">
+          文章來源於 <strong>香港政府新聞網</strong>（info.gov.hk English RSS），配合精選公務員／政策英語詞彙，
+          幫助 JRE 考生累積時事用語與表達。內容為公開新聞稿衍生之學習工具，非官方教材。
+        </p>
+        <div class="badge-row">
+          <span class="badge">政府常見英文詞彙</span>
+          <span class="badge">詞彙學習卡</span>
+          <span class="badge">項目中英對照</span>
+          <span class="badge muted">本地儲存 · localStorage</span>
+        </div>
+      </div>
+      <div class="stat-card">
+        <div class="stats" id="stats">
+          <div class="stat"><div class="n" id="statItems">—</div><div class="l">RSS 新聞稿</div></div>
+          <div class="stat"><div class="n" id="statMatches">—</div><div class="l">詞彙配對</div></div>
+          <div class="stat"><div class="n" id="statLexicon">—</div><div class="l">詞庫詞條</div></div>
+          <div class="stat"><div class="n" id="statSaved">—</div><div class="l">已收藏</div></div>
+        </div>
+        <div class="status-bar" id="statusBar" style="margin-top:0.85rem"></div>
+      </div>
+    </section>
+
+    <!-- Today -->
+    <section class="panel active" id="panel-today">
+      <div class="section-title">
+        <h3>今日精選 Today's picks</h3>
+        <span>較罕用／較長的政府用語，優先來自今日稿件</span>
+      </div>
+      <div class="card-grid three" id="picksGrid"></div>
+    </section>
+
+    <!-- Vocab -->
+    <section class="panel" id="panel-vocab">
+      <div class="toolbar">
+        <div class="search">
+          <input type="search" id="vocabSearch" placeholder="搜尋英文／中文／詞性…" autocomplete="off" />
+        </div>
+      </div>
+      <div class="section-title">
+        <h3>詞彙卡 Vocabulary cards</h3>
+        <span id="vocabCount"></span>
+      </div>
+      <div class="card-grid" id="vocabGrid"></div>
+    </section>
+
+    <!-- Feed -->
+    <section class="panel" id="panel-feed">
+      <div class="toolbar">
+        <div class="search">
+          <input type="search" id="feedSearch" placeholder="搜尋新聞稿標題／內容…" autocomplete="off" />
+        </div>
+      </div>
+      <div class="section-title">
+        <h3>最新英文新聞稿</h3>
+        <span>來源：info.gov.hk GIA RSS</span>
+      </div>
+      <div class="feed-list" id="feedList"></div>
+    </section>
+
+    <!-- Programmes -->
+    <section class="panel" id="panel-programmes">
+      <div class="disclaimer" id="progDisclaimer"></div>
+      <div class="toolbar">
+        <div class="search">
+          <input type="search" id="progSearch" placeholder="搜尋計劃／機構英文或中文名稱…" autocomplete="off" />
+        </div>
+      </div>
+      <div class="prog-filters" id="progFilters"></div>
+      <div class="section-title">
+        <h3>常見政府項目中英文對照</h3>
+        <span id="progCount"></span>
+      </div>
+      <div class="prog-table-wrap">
+        <table class="prog">
+          <thead>
+            <tr>
+              <th>English</th>
+              <th>中文</th>
+              <th>Abbr</th>
+              <th>範疇</th>
+            </tr>
+          </thead>
+          <tbody id="progBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Saved -->
+    <section class="panel" id="panel-saved">
+      <div class="section-title">
+        <h3>我的生字 Saved list</h3>
+        <span>保存在本瀏覽器 localStorage</span>
+      </div>
+      <div class="toolbar">
+        <button type="button" class="btn" id="btnExport">匯出 JSON</button>
+        <button type="button" class="btn" id="btnClearSaved">清空收藏</button>
+      </div>
+      <div class="card-grid" id="savedGrid"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>
+      Data source: <a href="https://www.info.gov.hk/gia/rss/general_en.xml" target="_blank" rel="noopener">HKSAR Government Press Releases (English RSS)</a>.
+      Starter lexicon &amp; programme glossary are study aids — expand them as you revise.
+      Official names: always check <code>gov.hk</code> / <code>info.gov.hk</code>.
+    </p>
+  </footer>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>
