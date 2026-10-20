@@ -1,0 +1,485 @@
+{
+  "disclaimer": "Starter Q1 discussion-paper phrase bank for JRE English case writing. Expand as you revise.",
+  "categories": [
+    {
+      "id": "implications",
+      "en": "Implications",
+      "zh": "影響／後果"
+    },
+    {
+      "id": "assessment",
+      "en": "Assessment / analysis",
+      "zh": "評估／分析"
+    },
+    {
+      "id": "recommend",
+      "en": "Recommend / propose",
+      "zh": "建議措施"
+    },
+    {
+      "id": "monitor",
+      "en": "Monitor / evaluate / review",
+      "zh": "監察／檢討"
+    },
+    {
+      "id": "specificity",
+      "en": "Who–when–resources",
+      "zh": "負責方／時限／資源"
+    },
+    {
+      "id": "discourse",
+      "en": "Discourse markers",
+      "zh": "論述銜接"
+    }
+  ],
+  "items": [
+    {
+      "id": "imp-01",
+      "category": "implications",
+      "en": "This may give rise to…",
+      "zh": "此舉可能導致…",
+      "note": "開後果段常用",
+      "example": "This may give rise to longer waiting times at specialist outpatient clinics."
+    },
+    {
+      "id": "imp-02",
+      "category": "implications",
+      "en": "There could be knock-on effects on…",
+      "zh": "可能對…產生連鎖影響",
+      "note": "",
+      "example": "There could be knock-on effects on frontline manpower and overtime costs."
+    },
+    {
+      "id": "imp-03",
+      "category": "implications",
+      "en": "This risks exacerbating…",
+      "zh": "恐會加劇…",
+      "note": "",
+      "example": "This risks exacerbating the existing service gap in elderly care."
+    },
+    {
+      "id": "imp-04",
+      "category": "implications",
+      "en": "Left unaddressed, the problem may cascade into…",
+      "zh": "若不處理，問題或會蔓延至…",
+      "note": "",
+      "example": "Left unaddressed, the problem may cascade into wider public dissatisfaction."
+    },
+    {
+      "id": "imp-05",
+      "category": "implications",
+      "en": "The fiscal implications warrant careful consideration.",
+      "zh": "財政影響值得審慎考慮",
+      "note": "資源鏈",
+      "example": ""
+    },
+    {
+      "id": "imp-06",
+      "category": "implications",
+      "en": "This could undermine public confidence in…",
+      "zh": "或會削弱公眾對…的信心",
+      "note": "",
+      "example": "This could undermine public confidence in the fairness of the allocation mechanism."
+    },
+    {
+      "id": "imp-07",
+      "category": "implications",
+      "en": "A further implication is that…",
+      "zh": "另一影響是…",
+      "note": "第二後果",
+      "example": ""
+    },
+    {
+      "id": "imp-08",
+      "category": "implications",
+      "en": "In the longer term, this may entail…",
+      "zh": "長遠而言，這可能意味著…",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "imp-09",
+      "category": "implications",
+      "en": "The opportunity cost of inaction should not be overlooked.",
+      "zh": "不作為的機會成本不容忽視",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "imp-10",
+      "category": "implications",
+      "en": "This may put additional strain on…",
+      "zh": "或會對…構成額外壓力",
+      "note": "",
+      "example": "This may put additional strain on district-level service delivery."
+    },
+    {
+      "id": "ass-01",
+      "category": "assessment",
+      "en": "On balance,…",
+      "zh": "權衡之下…",
+      "note": "收束分析",
+      "example": "On balance, a phased pilot appears more feasible than a territory-wide rollout."
+    },
+    {
+      "id": "ass-02",
+      "category": "assessment",
+      "en": "A key bottleneck is…",
+      "zh": "關鍵樽頸在於…",
+      "note": "問題診斷",
+      "example": "A key bottleneck is the shortage of specialised manpower."
+    },
+    {
+      "id": "ass-03",
+      "category": "assessment",
+      "en": "The root cause appears to lie in…",
+      "zh": "根源似乎在於…",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "ass-04",
+      "category": "assessment",
+      "en": "Uptake remains subdued despite…",
+      "zh": "儘管…，參與／使用率仍然偏低",
+      "note": "",
+      "example": "Uptake remains subdued despite enhanced publicity."
+    },
+    {
+      "id": "ass-05",
+      "category": "assessment",
+      "en": "There is a clear shortfall in…",
+      "zh": "在…方面明顯不足",
+      "note": "",
+      "example": "There is a clear shortfall in transitional housing supply."
+    },
+    {
+      "id": "ass-06",
+      "category": "assessment",
+      "en": "From a cost-effectiveness perspective,…",
+      "zh": "從成本效益角度…",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "ass-07",
+      "category": "assessment",
+      "en": "The evidence suggests that…",
+      "zh": "證據顯示…",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "ass-08",
+      "category": "assessment",
+      "en": "Against this backdrop,…",
+      "zh": "在此背景下…",
+      "note": "銜接背景→分析",
+      "example": ""
+    },
+    {
+      "id": "ass-09",
+      "category": "assessment",
+      "en": "A trade-off exists between… and…",
+      "zh": "在…與…之間存在取捨",
+      "note": "",
+      "example": "A trade-off exists between speed of delivery and thorough consultation."
+    },
+    {
+      "id": "ass-10",
+      "category": "assessment",
+      "en": "The enforcement gap remains a structural concern.",
+      "zh": "執法缺口仍是結構性隱憂",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "rec-01",
+      "category": "recommend",
+      "en": "It is recommended that [Dept] … within [timeframe].",
+      "zh": "建議〔部門〕於〔時限〕內…",
+      "note": "標準建議句",
+      "example": "It is recommended that HD launch a six-month pilot within this financial year."
+    },
+    {
+      "id": "rec-02",
+      "category": "recommend",
+      "en": "We propose a phased approach, beginning with…",
+      "zh": "建議分階段推行，先由…着手",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "rec-03",
+      "category": "recommend",
+      "en": "A targeted pilot should be rolled out in…",
+      "zh": "應先在…推出針對性先導計劃",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "rec-04",
+      "category": "recommend",
+      "en": "Additional manpower / funding should be earmarked for…",
+      "zh": "應預留額外人手／撥款予…",
+      "note": "資源句",
+      "example": ""
+    },
+    {
+      "id": "rec-05",
+      "category": "recommend",
+      "en": "Interdepartmental coordination should be strengthened under…",
+      "zh": "應在…統籌下加強跨部門協調",
+      "note": "",
+      "example": "Interdepartmental coordination should be strengthened under a lead bureau."
+    },
+    {
+      "id": "rec-06",
+      "category": "recommend",
+      "en": "Eligibility criteria should be streamlined to…",
+      "zh": "應精簡資格準則以…",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "rec-07",
+      "category": "recommend",
+      "en": "Publicity should be stepped up to raise uptake.",
+      "zh": "應加大宣傳以提升參與率",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "rec-08",
+      "category": "recommend",
+      "en": "Consideration may be given to scaling up subject to review findings.",
+      "zh": "可視乎檢討結果考慮擴大推行",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "rec-09",
+      "category": "recommend",
+      "en": "A stopgap measure is needed pending a longer-term solution.",
+      "zh": "在長遠方案出台前需有過渡措施",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "rec-10",
+      "category": "recommend",
+      "en": "Ring-fence resources to protect frontline delivery.",
+      "zh": "撥款應予圈定以保障前線服務",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "mon-01",
+      "category": "monitor",
+      "en": "Progress should be monitored against clear KPIs.",
+      "zh": "應按清晰關鍵績效指標監察進度",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "mon-02",
+      "category": "monitor",
+      "en": "A mid-term review should be conducted within… months.",
+      "zh": "應於…個月內進行中期檢討",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "mon-03",
+      "category": "monitor",
+      "en": "An evaluation framework should be put in place from day one.",
+      "zh": "應由計劃開始便建立評估框架",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "mon-04",
+      "category": "monitor",
+      "en": "Uptake rates and waiting times should be tracked quarterly.",
+      "zh": "應每季追蹤參與率及輪候時間",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "mon-05",
+      "category": "monitor",
+      "en": "Findings should be reported to… for oversight.",
+      "zh": "結果應向…匯報以作監察",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "mon-06",
+      "category": "monitor",
+      "en": "Feedback from frontline staff and users should inform adjustments.",
+      "zh": "應參考前線及使用者意見作出調整",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "mon-07",
+      "category": "monitor",
+      "en": "Benchmark performance against comparable jurisdictions / districts.",
+      "zh": "應與相若司法管轄區／地區對標",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "mon-08",
+      "category": "monitor",
+      "en": "Exit criteria for the pilot should be predefined.",
+      "zh": "先導計劃的退出準則應預先訂明",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "spc-01",
+      "category": "specificity",
+      "en": "[Bureau/Dept] should be designated as the lead department.",
+      "zh": "應指定〔決策局／部門〕為牽頭部門",
+      "note": "who",
+      "example": ""
+    },
+    {
+      "id": "spc-02",
+      "category": "specificity",
+      "en": "Implementation should commence in Q[n] of [year].",
+      "zh": "應於〔年〕第〔n〕季開始實施",
+      "note": "when",
+      "example": ""
+    },
+    {
+      "id": "spc-03",
+      "category": "specificity",
+      "en": "An accountable officer at directorate level should own delivery.",
+      "zh": "應由首長級人員問責推展",
+      "note": "who",
+      "example": ""
+    },
+    {
+      "id": "spc-04",
+      "category": "specificity",
+      "en": "Within a 12-month timeframe,…",
+      "zh": "在十二個月時限內…",
+      "note": "when",
+      "example": ""
+    },
+    {
+      "id": "spc-05",
+      "category": "specificity",
+      "en": "Subject to LegCo funding approval,…",
+      "zh": "視乎立法會撥款批准…",
+      "note": "resources",
+      "example": ""
+    },
+    {
+      "id": "spc-06",
+      "category": "specificity",
+      "en": "Manpower of roughly [n] posts would be required.",
+      "zh": "約需〔n〕個職位的人手",
+      "note": "resources",
+      "example": ""
+    },
+    {
+      "id": "spc-07",
+      "category": "specificity",
+      "en": "Non-recurrent expenditure of about $… should be sought.",
+      "zh": "應申請約…元的非經常開支",
+      "note": "resources",
+      "example": ""
+    },
+    {
+      "id": "spc-08",
+      "category": "specificity",
+      "en": "District-level rollout may start with [Districts A & B].",
+      "zh": "地區層面可先在〔甲、乙區〕推行",
+      "note": "where",
+      "example": ""
+    },
+    {
+      "id": "dis-01",
+      "category": "discourse",
+      "en": "Firstly,… / Secondly,… / Finally,…",
+      "zh": "首先…／其次…／最後…",
+      "note": "分點",
+      "example": ""
+    },
+    {
+      "id": "dis-02",
+      "category": "discourse",
+      "en": "Turning to the implications,…",
+      "zh": "轉談影響方面…",
+      "note": "段轉",
+      "example": ""
+    },
+    {
+      "id": "dis-03",
+      "category": "discourse",
+      "en": "In light of the above,…",
+      "zh": "鑑於上述情況…",
+      "note": "收束→建議",
+      "example": ""
+    },
+    {
+      "id": "dis-04",
+      "category": "discourse",
+      "en": "That said,…",
+      "zh": "話雖如此…",
+      "note": "轉折",
+      "example": ""
+    },
+    {
+      "id": "dis-05",
+      "category": "discourse",
+      "en": "It is worth noting that…",
+      "zh": "值得注意的是…",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "dis-06",
+      "category": "discourse",
+      "en": "More specifically,…",
+      "zh": "更具體而言…",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "dis-07",
+      "category": "discourse",
+      "en": "By contrast,…",
+      "zh": "相比之下…",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "dis-08",
+      "category": "discourse",
+      "en": "Taken together, these issues point to…",
+      "zh": "綜合而言，這些問題指向…",
+      "note": "",
+      "example": ""
+    },
+    {
+      "id": "dis-09",
+      "category": "discourse",
+      "en": "I now turn to feasible measures.",
+      "zh": "現轉談可行措施",
+      "note": "內部討論文件語氣",
+      "example": ""
+    },
+    {
+      "id": "dis-10",
+      "category": "discourse",
+      "en": "For Members’ consideration.",
+      "zh": "供委員考慮",
+      "note": "結語／呈文語氣",
+      "example": ""
+    }
+  ]
+}

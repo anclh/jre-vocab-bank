@@ -1,10 +1,10 @@
 {
   "ok": true,
   "source": "https://www.info.gov.hk/gia/rss/general_en.xml",
-  "fetchedAt": "2026-10-20T12:48:26.987876+08:00",
+  "fetchedAt": "2026-10-20T13:18:37.574127+08:00",
   "cached": true,
   "itemCount": 100,
-  "matchCount": 78,
+  "matchCount": 88,
   "items": [
     {
       "title": "Appointments to Museum Advisory Committee announced",
@@ -955,6 +955,24 @@
       }
     },
     {
+      "term": "waiting time",
+      "zh": "輪候時間",
+      "pos": "n. phr.",
+      "related": [
+        "waiting list",
+        "queue"
+      ],
+      "note": "公營服務指標",
+      "example": "…ic is expected to increase further later today. The Immigration Department (ImmD) has disseminated the latest waiting time information via the SB's \"Easy Boundary\" platform. Before travelling, passengers may check the latest immigra…",
+      "matchedSpan": "waiting time",
+      "source": {
+        "title": "Departments enhance measures to cope with inbound passenger traffic peak at Huanggang Port",
+        "link": "https://www.info.gov.hk/gia/general/202610/19/P2026101900654.htm",
+        "pubDate": "Mon, 19 Oct 2026 21:55:46 +0800",
+        "pubDateIso": "2026-10-19T21:55:46+08:00"
+      }
+    },
+    {
       "term": "contingency",
       "zh": "應變；緊急情況",
       "pos": "n.",
@@ -1287,6 +1305,24 @@
       }
     },
     {
+      "term": "coverage",
+      "zh": "覆蓋範圍；涵蓋面",
+      "pos": "n.",
+      "related": [
+        "cover",
+        "coverage rate"
+      ],
+      "note": "服務／計劃覆蓋",
+      "example": "…id, \"The latest progress report announced by the WHO shows that the Western Pacific Region's Universal Health Coverage index has risen significantly, with particularly notable progress in communicable disease prevention and cont…",
+      "matchedSpan": "Coverage",
+      "source": {
+        "title": "Director of Health attends WHO Western Pacific Regional Committee meeting (with photos)",
+        "link": "https://www.info.gov.hk/gia/general/202610/19/P2026101900345.htm",
+        "pubDate": "Mon, 19 Oct 2026 17:25:00 +0800",
+        "pubDateIso": "2026-10-19T17:25:00+08:00"
+      }
+    },
+    {
       "term": "liaison",
       "zh": "聯繫；聯絡",
       "pos": "n.",
@@ -1444,6 +1480,24 @@
       }
     },
     {
+      "term": "assessment",
+      "zh": "評估；評核",
+      "pos": "n.",
+      "related": [
+        "assess",
+        "assessments"
+      ],
+      "note": "",
+      "example": "…ng. They are also reminded not to carry unknown items for other people. Customs will continue to apply a risk assessment approach and focus on selecting passengers from high-risk regions for clearance to combat transnational drug…",
+      "matchedSpan": "assessment",
+      "source": {
+        "title": "Hong Kong Customs detects two drug trafficking cases involving incoming passengers at airport (with photos)",
+        "link": "https://www.info.gov.hk/gia/general/202610/18/P2026101800380.htm",
+        "pubDate": "Sun, 18 Oct 2026 15:45:00 +0800",
+        "pubDateIso": "2026-10-18T15:45:00+08:00"
+      }
+    },
+    {
       "term": "statutory",
       "zh": "法定的",
       "pos": "adj.",
@@ -1480,6 +1534,25 @@
       }
     },
     {
+      "term": "prioritise",
+      "zh": "訂定優次；優先處理",
+      "pos": "v.",
+      "related": [
+        "prioritisation",
+        "priority",
+        "prioritize"
+      ],
+      "note": "英式拼寫；措施排序",
+      "example": "…five years, Hong Kong will consolidate and enhance its traditional strengths, strengthen I&T co-operation and prioritise the Northern Metropolis for future development to open a new chapter for I&T. She encouraged enterprises to l…",
+      "matchedSpan": "prioritise",
+      "source": {
+        "title": "Commissioner for Development of Guangdong-Hong Kong-Macao Greater Bay Area promotes GBA opportunities and Hong Kong's strengths in London (with photos)",
+        "link": "https://www.info.gov.hk/gia/general/202610/18/P2026101600489.htm",
+        "pubDate": "Sun, 18 Oct 2026 10:00:00 +0800",
+        "pubDateIso": "2026-10-18T10:00:00+08:00"
+      }
+    },
+    {
       "term": "Belt and Road",
       "zh": "一帶一路",
       "pos": "n. phr.",
@@ -1507,6 +1580,24 @@
       "note": "",
       "example": "…ion, scientific research, talent cultivation, empowerment of artificial intelligence, as well as promotion of integration of traditional medicine into healthcare service systems. The conference is jointly organised by the People's…",
       "matchedSpan": "integration",
+      "source": {
+        "title": "Secretary for Health attends World Conference on Traditional Medicine 2026 in Beijing (with photos)",
+        "link": "https://www.info.gov.hk/gia/general/202610/17/P2026101600456.htm",
+        "pubDate": "Sat, 17 Oct 2026 16:30:00 +0800",
+        "pubDateIso": "2026-10-17T16:30:00+08:00"
+      }
+    },
+    {
+      "term": "evaluation",
+      "zh": "評估；成效檢討",
+      "pos": "n.",
+      "related": [
+        "evaluate",
+        "evaluative"
+      ],
+      "note": "",
+      "example": "…PR will progressively establish a robust drug approval system, aiming for the full implementation of \"primary evaluation\" mechanism for new drug registration by 2030, thereby becoming an internationally recognised regulatory autho…",
+      "matchedSpan": "evaluation",
       "source": {
         "title": "Secretary for Health attends World Conference on Traditional Medicine 2026 in Beijing (with photos)",
         "link": "https://www.info.gov.hk/gia/general/202610/17/P2026101600456.htm",
@@ -1618,6 +1709,42 @@
         "link": "https://www.info.gov.hk/gia/general/202610/16/P2026101600660.htm",
         "pubDate": "Fri, 16 Oct 2026 20:05:00 +0800",
         "pubDateIso": "2026-10-16T20:05:00+08:00"
+      }
+    },
+    {
+      "term": "interdepartmental",
+      "zh": "跨部門的",
+      "pos": "adj.",
+      "related": [
+        "cross-bureau",
+        "inter-agency"
+      ],
+      "note": "協調措施",
+      "example": "…4.5% 1.0 The FEHD continues to carry out a series of mosquito prevention and elimination measures, including: interdepartmental collaboration: convening special meetings of the interdepartmental task forces on anti-mosquito work to co-or…",
+      "matchedSpan": "interdepartmental",
+      "source": {
+        "title": "FEHD releases second batch of gravidtrap indexes for Aedes albopictus in October (with photos)",
+        "link": "https://www.info.gov.hk/gia/general/202610/16/P2026101600635.htm",
+        "pubDate": "Fri, 16 Oct 2026 19:42:00 +0800",
+        "pubDateIso": "2026-10-16T19:42:00+08:00"
+      }
+    },
+    {
+      "term": "timeframe",
+      "zh": "時限；時間表",
+      "pos": "n.",
+      "related": [
+        "time frame",
+        "timeline"
+      ],
+      "note": "who-when-resources",
+      "example": "…notice to the responsible person-in-charge, requiring the clearance of such stagnant water within a specified timeframe. Public participation is crucial to the effective control of mosquito problems. The FEHD appeals to members o…",
+      "matchedSpan": "timeframe",
+      "source": {
+        "title": "FEHD releases second batch of gravidtrap indexes for Aedes albopictus in October (with photos)",
+        "link": "https://www.info.gov.hk/gia/general/202610/16/P2026101600635.htm",
+        "pubDate": "Fri, 16 Oct 2026 19:42:00 +0800",
+        "pubDateIso": "2026-10-16T19:42:00+08:00"
       }
     },
     {
@@ -1928,6 +2055,24 @@
       }
     },
     {
+      "term": "curb",
+      "zh": "遏抑；抑制",
+      "pos": "v./n.",
+      "related": [
+        "curbing",
+        "curbed"
+      ],
+      "note": "遏抑通脹／濫用",
+      "example": "CHP continues to implement multipronged strategy to curb spread of Mpox The Centre for Health Protection (CHP) of the Department of Health (DH) today (October 16) rec…",
+      "matchedSpan": "curb",
+      "source": {
+        "title": "CHP continues to implement multipronged strategy to curb spread of Mpox",
+        "link": "https://www.info.gov.hk/gia/general/202610/16/P2026101600344.htm",
+        "pubDate": "Fri, 16 Oct 2026 13:08:00 +0800",
+        "pubDateIso": "2026-10-16T13:08:00+08:00"
+      }
+    },
+    {
       "term": "roll out",
       "zh": "推出；推展",
       "pos": "v. phr.",
@@ -1938,6 +2083,24 @@
       "note": "推出措施",
       "example": "…(Working Group), led by the Deputy Chief Secretary for Administration, Mr Cheuk Wing-hing, will progressively roll out four projects during the next phase starting from the fourth quarter of 2026, to provide visitors with more d…",
       "matchedSpan": "roll out",
+      "source": {
+        "title": "Government announces rollout of new batch of signature tourism projects by Working Group on Developing Tourist Hotspots (with photos)",
+        "link": "https://www.info.gov.hk/gia/general/202610/16/P2026101600303.htm",
+        "pubDate": "Fri, 16 Oct 2026 11:58:00 +0800",
+        "pubDateIso": "2026-10-16T11:58:00+08:00"
+      }
+    },
+    {
+      "term": "rollout",
+      "zh": "推出；推展（名詞）",
+      "pos": "n.",
+      "related": [
+        "roll out",
+        "rolled out"
+      ],
+      "note": "與 roll out 動詞配套",
+      "example": "Government announces rollout of new batch of signature tourism projects by Working Group on Developing Tourist Hotspots (with photos) The…",
+      "matchedSpan": "rollout",
       "source": {
         "title": "Government announces rollout of new batch of signature tourism projects by Working Group on Developing Tourist Hotspots (with photos)",
         "link": "https://www.info.gov.hk/gia/general/202610/16/P2026101600303.htm",
@@ -2059,6 +2222,24 @@
       "note": "全方位策略",
       "example": "…d urban renewal projects) have their own specific timeframes in meeting the Government's policy needs and the holistic development of their respective areas; and (3) with the generally positive market sentiment, there is suffici…",
       "matchedSpan": "holistic",
+      "source": {
+        "title": "Government announces quarterly land sale programme for October to December 2026",
+        "link": "https://www.info.gov.hk/gia/general/202610/15/P2026101500656.htm",
+        "pubDate": "Thu, 15 Oct 2026 21:16:00 +0800",
+        "pubDateIso": "2026-10-15T21:16:00+08:00"
+      }
+    },
+    {
+      "term": "assess",
+      "zh": "評估；審視",
+      "pos": "v.",
+      "related": [
+        "assessment",
+        "assessed"
+      ],
+      "note": "分析段動詞",
+      "example": "…s sufficient demand and capacity for developers to take on mature urban land. The Government will continue to assess the circumstances and roll out land flexibly according to policy needs and market conditions.\" The site to be…",
+      "matchedSpan": "assess",
       "source": {
         "title": "Government announces quarterly land sale programme for October to December 2026",
         "link": "https://www.info.gov.hk/gia/general/202610/15/P2026101500656.htm",
@@ -2208,6 +2389,6 @@
       }
     }
   ],
-  "lexiconSize": 141,
+  "lexiconSize": 192,
   "error": null
 }

@@ -34,6 +34,7 @@ _lock = threading.Lock()
 _state: dict[str, Any] = {
     "lexicon": [],
     "programmes": {},
+    "q1_phrases": {},
     "feed": None,
     "fetched_at": None,
     "error": None,
@@ -68,6 +69,12 @@ def load_seed() -> None:
         _state["lexicon"] = json.load(f)
     with open(DATA / "programmes.json", encoding="utf-8") as f:
         _state["programmes"] = json.load(f)
+    q1_path = DATA / "q1_phrases.json"
+    if q1_path.exists():
+        with open(q1_path, encoding="utf-8") as f:
+            _state["q1_phrases"] = json.load(f)
+    else:
+        _state["q1_phrases"] = {"items": [], "categories": [], "disclaimer": ""}
 
 
 def _word_boundary_pattern(term: str) -> re.Pattern[str]:
@@ -336,6 +343,9 @@ class Handler(SimpleHTTPRequestHandler):
 
         if path == "/api/programmes":
             return self._send_json({"ok": True, **_state["programmes"]})
+
+        if path == "/api/q1-phrases":
+            return self._send_json({"ok": True, **_state["q1_phrases"]})
 
         return super().do_GET()
 

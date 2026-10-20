@@ -9,9 +9,12 @@
   const state = {
     feed: null,
     programmes: null,
+    q1: null,
     saved: loadSaved(),
     progCategory: "all",
+    q1Category: "all",
     dataMode: null, // 'api' | 'static' once resolved
+    drillSeed: Date.now(),
   };
 
   const $ = (sel, el = document) => el.querySelector(sel);
@@ -145,6 +148,234 @@
     return all.find((c) => c.term.toLowerCase() === term.toLowerCase()) || null;
   }
 
+  const Q1_CAT_LABELS = {
+    all: "全部",
+    implications: "影響／後果",
+    assessment: "評估／分析",
+    recommend: "建議措施",
+    monitor: "監察／檢討",
+    specificity: "負責方／時限／資源",
+    discourse: "論述銜接",
+  };
+
+  function phraseCardHTML(item) {
+    const key = `q1:${item.id}`;
+    const saved = Boolean(state.saved[key.toLowerCase()]);
+    const cat = Q1_CAT_LABELS[item.category] || item.category;
+    return `
+<article class="vocab-card phrase-card ${saved ? "saved" : ""}" data-phrase-id="${escapeHtml(item.id)}">
+  <div class="card-top">
+    <h4 class="term">${escapeHtml(item.en)}</h4>
+    <span class="cat-pill">${escapeHtml(cat)}</span>
+  </div>
+  <div class="zh">${escapeHtml(item.zh || "")}</div>
+  ${item.note ? `<div class="meta-line">${escapeHtml(item.note)}</div>` : ""}
+  ${item.example ? `<p class="example">${escapeHtml(item.example)}</p>` : ""}
+  <div class="card-actions">
+    <button type="button" class="btn ${saved ? "" : "primary"} btn-save-phrase">${saved ? "★ 已收藏" : "☆ 收藏"}</button>
+    <button type="button" class="btn btn-copy-phrase">複製句式</button>
+  </div>
+</article>`;
+  }
+
+  function toggleSavePhrase(item) {
+    const key = `q1:${item.id}`.toLowerCase();
+    if (state.saved[key]) {
+      delete state.saved[key];
+      toast(`已取消收藏 · ${item.en.slice(0, 40)}`);
+    } else {
+      state.saved[key] = {
+        term: item.en,
+        zh: item.zh,
+        pos: "Q1 phrase",
+        note: item.note || "",
+        example: item.example || "",
+        related: [item.category],
+        phraseId: item.id,
+        savedAt: new Date().toISOString(),
+      };
+      toast(`已收藏句式`);
+    }
+    persistSaved();
+    renderQ1();
+    renderSaved();
+  }
+
+  function bindPhraseActions(container) {
+    container.querySelectorAll(".phrase-card").forEach((el) => {
+      const id = el.dataset.phraseId;
+      const item = (state.q1?.items || []).find((x) => x.id === id);
+      if (!item) return;
+      const saveBtn = el.querySelector(".btn-save-phrase");
+      const copyBtn = el.querySelector(".btn-copy-phrase");
+      if (saveBtn) saveBtn.addEventListener("click", () => toggleSavePhrase(item));
+      if (copyBtn) {
+        copyBtn.addEventListener("click", async () => {
+          const text = `${item.en}\n${item.zh || ""}`.trim();
+          try {
+            await navigator.clipboard.writeText(text);
+            toast("已複製句式");
+          } catch {
+            toast("複製失敗 — 請手動選取");
+          }
+        });
+      }
+    });
+  }
+
+  function renderQ1Filters() {
+    const cats = ["all", ...((state.q1?.categories || []).map((c) => c.id))];
+    const wrap = $("#q1Filters");
+    if (!wrap) return;
+    wrap.innerHTML = cats
+      .map(
+        (c) =>
+          `<button type="button" data-cat="${c}" class="${state.q1Category === c ? "active" : ""}">${Q1_CAT_LABELS[c] || c}</button>`
+      )
+      .join("");
+    wrap.querySelectorAll("button").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        state.q1Category = btn.dataset.cat;
+        renderQ1Filters();
+        renderQ1();
+      });
+    });
+  }
+
+  function renderQ1() {
+    const q = ($("#q1Search")?.value || "").trim().toLowerCase();
+    let list = state.q1?.items || [];
+    if (state.q1Category !== "all") {
+      list = list.filter((i) => i.category === state.q1Category);
+    }
+    if (q) {
+      list = list.filter((i) =>
+        `${i.en} ${i.zh} ${i.category} ${i.note || ""} ${i.example || ""}`.toLowerCase().includes(q)
+      );
+    }
+    const countEl = $("#q1Count");
+    if (countEl) countEl.textContent = `${list.length} 句`;
+    const disc = $("#q1Disclaimer");
+    if (disc) disc.textContent = state.q1?.disclaimer || "";
+    const grid = $("#q1Grid");
+    if (!grid) return;
+    if (!list.length) {
+      grid.innerHTML = `<div class="empty">沒有符合的句式。</div>`;
+      return;
+    }
+    grid.innerHTML = list.map(phraseCardHTML).join("");
+    bindPhraseActions(grid);
+  }
+
+  function mulberry32(a) {
+    return function () {
+      let t = (a += 0x6d2b79f5);
+      t = Math.imul(t ^ (t >>> 15), t | 1);
+      t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  function pickN(arr, n, rand) {
+    const copy = [...arr];
+    const out = [];
+    while (copy.length && out.length < n) {
+      const i = Math.floor(rand() * copy.length);
+      out.push(copy.splice(i, 1)[0]);
+    }
+    return out;
+  }
+
+  function weekKey(d = new Date()) {
+    // ISO-ish week label in HK
+    const hk = new Date(d.toLocaleString("en-US", { timeZone: "Asia/Hong_Kong" }));
+    const onejan = new Date(hk.getFullYear(), 0, 1);
+    const week = Math.ceil(((hk - onejan) / 86400000 + onejan.getDay() + 1) / 7);
+    return `${hk.getFullYear()}-W${String(week).padStart(2, "0")}`;
+  }
+
+  const DRILL_SCENARIOS = [
+    {
+      title: "Specialist outpatient waiting times",
+      para: "Waiting times for certain specialist outpatient clinics have lengthened. Some patients report delayed follow-up, while NGOs highlight uneven district capacity. The Hospital Authority notes manpower strain; LegCo members have asked whether a short-term package is feasible without crowding out other services.",
+    },
+    {
+      title: "Uptake of a means-tested living subsidy",
+      para: "A recently enhanced means-tested living subsidy shows subdued uptake among eligible households. Frontline staff cite complex forms and stigma; the bureau cites fiscal prudence. Media coverage has focused on the gap between announced coverage and actual applications.",
+    },
+    {
+      title: "Pilot transitional housing sites",
+      para: "Two pilot transitional housing sites are near capacity, while three planned sites face local objection and utility delays. Demand from families on the PRH waiting list remains high. The department must advise on whether to scale up, redesign eligibility, or pause further sites.",
+    },
+    {
+      title: "Cross-bureau digital service bottleneck",
+      para: "A one-stop digital portal for licence renewals has uneven uptake. Some departments still require paper originals; SMEs report duplicated uploads. An interdepartmental working group exists but lacks a clear lead and timeline for closing the enforcement and process gaps.",
+    },
+    {
+      title: "Elderly community care shortfall",
+      para: "District-based community care places fall short of projected need. Carers report long waiting lists; operators cite recruitment difficulties. A stopgap purchase-of-service arrangement is under discussion, with concern over recurrent cost and quality oversight.",
+    },
+  ];
+
+  function buildDrillPrompt() {
+    const rand = mulberry32(state.drillSeed >>> 0);
+    const scenario = DRILL_SCENARIOS[Math.floor(rand() * DRILL_SCENARIOS.length)];
+    const picks = state.feed?.todaysPicks || [];
+    const matches = state.feed?.matches || [];
+    const pool = picks.length ? picks : matches;
+    const words = pickN(pool, 5, rand).map((c) => c.term);
+    // top up from lexicon-ish match list if short
+    while (words.length < 4 && matches.length) {
+      const extra = matches[Math.floor(rand() * matches.length)];
+      if (extra && !words.includes(extra.term)) words.push(extra.term);
+      else break;
+    }
+    const phrases = pickN(state.q1?.items || [], 3, rand);
+    const phraseLines = phrases.map((p) => `• ${p.en}`).join("\n");
+    const wordLine = words.length ? words.map((w) => `「${w}」`).join(" · ") : "（詞庫配對載入後會出現）";
+
+    const text = `JRE English Q1 — MINI-DRILL (20–25 minutes)
+Week: ${weekKey()} · NOT a full case pack
+
+SCENARIO — ${scenario.title}
+${scenario.para}
+
+TASK (internal discussion paper style)
+1. Identify TWO problems.
+2. State TWO implications (knock-on / fiscal / public confidence / service capacity, etc.).
+3. Propose TWO feasible measures — each with WHO (lead dept/officer), WHEN (timeframe), and RESOURCES (manpower/funding) where possible.
+4. Use at least FOUR bank items below (mix of words + phrases). Underline or bold them in your draft.
+
+BANK WORDS (from today’s picks / matches)
+${wordLine}
+
+BANK PHRASES (Q1句式)
+${phraseLines || "• (Q1 phrase bank loading…)"}
+
+LENGTH GUIDE: ~350–500 words. Formal civil-service tone.
+
+AFTERWARDS
+• Self-check: problems → implications → measures chain; specificity of who/when/resources.
+• Full timed drills: log under Obsidian Personal/Learning/JRE 2026/05-English-Drills/ (Drill log.md).
+• This mini-drill is practice only — no need to submit here.`;
+
+    return { text, scenario: scenario.title, wordCount: words.length, phraseCount: phrases.length };
+  }
+
+  function renderDrill() {
+    const meta = $("#drillMeta");
+    const pre = $("#drillPrompt");
+    if (!pre) return;
+    const d = buildDrillPrompt();
+    pre.textContent = d.text;
+    if (meta) {
+      meta.innerHTML = `<span class="chip">${escapeHtml(weekKey())}</span>
+        <span class="chip">${escapeHtml(d.scenario)}</span>
+        <span class="chip">${d.wordCount} words · ${d.phraseCount} phrases</span>`;
+    }
+  }
+
+
   function renderPicks() {
     const grid = $("#picksGrid");
     const picks = state.feed?.todaysPicks || [];
@@ -275,6 +506,7 @@
     renderPicks();
     renderVocab();
     renderSaved();
+    renderDrill();
   }
 
   function updateStats() {
@@ -375,6 +607,24 @@
     renderProgrammes();
   }
 
+  async function loadQ1() {
+    try {
+      const data = await loadJson("/api/q1-phrases", "data/q1_phrases.json");
+      state.q1 = {
+        disclaimer: data.disclaimer || "",
+        categories: data.categories || [],
+        items: data.items || [],
+      };
+      renderQ1Filters();
+      renderQ1();
+      renderDrill();
+    } catch (e) {
+      console.warn("Q1 phrases failed", e);
+      const grid = $("#q1Grid");
+      if (grid) grid.innerHTML = `<div class="empty">未能載入 Q1 句式庫。</div>`;
+    }
+  }
+
   function initNav() {
     $$("#nav button").forEach((btn) => {
       btn.addEventListener("click", () => {
@@ -428,6 +678,28 @@
       renderAllCards();
       toast("已清空收藏");
     });
+    const q1Search = $("#q1Search");
+    if (q1Search) q1Search.addEventListener("input", renderQ1);
+    const btnCopy = $("#btnCopyDrill");
+    if (btnCopy) {
+      btnCopy.addEventListener("click", async () => {
+        const text = $("#drillPrompt")?.textContent || "";
+        try {
+          await navigator.clipboard.writeText(text);
+          toast("已複製迷你練習提示");
+        } catch {
+          toast("複製失敗 — 請手動選取文字");
+        }
+      });
+    }
+    const btnRegen = $("#btnRegenDrill");
+    if (btnRegen) {
+      btnRegen.addEventListener("click", () => {
+        state.drillSeed = (state.drillSeed + 0x9e3779b9) >>> 0;
+        renderDrill();
+        toast("已重新抽題");
+      });
+    }
   }
 
   async function boot() {
@@ -435,7 +707,7 @@
     initTheme();
     initEvents();
     persistSaved();
-    await Promise.all([loadFeed(false), loadProgrammes()]);
+    await Promise.all([loadFeed(false), loadProgrammes(), loadQ1()]);
   }
 
   boot();

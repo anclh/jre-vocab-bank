@@ -25,7 +25,7 @@ CACHE_FILE = serve.CACHE_FILE
 
 def sync_seed_to_docs() -> None:
     DOCS_DATA.mkdir(parents=True, exist_ok=True)
-    for name in ("lexicon.json", "programmes.json"):
+    for name in ("lexicon.json", "programmes.json", "q1_phrases.json"):
         src = serve.DATA / name
         dst = DOCS_DATA / name
         shutil.copy2(src, dst)

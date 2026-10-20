@@ -1,143 +1,1819 @@
 [
-  {"term": "alleviate", "zh": "紓緩；減輕", "pos": "v.", "related": ["alleviation", "alleviating"], "note": "常見於房屋、貧窮、交通擠塞政策"},
-  {"term": "streamline", "zh": "精簡；理順", "pos": "v.", "related": ["streamlining", "streamlined"], "note": "精簡行政程序、審批"},
-  {"term": "bolster", "zh": "加強；鞏固", "pos": "v.", "related": ["bolstering", "bolstered"], "note": "鞏固信心、競爭力"},
-  {"term": "earmark", "zh": "預留（款項／用途）", "pos": "v.", "related": ["earmarked", "earmarking"], "note": "財政預算預留撥款"},
-  {"term": "facilitate", "zh": "促進；便利", "pos": "v.", "related": ["facilitation", "facilitator"], "note": "極高頻政府用語"},
-  {"term": "embark upon", "zh": "展開；着手進行", "pos": "v. phr.", "related": ["embark on", "embarked"], "note": "展開新計劃／改革"},
-  {"term": "intensify", "zh": "加大力度；加強", "pos": "v.", "related": ["intensification", "intensive"], "note": "加強執法、宣傳"},
-  {"term": "contingency", "zh": "應變；緊急情況", "pos": "n.", "related": ["contingencies", "contingent"], "note": "應變計劃 contingency plan"},
-  {"term": "livelihood", "zh": "民生；生計", "pos": "n.", "related": ["livelihoods"], "note": "民生措施 livelihood measures"},
-  {"term": "subsidise", "zh": "資助；補貼", "pos": "v.", "related": ["subsidy", "subsidies", "subsidised"], "note": "英式拼寫；美式 subsidize"},
-  {"term": "means-tested", "zh": "經資產／入息審查的", "pos": "adj.", "related": ["means test", "means-testing"], "note": "福利資格審查"},
-  {"term": "enhance", "zh": "提升；加強", "pos": "v.", "related": ["enhancement", "enhanced"], "note": "極常見"},
-  {"term": "safeguard", "zh": "維護；保障", "pos": "v./n.", "related": ["safeguarding", "safeguards"], "note": "保障國安、公眾利益"},
-  {"term": "strengthen", "zh": "強化；鞏固", "pos": "v.", "related": ["strengthening", "strengthened"], "note": ""},
-  {"term": "foster", "zh": "培養；促進", "pos": "v.", "related": ["fostering", "fostered"], "note": "培育人才、氛圍"},
-  {"term": "uphold", "zh": "維護；堅持", "pos": "v.", "related": ["upholding", "upheld"], "note": "維護法治、一國兩制"},
-  {"term": "consolidate", "zh": "鞏固；整合", "pos": "v.", "related": ["consolidation", "consolidated"], "note": ""},
-  {"term": "expedite", "zh": "加快；從速辦理", "pos": "v.", "related": ["expeditious", "expedition"], "note": "加快審批、落實"},
-  {"term": "optimise", "zh": "優化", "pos": "v.", "related": ["optimisation", "optimal", "optimize"], "note": "英式拼寫"},
-  {"term": "mitigate", "zh": "緩解；減輕（風險／影響）", "pos": "v.", "related": ["mitigation", "mitigating"], "note": "風險緩解"},
-  {"term": "prudent", "zh": "審慎的", "pos": "adj.", "related": ["prudence", "prudently"], "note": "審慎理財"},
-  {"term": "sustainable", "zh": "可持續的", "pos": "adj.", "related": ["sustainability", "sustain"], "note": ""},
-  {"term": "inclusive", "zh": "共融的；包容的", "pos": "adj.", "related": ["inclusiveness", "inclusion"], "note": "共融社會"},
-  {"term": "resilient", "zh": "具韌性的；抗逆的", "pos": "adj.", "related": ["resilience"], "note": "經濟／城市韌性"},
-  {"term": "proactive", "zh": "主動的；積極進取的", "pos": "adj.", "related": ["proactively"], "note": ""},
-  {"term": "holistic", "zh": "全方位的；整體的", "pos": "adj.", "related": ["holistically"], "note": "全方位策略"},
-  {"term": "synergy", "zh": "協同效應", "pos": "n.", "related": ["synergies", "synergistic"], "note": "大灣區協同"},
-  {"term": "liaison", "zh": "聯繫；聯絡", "pos": "n.", "related": ["liaise", "liaising"], "note": "政府部門聯繫"},
-  {"term": "stakeholder", "zh": "持份者", "pos": "n.", "related": ["stakeholders"], "note": "諮詢持份者"},
-  {"term": "transparency", "zh": "透明度", "pos": "n.", "related": ["transparent"], "note": ""},
-  {"term": "accountability", "zh": "問責；問責性", "pos": "n.", "related": ["accountable"], "note": ""},
-  {"term": "governance", "zh": "管治；治理", "pos": "n.", "related": ["govern"], "note": "良好管治 good governance"},
-  {"term": "procurement", "zh": "採購", "pos": "n.", "related": ["procure", "procurements"], "note": "政府採購"},
-  {"term": "infrastructure", "zh": "基礎設施；基建設施", "pos": "n.", "related": ["infrastructural"], "note": ""},
-  {"term": "revitalise", "zh": "活化；振興", "pos": "v.", "related": ["revitalisation", "revitalize"], "note": "活化歷史建築、地區"},
-  {"term": "rehabilitate", "zh": "修復；復康；重建", "pos": "v.", "related": ["rehabilitation", "rehab"], "note": "樓宇復修／更生"},
-  {"term": "conservation", "zh": "保育；保護", "pos": "n.", "related": ["conserve", "conservancy"], "note": "文物／自然保育"},
-  {"term": "biodiversity", "zh": "生物多樣性", "pos": "n.", "related": [], "note": ""},
-  {"term": "carbon neutrality", "zh": "碳中和", "pos": "n. phr.", "related": ["carbon neutral", "net-zero"], "note": "2050 碳中和目標"},
-  {"term": "decarbonisation", "zh": "減碳；去碳化", "pos": "n.", "related": ["decarbonise", "decarbonization"], "note": ""},
-  {"term": "affordable", "zh": "可負擔的", "pos": "adj.", "related": ["affordability", "afford"], "note": "可負擔房屋"},
-  {"term": "eligibility", "zh": "資格；合資格條件", "pos": "n.", "related": ["eligible", "ineligible"], "note": ""},
-  {"term": "disbursement", "zh": "發放；撥付", "pos": "n.", "related": ["disburse", "disbursed"], "note": "發放津貼／資助"},
-  {"term": "allocation", "zh": "分配；撥款", "pos": "n.", "related": ["allocate", "allocated"], "note": ""},
-  {"term": "quota", "zh": "配額；名額", "pos": "n.", "related": ["quotas"], "note": ""},
-  {"term": "levy", "zh": "徵費；徵收", "pos": "n./v.", "related": ["levies", "levied"], "note": ""},
-  {"term": "rebate", "zh": "回贈；退還", "pos": "n.", "related": ["rebates", "rebated"], "note": "差餉／稅務回贈"},
-  {"term": "concession", "zh": "寬免；優惠", "pos": "n.", "related": ["concessions", "concessional"], "note": "票價／收費寬免"},
-  {"term": "waiver", "zh": "豁免", "pos": "n.", "related": ["waive", "waived"], "note": ""},
-  {"term": "amendment", "zh": "修訂", "pos": "n.", "related": ["amend", "amended"], "note": "法例修訂"},
-  {"term": "ordinance", "zh": "條例", "pos": "n.", "related": ["ordinances"], "note": "香港法例 Ordinance"},
-  {"term": "gazette", "zh": "憲報；刊憲", "pos": "n./v.", "related": ["gazetted", "gazettal"], "note": "刊憲生效"},
-  {"term": "enactment", "zh": "制定；成文法則", "pos": "n.", "related": ["enact", "enacted"], "note": ""},
-  {"term": "jurisdiction", "zh": "司法管轄權；管轄範圍", "pos": "n.", "related": ["jurisdictional"], "note": ""},
-  {"term": "prosecution", "zh": "檢控", "pos": "n.", "related": ["prosecute", "prosecutor"], "note": ""},
-  {"term": "conviction", "zh": "定罪；判罪", "pos": "n.", "related": ["convict", "convicted"], "note": ""},
-  {"term": "compliance", "zh": "遵從；合規", "pos": "n.", "related": ["comply", "compliant"], "note": ""},
-  {"term": "enforcement", "zh": "執法", "pos": "n.", "related": ["enforce", "enforcing"], "note": ""},
-  {"term": "surveillance", "zh": "監察；監測", "pos": "n.", "related": ["surveil"], "note": "疾病／市場監察"},
-  {"term": "quarantine", "zh": "檢疫；隔離", "pos": "n./v.", "related": ["quarantined"], "note": ""},
-  {"term": "epidemic", "zh": "流行病；疫症", "pos": "n./adj.", "related": ["epidemiology", "pandemic"], "note": ""},
-  {"term": "vaccination", "zh": "疫苗接種", "pos": "n.", "related": ["vaccine", "vaccinate"], "note": ""},
-  {"term": "outpatient", "zh": "門診（病人）", "pos": "n./adj.", "related": ["out-patient"], "note": ""},
-  {"term": "inpatient", "zh": "住院（病人）", "pos": "n./adj.", "related": ["in-patient"], "note": ""},
-  {"term": "telemedicine", "zh": "遙距醫療", "pos": "n.", "related": ["telehealth"], "note": ""},
-  {"term": "vocational", "zh": "職業的；職專的", "pos": "adj.", "related": ["vocation"], "note": "職業教育"},
-  {"term": "internship", "zh": "實習", "pos": "n.", "related": ["intern", "interns"], "note": ""},
-  {"term": "scholarship", "zh": "獎學金", "pos": "n.", "related": ["scholarships"], "note": ""},
-  {"term": "bursary", "zh": "助學金", "pos": "n.", "related": ["bursaries"], "note": ""},
-  {"term": "matriculation", "zh": "註冊人數；在學人數", "pos": "n.", "related": ["enrol", "enrolment", "enroll"], "note": "與 enrolment 相關"},
-  {"term": "enrolment", "zh": "報讀；入學人數", "pos": "n.", "related": ["enrol", "enrolled", "enrollment"], "note": "英式拼寫"},
-  {"term": "curriculum", "zh": "課程", "pos": "n.", "related": ["curricula", "curricular"], "note": ""},
-  {"term": "redevelopment", "zh": "重建", "pos": "n.", "related": ["redevelop", "redeveloped"], "note": "市區重建"},
-  {"term": "urban renewal", "zh": "市區更新；市區重建", "pos": "n. phr.", "related": ["URA"], "note": ""},
-  {"term": "land supply", "zh": "土地供應", "pos": "n. phr.", "related": [], "note": ""},
-  {"term": "public rental housing", "zh": "公屋；公共租住房屋", "pos": "n. phr.", "related": ["PRH"], "note": ""},
-  {"term": "transitional housing", "zh": "過渡性房屋", "pos": "n. phr.", "related": [], "note": ""},
-  {"term": "interim housing", "zh": "中轉房屋", "pos": "n. phr.", "related": [], "note": ""},
-  {"term": "tenancy", "zh": "租賃；租約", "pos": "n.", "related": ["tenant", "tenancies"], "note": ""},
-  {"term": "comprehensive social security assistance", "zh": "綜合社會保障援助（綜援）", "pos": "n. phr.", "related": ["CSSA"], "note": ""},
-  {"term": "old age living allowance", "zh": "長者生活津貼", "pos": "n. phr.", "related": ["OALA"], "note": ""},
-  {"term": "disability allowance", "zh": "傷殘津貼", "pos": "n. phr.", "related": ["DA"], "note": ""},
-  {"term": "carer", "zh": "照顧者", "pos": "n.", "related": ["carers", "caregiver"], "note": ""},
-  {"term": "ethnic minority", "zh": "少數族裔", "pos": "n. phr.", "related": ["ethnic minorities"], "note": ""},
-  {"term": "integration", "zh": "融合；整合", "pos": "n.", "related": ["integrate", "integrated"], "note": ""},
-  {"term": "national security", "zh": "國家安全", "pos": "n. phr.", "related": ["NSL"], "note": ""},
-  {"term": "one country, two systems", "zh": "一國兩制", "pos": "n. phr.", "related": ["OCTS"], "note": ""},
-  {"term": "patriotism", "zh": "愛國主義；愛國情懷", "pos": "n.", "related": ["patriotic", "patriot"], "note": ""},
-  {"term": "national education", "zh": "國民教育", "pos": "n. phr.", "related": [], "note": ""},
-  {"term": "Greater Bay Area", "zh": "粵港澳大灣區", "pos": "n. phr.", "related": ["GBA"], "note": ""},
-  {"term": "Belt and Road", "zh": "一帶一路", "pos": "n. phr.", "related": ["BRI"], "note": ""},
-  {"term": "fintech", "zh": "金融科技", "pos": "n.", "related": ["financial technology"], "note": ""},
-  {"term": "virtual asset", "zh": "虛擬資產", "pos": "n. phr.", "related": ["VASPs", "crypto"], "note": ""},
-  {"term": "stablecoin", "zh": "穩定幣", "pos": "n.", "related": ["stablecoins"], "note": ""},
-  {"term": "tokenisation", "zh": "代幣化", "pos": "n.", "related": ["tokenise", "tokenization"], "note": ""},
-  {"term": "green finance", "zh": "綠色金融", "pos": "n. phr.", "related": [], "note": ""},
-  {"term": "sustainable finance", "zh": "可持續金融", "pos": "n. phr.", "related": [], "note": ""},
-  {"term": "talent admission", "zh": "人才入境／輸入", "pos": "n. phr.", "related": ["talent schemes"], "note": ""},
-  {"term": "promote", "zh": "推動；推廣", "pos": "v.", "related": ["promotion", "promotional"], "note": ""},
-  {"term": "implement", "zh": "實施；落實", "pos": "v.", "related": ["implementation", "implemented"], "note": ""},
-  {"term": "consultation", "zh": "諮詢", "pos": "n.", "related": ["consult", "consultative"], "note": "公眾諮詢"},
-  {"term": "public consultation", "zh": "公眾諮詢", "pos": "n. phr.", "related": [], "note": ""},
-  {"term": "blueprint", "zh": "藍圖；規劃綱要", "pos": "n.", "related": ["blueprints"], "note": "發展藍圖"},
-  {"term": "roadmap", "zh": "路線圖", "pos": "n.", "related": ["roadmaps"], "note": ""},
-  {"term": "pilot scheme", "zh": "先導計劃", "pos": "n. phr.", "related": ["pilot programme"], "note": ""},
-  {"term": "reimbursement", "zh": "發還；報銷", "pos": "n.", "related": ["reimburse", "reimbursed"], "note": ""},
-  {"term": "stipulate", "zh": "訂明；規定", "pos": "v.", "related": ["stipulation", "stipulated"], "note": "法例／指引訂明"},
-  {"term": "pursuant to", "zh": "根據；依據", "pos": "prep. phr.", "related": [], "note": "法律英語高頻"},
-  {"term": "in accordance with", "zh": "按照；依據", "pos": "prep. phr.", "related": [], "note": ""},
-  {"term": "liaise with", "zh": "與⋯聯絡／協調", "pos": "v. phr.", "related": ["liaison"], "note": ""},
-  {"term": "roll out", "zh": "推出；推展", "pos": "v. phr.", "related": ["rolled out", "rolling out"], "note": "推出措施"},
-  {"term": "phase out", "zh": "逐步取消；淘汰", "pos": "v. phr.", "related": ["phasing out"], "note": ""},
-  {"term": "ramp up", "zh": "加大；提升（力度／產能）", "pos": "v. phr.", "related": ["ramping up"], "note": ""},
-  {"term": "underscoring", "zh": "強調；突顯", "pos": "v. (participle)", "related": ["underscore", "underscored"], "note": "新聞稿常用"},
-  {"term": "reiterate", "zh": "重申", "pos": "v.", "related": ["reiteration", "reiterated"], "note": "官方發言常用"},
-  {"term": "commend", "zh": "讚揚；嘉許", "pos": "v.", "related": ["commendation", "commendable"], "note": ""},
-  {"term": "deploy", "zh": "調配；部署", "pos": "v.", "related": ["deployment", "deployed"], "note": "調配資源"},
-  {"term": "capacity building", "zh": "能力建設；培訓提升", "pos": "n. phr.", "related": [], "note": ""},
-  {"term": "manpower", "zh": "人力；人手", "pos": "n.", "related": ["manpower shortage"], "note": ""},
-  {"term": "shortage", "zh": "短缺", "pos": "n.", "related": ["shortages"], "note": ""},
-  {"term": "influx", "zh": "湧入；流入", "pos": "n.", "related": [], "note": "人才／資金湧入"},
-  {"term": "outbound", "zh": "外向的；出境的", "pos": "adj.", "related": ["inbound"], "note": ""},
-  {"term": "inbound", "zh": "入境的；來港的", "pos": "adj.", "related": ["outbound"], "note": ""},
-  {"term": "fiscal", "zh": "財政的", "pos": "adj.", "related": ["fiscal reserves", "fiscal year"], "note": ""},
-  {"term": "fiscal reserves", "zh": "財政儲備", "pos": "n. phr.", "related": [], "note": ""},
-  {"term": "recurrent expenditure", "zh": "經常開支", "pos": "n. phr.", "related": ["non-recurrent"], "note": ""},
-  {"term": "capital works", "zh": "基本工程", "pos": "n. phr.", "related": [], "note": ""},
-  {"term": "tender", "zh": "招標；投標", "pos": "n./v.", "related": ["tendering", "tenders"], "note": ""},
-  {"term": "gazettal", "zh": "刊憲", "pos": "n.", "related": ["gazette"], "note": ""},
-  {"term": "statutory", "zh": "法定的", "pos": "adj.", "related": ["statute", "non-statutory"], "note": ""},
-  {"term": "non-statutory", "zh": "非法定的", "pos": "adj.", "related": ["statutory"], "note": ""},
-  {"term": "advisory", "zh": "諮詢的；顧問的", "pos": "adj./n.", "related": ["advise", "advice"], "note": "諮詢委員會"},
-  {"term": "task force", "zh": "專責小組；工作小組", "pos": "n. phr.", "related": ["working group"], "note": ""},
-  {"term": "steering committee", "zh": "督導委員會", "pos": "n. phr.", "related": [], "note": ""},
-  {"term": "memorandum of understanding", "zh": "諒解備忘錄", "pos": "n. phr.", "related": ["MoU", "MOU"], "note": ""},
-  {"term": "bilateral", "zh": "雙邊的", "pos": "adj.", "related": ["bilaterally", "multilateral"], "note": ""},
-  {"term": "multilateral", "zh": "多邊的", "pos": "adj.", "related": ["bilateral"], "note": ""},
-  {"term": "prosperity", "zh": "繁榮", "pos": "n.", "related": ["prosper", "prosperous"], "note": ""},
-  {"term": "stability", "zh": "穩定", "pos": "n.", "related": ["stable", "stabilise"], "note": "社會穩定"},
-  {"term": "rule of law", "zh": "法治", "pos": "n. phr.", "related": [], "note": ""},
-  {"term": "judicial independence", "zh": "司法獨立", "pos": "n. phr.", "related": [], "note": ""}
+  {
+    "term": "alleviate",
+    "zh": "紓緩；減輕",
+    "pos": "v.",
+    "related": [
+      "alleviation",
+      "alleviating"
+    ],
+    "note": "常見於房屋、貧窮、交通擠塞政策"
+  },
+  {
+    "term": "streamline",
+    "zh": "精簡；理順",
+    "pos": "v.",
+    "related": [
+      "streamlining",
+      "streamlined"
+    ],
+    "note": "精簡行政程序、審批"
+  },
+  {
+    "term": "bolster",
+    "zh": "加強；鞏固",
+    "pos": "v.",
+    "related": [
+      "bolstering",
+      "bolstered"
+    ],
+    "note": "鞏固信心、競爭力"
+  },
+  {
+    "term": "earmark",
+    "zh": "預留（款項／用途）",
+    "pos": "v.",
+    "related": [
+      "earmarked",
+      "earmarking"
+    ],
+    "note": "財政預算預留撥款"
+  },
+  {
+    "term": "facilitate",
+    "zh": "促進；便利",
+    "pos": "v.",
+    "related": [
+      "facilitation",
+      "facilitator"
+    ],
+    "note": "極高頻政府用語"
+  },
+  {
+    "term": "embark upon",
+    "zh": "展開；着手進行",
+    "pos": "v. phr.",
+    "related": [
+      "embark on",
+      "embarked"
+    ],
+    "note": "展開新計劃／改革"
+  },
+  {
+    "term": "intensify",
+    "zh": "加大力度；加強",
+    "pos": "v.",
+    "related": [
+      "intensification",
+      "intensive"
+    ],
+    "note": "加強執法、宣傳"
+  },
+  {
+    "term": "contingency",
+    "zh": "應變；緊急情況",
+    "pos": "n.",
+    "related": [
+      "contingencies",
+      "contingent"
+    ],
+    "note": "應變計劃 contingency plan"
+  },
+  {
+    "term": "livelihood",
+    "zh": "民生；生計",
+    "pos": "n.",
+    "related": [
+      "livelihoods"
+    ],
+    "note": "民生措施 livelihood measures"
+  },
+  {
+    "term": "subsidise",
+    "zh": "資助；補貼",
+    "pos": "v.",
+    "related": [
+      "subsidy",
+      "subsidies",
+      "subsidised"
+    ],
+    "note": "英式拼寫；美式 subsidize"
+  },
+  {
+    "term": "means-tested",
+    "zh": "經資產／入息審查的",
+    "pos": "adj.",
+    "related": [
+      "means test",
+      "means-testing"
+    ],
+    "note": "福利資格審查"
+  },
+  {
+    "term": "enhance",
+    "zh": "提升；加強",
+    "pos": "v.",
+    "related": [
+      "enhancement",
+      "enhanced"
+    ],
+    "note": "極常見"
+  },
+  {
+    "term": "safeguard",
+    "zh": "維護；保障",
+    "pos": "v./n.",
+    "related": [
+      "safeguarding",
+      "safeguards"
+    ],
+    "note": "保障國安、公眾利益"
+  },
+  {
+    "term": "strengthen",
+    "zh": "強化；鞏固",
+    "pos": "v.",
+    "related": [
+      "strengthening",
+      "strengthened"
+    ],
+    "note": ""
+  },
+  {
+    "term": "foster",
+    "zh": "培養；促進",
+    "pos": "v.",
+    "related": [
+      "fostering",
+      "fostered"
+    ],
+    "note": "培育人才、氛圍"
+  },
+  {
+    "term": "uphold",
+    "zh": "維護；堅持",
+    "pos": "v.",
+    "related": [
+      "upholding",
+      "upheld"
+    ],
+    "note": "維護法治、一國兩制"
+  },
+  {
+    "term": "consolidate",
+    "zh": "鞏固；整合",
+    "pos": "v.",
+    "related": [
+      "consolidation",
+      "consolidated"
+    ],
+    "note": ""
+  },
+  {
+    "term": "expedite",
+    "zh": "加快；從速辦理",
+    "pos": "v.",
+    "related": [
+      "expeditious",
+      "expedition"
+    ],
+    "note": "加快審批、落實"
+  },
+  {
+    "term": "optimise",
+    "zh": "優化",
+    "pos": "v.",
+    "related": [
+      "optimisation",
+      "optimal",
+      "optimize"
+    ],
+    "note": "英式拼寫"
+  },
+  {
+    "term": "mitigate",
+    "zh": "緩解；減輕（風險／影響）",
+    "pos": "v.",
+    "related": [
+      "mitigation",
+      "mitigating"
+    ],
+    "note": "風險緩解"
+  },
+  {
+    "term": "prudent",
+    "zh": "審慎的",
+    "pos": "adj.",
+    "related": [
+      "prudence",
+      "prudently"
+    ],
+    "note": "審慎理財"
+  },
+  {
+    "term": "sustainable",
+    "zh": "可持續的",
+    "pos": "adj.",
+    "related": [
+      "sustainability",
+      "sustain"
+    ],
+    "note": ""
+  },
+  {
+    "term": "inclusive",
+    "zh": "共融的；包容的",
+    "pos": "adj.",
+    "related": [
+      "inclusiveness",
+      "inclusion"
+    ],
+    "note": "共融社會"
+  },
+  {
+    "term": "resilient",
+    "zh": "具韌性的；抗逆的",
+    "pos": "adj.",
+    "related": [
+      "resilience"
+    ],
+    "note": "經濟／城市韌性"
+  },
+  {
+    "term": "proactive",
+    "zh": "主動的；積極進取的",
+    "pos": "adj.",
+    "related": [
+      "proactively"
+    ],
+    "note": ""
+  },
+  {
+    "term": "holistic",
+    "zh": "全方位的；整體的",
+    "pos": "adj.",
+    "related": [
+      "holistically"
+    ],
+    "note": "全方位策略"
+  },
+  {
+    "term": "synergy",
+    "zh": "協同效應",
+    "pos": "n.",
+    "related": [
+      "synergies",
+      "synergistic"
+    ],
+    "note": "大灣區協同"
+  },
+  {
+    "term": "liaison",
+    "zh": "聯繫；聯絡",
+    "pos": "n.",
+    "related": [
+      "liaise",
+      "liaising"
+    ],
+    "note": "政府部門聯繫"
+  },
+  {
+    "term": "stakeholder",
+    "zh": "持份者",
+    "pos": "n.",
+    "related": [
+      "stakeholders"
+    ],
+    "note": "諮詢持份者"
+  },
+  {
+    "term": "transparency",
+    "zh": "透明度",
+    "pos": "n.",
+    "related": [
+      "transparent"
+    ],
+    "note": ""
+  },
+  {
+    "term": "accountability",
+    "zh": "問責；問責性",
+    "pos": "n.",
+    "related": [
+      "accountable"
+    ],
+    "note": ""
+  },
+  {
+    "term": "governance",
+    "zh": "管治；治理",
+    "pos": "n.",
+    "related": [
+      "govern"
+    ],
+    "note": "良好管治 good governance"
+  },
+  {
+    "term": "procurement",
+    "zh": "採購",
+    "pos": "n.",
+    "related": [
+      "procure",
+      "procurements"
+    ],
+    "note": "政府採購"
+  },
+  {
+    "term": "infrastructure",
+    "zh": "基礎設施；基建設施",
+    "pos": "n.",
+    "related": [
+      "infrastructural"
+    ],
+    "note": ""
+  },
+  {
+    "term": "revitalise",
+    "zh": "活化；振興",
+    "pos": "v.",
+    "related": [
+      "revitalisation",
+      "revitalize"
+    ],
+    "note": "活化歷史建築、地區"
+  },
+  {
+    "term": "rehabilitate",
+    "zh": "修復；復康；重建",
+    "pos": "v.",
+    "related": [
+      "rehabilitation",
+      "rehab"
+    ],
+    "note": "樓宇復修／更生"
+  },
+  {
+    "term": "conservation",
+    "zh": "保育；保護",
+    "pos": "n.",
+    "related": [
+      "conserve",
+      "conservancy"
+    ],
+    "note": "文物／自然保育"
+  },
+  {
+    "term": "biodiversity",
+    "zh": "生物多樣性",
+    "pos": "n.",
+    "related": [],
+    "note": ""
+  },
+  {
+    "term": "carbon neutrality",
+    "zh": "碳中和",
+    "pos": "n. phr.",
+    "related": [
+      "carbon neutral",
+      "net-zero"
+    ],
+    "note": "2050 碳中和目標"
+  },
+  {
+    "term": "decarbonisation",
+    "zh": "減碳；去碳化",
+    "pos": "n.",
+    "related": [
+      "decarbonise",
+      "decarbonization"
+    ],
+    "note": ""
+  },
+  {
+    "term": "affordable",
+    "zh": "可負擔的",
+    "pos": "adj.",
+    "related": [
+      "affordability",
+      "afford"
+    ],
+    "note": "可負擔房屋"
+  },
+  {
+    "term": "eligibility",
+    "zh": "資格；合資格條件",
+    "pos": "n.",
+    "related": [
+      "eligible",
+      "ineligible"
+    ],
+    "note": ""
+  },
+  {
+    "term": "disbursement",
+    "zh": "發放；撥付",
+    "pos": "n.",
+    "related": [
+      "disburse",
+      "disbursed"
+    ],
+    "note": "發放津貼／資助"
+  },
+  {
+    "term": "allocation",
+    "zh": "分配；撥款",
+    "pos": "n.",
+    "related": [
+      "allocate",
+      "allocated"
+    ],
+    "note": ""
+  },
+  {
+    "term": "quota",
+    "zh": "配額；名額",
+    "pos": "n.",
+    "related": [
+      "quotas"
+    ],
+    "note": ""
+  },
+  {
+    "term": "levy",
+    "zh": "徵費；徵收",
+    "pos": "n./v.",
+    "related": [
+      "levies",
+      "levied"
+    ],
+    "note": ""
+  },
+  {
+    "term": "rebate",
+    "zh": "回贈；退還",
+    "pos": "n.",
+    "related": [
+      "rebates",
+      "rebated"
+    ],
+    "note": "差餉／稅務回贈"
+  },
+  {
+    "term": "concession",
+    "zh": "寬免；優惠",
+    "pos": "n.",
+    "related": [
+      "concessions",
+      "concessional"
+    ],
+    "note": "票價／收費寬免"
+  },
+  {
+    "term": "waiver",
+    "zh": "豁免",
+    "pos": "n.",
+    "related": [
+      "waive",
+      "waived"
+    ],
+    "note": ""
+  },
+  {
+    "term": "amendment",
+    "zh": "修訂",
+    "pos": "n.",
+    "related": [
+      "amend",
+      "amended"
+    ],
+    "note": "法例修訂"
+  },
+  {
+    "term": "ordinance",
+    "zh": "條例",
+    "pos": "n.",
+    "related": [
+      "ordinances"
+    ],
+    "note": "香港法例 Ordinance"
+  },
+  {
+    "term": "gazette",
+    "zh": "憲報；刊憲",
+    "pos": "n./v.",
+    "related": [
+      "gazetted",
+      "gazettal"
+    ],
+    "note": "刊憲生效"
+  },
+  {
+    "term": "enactment",
+    "zh": "制定；成文法則",
+    "pos": "n.",
+    "related": [
+      "enact",
+      "enacted"
+    ],
+    "note": ""
+  },
+  {
+    "term": "jurisdiction",
+    "zh": "司法管轄權；管轄範圍",
+    "pos": "n.",
+    "related": [
+      "jurisdictional"
+    ],
+    "note": ""
+  },
+  {
+    "term": "prosecution",
+    "zh": "檢控",
+    "pos": "n.",
+    "related": [
+      "prosecute",
+      "prosecutor"
+    ],
+    "note": ""
+  },
+  {
+    "term": "conviction",
+    "zh": "定罪；判罪",
+    "pos": "n.",
+    "related": [
+      "convict",
+      "convicted"
+    ],
+    "note": ""
+  },
+  {
+    "term": "compliance",
+    "zh": "遵從；合規",
+    "pos": "n.",
+    "related": [
+      "comply",
+      "compliant"
+    ],
+    "note": ""
+  },
+  {
+    "term": "enforcement",
+    "zh": "執法",
+    "pos": "n.",
+    "related": [
+      "enforce",
+      "enforcing"
+    ],
+    "note": ""
+  },
+  {
+    "term": "surveillance",
+    "zh": "監察；監測",
+    "pos": "n.",
+    "related": [
+      "surveil"
+    ],
+    "note": "疾病／市場監察"
+  },
+  {
+    "term": "quarantine",
+    "zh": "檢疫；隔離",
+    "pos": "n./v.",
+    "related": [
+      "quarantined"
+    ],
+    "note": ""
+  },
+  {
+    "term": "epidemic",
+    "zh": "流行病；疫症",
+    "pos": "n./adj.",
+    "related": [
+      "epidemiology",
+      "pandemic"
+    ],
+    "note": ""
+  },
+  {
+    "term": "vaccination",
+    "zh": "疫苗接種",
+    "pos": "n.",
+    "related": [
+      "vaccine",
+      "vaccinate"
+    ],
+    "note": ""
+  },
+  {
+    "term": "outpatient",
+    "zh": "門診（病人）",
+    "pos": "n./adj.",
+    "related": [
+      "out-patient"
+    ],
+    "note": ""
+  },
+  {
+    "term": "inpatient",
+    "zh": "住院（病人）",
+    "pos": "n./adj.",
+    "related": [
+      "in-patient"
+    ],
+    "note": ""
+  },
+  {
+    "term": "telemedicine",
+    "zh": "遙距醫療",
+    "pos": "n.",
+    "related": [
+      "telehealth"
+    ],
+    "note": ""
+  },
+  {
+    "term": "vocational",
+    "zh": "職業的；職專的",
+    "pos": "adj.",
+    "related": [
+      "vocation"
+    ],
+    "note": "職業教育"
+  },
+  {
+    "term": "internship",
+    "zh": "實習",
+    "pos": "n.",
+    "related": [
+      "intern",
+      "interns"
+    ],
+    "note": ""
+  },
+  {
+    "term": "scholarship",
+    "zh": "獎學金",
+    "pos": "n.",
+    "related": [
+      "scholarships"
+    ],
+    "note": ""
+  },
+  {
+    "term": "bursary",
+    "zh": "助學金",
+    "pos": "n.",
+    "related": [
+      "bursaries"
+    ],
+    "note": ""
+  },
+  {
+    "term": "matriculation",
+    "zh": "註冊人數；在學人數",
+    "pos": "n.",
+    "related": [
+      "enrol",
+      "enrolment",
+      "enroll"
+    ],
+    "note": "與 enrolment 相關"
+  },
+  {
+    "term": "enrolment",
+    "zh": "報讀；入學人數",
+    "pos": "n.",
+    "related": [
+      "enrol",
+      "enrolled",
+      "enrollment"
+    ],
+    "note": "英式拼寫"
+  },
+  {
+    "term": "curriculum",
+    "zh": "課程",
+    "pos": "n.",
+    "related": [
+      "curricula",
+      "curricular"
+    ],
+    "note": ""
+  },
+  {
+    "term": "redevelopment",
+    "zh": "重建",
+    "pos": "n.",
+    "related": [
+      "redevelop",
+      "redeveloped"
+    ],
+    "note": "市區重建"
+  },
+  {
+    "term": "urban renewal",
+    "zh": "市區更新；市區重建",
+    "pos": "n. phr.",
+    "related": [
+      "URA"
+    ],
+    "note": ""
+  },
+  {
+    "term": "land supply",
+    "zh": "土地供應",
+    "pos": "n. phr.",
+    "related": [],
+    "note": ""
+  },
+  {
+    "term": "public rental housing",
+    "zh": "公屋；公共租住房屋",
+    "pos": "n. phr.",
+    "related": [
+      "PRH"
+    ],
+    "note": ""
+  },
+  {
+    "term": "transitional housing",
+    "zh": "過渡性房屋",
+    "pos": "n. phr.",
+    "related": [],
+    "note": ""
+  },
+  {
+    "term": "interim housing",
+    "zh": "中轉房屋",
+    "pos": "n. phr.",
+    "related": [],
+    "note": ""
+  },
+  {
+    "term": "tenancy",
+    "zh": "租賃；租約",
+    "pos": "n.",
+    "related": [
+      "tenant",
+      "tenancies"
+    ],
+    "note": ""
+  },
+  {
+    "term": "comprehensive social security assistance",
+    "zh": "綜合社會保障援助（綜援）",
+    "pos": "n. phr.",
+    "related": [
+      "CSSA"
+    ],
+    "note": ""
+  },
+  {
+    "term": "old age living allowance",
+    "zh": "長者生活津貼",
+    "pos": "n. phr.",
+    "related": [
+      "OALA"
+    ],
+    "note": ""
+  },
+  {
+    "term": "disability allowance",
+    "zh": "傷殘津貼",
+    "pos": "n. phr.",
+    "related": [
+      "DA"
+    ],
+    "note": ""
+  },
+  {
+    "term": "carer",
+    "zh": "照顧者",
+    "pos": "n.",
+    "related": [
+      "carers",
+      "caregiver"
+    ],
+    "note": ""
+  },
+  {
+    "term": "ethnic minority",
+    "zh": "少數族裔",
+    "pos": "n. phr.",
+    "related": [
+      "ethnic minorities"
+    ],
+    "note": ""
+  },
+  {
+    "term": "integration",
+    "zh": "融合；整合",
+    "pos": "n.",
+    "related": [
+      "integrate",
+      "integrated"
+    ],
+    "note": ""
+  },
+  {
+    "term": "national security",
+    "zh": "國家安全",
+    "pos": "n. phr.",
+    "related": [
+      "NSL"
+    ],
+    "note": ""
+  },
+  {
+    "term": "one country, two systems",
+    "zh": "一國兩制",
+    "pos": "n. phr.",
+    "related": [
+      "OCTS"
+    ],
+    "note": ""
+  },
+  {
+    "term": "patriotism",
+    "zh": "愛國主義；愛國情懷",
+    "pos": "n.",
+    "related": [
+      "patriotic",
+      "patriot"
+    ],
+    "note": ""
+  },
+  {
+    "term": "national education",
+    "zh": "國民教育",
+    "pos": "n. phr.",
+    "related": [],
+    "note": ""
+  },
+  {
+    "term": "Greater Bay Area",
+    "zh": "粵港澳大灣區",
+    "pos": "n. phr.",
+    "related": [
+      "GBA"
+    ],
+    "note": ""
+  },
+  {
+    "term": "Belt and Road",
+    "zh": "一帶一路",
+    "pos": "n. phr.",
+    "related": [
+      "BRI"
+    ],
+    "note": ""
+  },
+  {
+    "term": "fintech",
+    "zh": "金融科技",
+    "pos": "n.",
+    "related": [
+      "financial technology"
+    ],
+    "note": ""
+  },
+  {
+    "term": "virtual asset",
+    "zh": "虛擬資產",
+    "pos": "n. phr.",
+    "related": [
+      "VASPs",
+      "crypto"
+    ],
+    "note": ""
+  },
+  {
+    "term": "stablecoin",
+    "zh": "穩定幣",
+    "pos": "n.",
+    "related": [
+      "stablecoins"
+    ],
+    "note": ""
+  },
+  {
+    "term": "tokenisation",
+    "zh": "代幣化",
+    "pos": "n.",
+    "related": [
+      "tokenise",
+      "tokenization"
+    ],
+    "note": ""
+  },
+  {
+    "term": "green finance",
+    "zh": "綠色金融",
+    "pos": "n. phr.",
+    "related": [],
+    "note": ""
+  },
+  {
+    "term": "sustainable finance",
+    "zh": "可持續金融",
+    "pos": "n. phr.",
+    "related": [],
+    "note": ""
+  },
+  {
+    "term": "talent admission",
+    "zh": "人才入境／輸入",
+    "pos": "n. phr.",
+    "related": [
+      "talent schemes"
+    ],
+    "note": ""
+  },
+  {
+    "term": "promote",
+    "zh": "推動；推廣",
+    "pos": "v.",
+    "related": [
+      "promotion",
+      "promotional"
+    ],
+    "note": ""
+  },
+  {
+    "term": "implement",
+    "zh": "實施；落實",
+    "pos": "v.",
+    "related": [
+      "implementation",
+      "implemented"
+    ],
+    "note": ""
+  },
+  {
+    "term": "consultation",
+    "zh": "諮詢",
+    "pos": "n.",
+    "related": [
+      "consult",
+      "consultative"
+    ],
+    "note": "公眾諮詢"
+  },
+  {
+    "term": "public consultation",
+    "zh": "公眾諮詢",
+    "pos": "n. phr.",
+    "related": [],
+    "note": ""
+  },
+  {
+    "term": "blueprint",
+    "zh": "藍圖；規劃綱要",
+    "pos": "n.",
+    "related": [
+      "blueprints"
+    ],
+    "note": "發展藍圖"
+  },
+  {
+    "term": "roadmap",
+    "zh": "路線圖",
+    "pos": "n.",
+    "related": [
+      "roadmaps"
+    ],
+    "note": ""
+  },
+  {
+    "term": "pilot scheme",
+    "zh": "先導計劃",
+    "pos": "n. phr.",
+    "related": [
+      "pilot programme"
+    ],
+    "note": ""
+  },
+  {
+    "term": "reimbursement",
+    "zh": "發還；報銷",
+    "pos": "n.",
+    "related": [
+      "reimburse",
+      "reimbursed"
+    ],
+    "note": ""
+  },
+  {
+    "term": "stipulate",
+    "zh": "訂明；規定",
+    "pos": "v.",
+    "related": [
+      "stipulation",
+      "stipulated"
+    ],
+    "note": "法例／指引訂明"
+  },
+  {
+    "term": "pursuant to",
+    "zh": "根據；依據",
+    "pos": "prep. phr.",
+    "related": [],
+    "note": "法律英語高頻"
+  },
+  {
+    "term": "in accordance with",
+    "zh": "按照；依據",
+    "pos": "prep. phr.",
+    "related": [],
+    "note": ""
+  },
+  {
+    "term": "liaise with",
+    "zh": "與⋯聯絡／協調",
+    "pos": "v. phr.",
+    "related": [
+      "liaison"
+    ],
+    "note": ""
+  },
+  {
+    "term": "roll out",
+    "zh": "推出；推展",
+    "pos": "v. phr.",
+    "related": [
+      "rolled out",
+      "rolling out"
+    ],
+    "note": "推出措施"
+  },
+  {
+    "term": "phase out",
+    "zh": "逐步取消；淘汰",
+    "pos": "v. phr.",
+    "related": [
+      "phasing out"
+    ],
+    "note": ""
+  },
+  {
+    "term": "ramp up",
+    "zh": "加大；提升（力度／產能）",
+    "pos": "v. phr.",
+    "related": [
+      "ramping up"
+    ],
+    "note": ""
+  },
+  {
+    "term": "underscoring",
+    "zh": "強調；突顯",
+    "pos": "v. (participle)",
+    "related": [
+      "underscore",
+      "underscored"
+    ],
+    "note": "新聞稿常用"
+  },
+  {
+    "term": "reiterate",
+    "zh": "重申",
+    "pos": "v.",
+    "related": [
+      "reiteration",
+      "reiterated"
+    ],
+    "note": "官方發言常用"
+  },
+  {
+    "term": "commend",
+    "zh": "讚揚；嘉許",
+    "pos": "v.",
+    "related": [
+      "commendation",
+      "commendable"
+    ],
+    "note": ""
+  },
+  {
+    "term": "deploy",
+    "zh": "調配；部署",
+    "pos": "v.",
+    "related": [
+      "deployment",
+      "deployed"
+    ],
+    "note": "調配資源"
+  },
+  {
+    "term": "capacity building",
+    "zh": "能力建設；培訓提升",
+    "pos": "n. phr.",
+    "related": [],
+    "note": ""
+  },
+  {
+    "term": "manpower",
+    "zh": "人力；人手",
+    "pos": "n.",
+    "related": [
+      "manpower shortage"
+    ],
+    "note": ""
+  },
+  {
+    "term": "shortage",
+    "zh": "短缺",
+    "pos": "n.",
+    "related": [
+      "shortages"
+    ],
+    "note": ""
+  },
+  {
+    "term": "influx",
+    "zh": "湧入；流入",
+    "pos": "n.",
+    "related": [],
+    "note": "人才／資金湧入"
+  },
+  {
+    "term": "outbound",
+    "zh": "外向的；出境的",
+    "pos": "adj.",
+    "related": [
+      "inbound"
+    ],
+    "note": ""
+  },
+  {
+    "term": "inbound",
+    "zh": "入境的；來港的",
+    "pos": "adj.",
+    "related": [
+      "outbound"
+    ],
+    "note": ""
+  },
+  {
+    "term": "fiscal",
+    "zh": "財政的",
+    "pos": "adj.",
+    "related": [
+      "fiscal reserves",
+      "fiscal year"
+    ],
+    "note": ""
+  },
+  {
+    "term": "fiscal reserves",
+    "zh": "財政儲備",
+    "pos": "n. phr.",
+    "related": [],
+    "note": ""
+  },
+  {
+    "term": "recurrent expenditure",
+    "zh": "經常開支",
+    "pos": "n. phr.",
+    "related": [
+      "non-recurrent"
+    ],
+    "note": ""
+  },
+  {
+    "term": "capital works",
+    "zh": "基本工程",
+    "pos": "n. phr.",
+    "related": [],
+    "note": ""
+  },
+  {
+    "term": "tender",
+    "zh": "招標；投標",
+    "pos": "n./v.",
+    "related": [
+      "tendering",
+      "tenders"
+    ],
+    "note": ""
+  },
+  {
+    "term": "gazettal",
+    "zh": "刊憲",
+    "pos": "n.",
+    "related": [
+      "gazette"
+    ],
+    "note": ""
+  },
+  {
+    "term": "statutory",
+    "zh": "法定的",
+    "pos": "adj.",
+    "related": [
+      "statute",
+      "non-statutory"
+    ],
+    "note": ""
+  },
+  {
+    "term": "non-statutory",
+    "zh": "非法定的",
+    "pos": "adj.",
+    "related": [
+      "statutory"
+    ],
+    "note": ""
+  },
+  {
+    "term": "advisory",
+    "zh": "諮詢的；顧問的",
+    "pos": "adj./n.",
+    "related": [
+      "advise",
+      "advice"
+    ],
+    "note": "諮詢委員會"
+  },
+  {
+    "term": "task force",
+    "zh": "專責小組；工作小組",
+    "pos": "n. phr.",
+    "related": [
+      "working group"
+    ],
+    "note": ""
+  },
+  {
+    "term": "steering committee",
+    "zh": "督導委員會",
+    "pos": "n. phr.",
+    "related": [],
+    "note": ""
+  },
+  {
+    "term": "memorandum of understanding",
+    "zh": "諒解備忘錄",
+    "pos": "n. phr.",
+    "related": [
+      "MoU",
+      "MOU"
+    ],
+    "note": ""
+  },
+  {
+    "term": "bilateral",
+    "zh": "雙邊的",
+    "pos": "adj.",
+    "related": [
+      "bilaterally",
+      "multilateral"
+    ],
+    "note": ""
+  },
+  {
+    "term": "multilateral",
+    "zh": "多邊的",
+    "pos": "adj.",
+    "related": [
+      "bilateral"
+    ],
+    "note": ""
+  },
+  {
+    "term": "prosperity",
+    "zh": "繁榮",
+    "pos": "n.",
+    "related": [
+      "prosper",
+      "prosperous"
+    ],
+    "note": ""
+  },
+  {
+    "term": "stability",
+    "zh": "穩定",
+    "pos": "n.",
+    "related": [
+      "stable",
+      "stabilise"
+    ],
+    "note": "社會穩定"
+  },
+  {
+    "term": "rule of law",
+    "zh": "法治",
+    "pos": "n. phr.",
+    "related": [],
+    "note": ""
+  },
+  {
+    "term": "judicial independence",
+    "zh": "司法獨立",
+    "pos": "n. phr.",
+    "related": [],
+    "note": ""
+  },
+  {
+    "term": "implication",
+    "zh": "影響；含意；後果",
+    "pos": "n.",
+    "related": [
+      "implications",
+      "imply"
+    ],
+    "note": "Q1 後果段核心詞"
+  },
+  {
+    "term": "knock-on effect",
+    "zh": "連鎖效應；連帶影響",
+    "pos": "n. phr.",
+    "related": [
+      "knock-on effects",
+      "ripple effect"
+    ],
+    "note": "分析因果鏈"
+  },
+  {
+    "term": "cascade",
+    "zh": "連鎖擴散；層層傳導",
+    "pos": "v./n.",
+    "related": [
+      "cascading",
+      "cascaded"
+    ],
+    "note": "問題蔓延"
+  },
+  {
+    "term": "bottleneck",
+    "zh": "樽頸；瓶頸",
+    "pos": "n.",
+    "related": [
+      "bottlenecks"
+    ],
+    "note": "診斷問題"
+  },
+  {
+    "term": "shortfall",
+    "zh": "短缺；差額；不足之數",
+    "pos": "n.",
+    "related": [
+      "shortfalls"
+    ],
+    "note": "供應／人手／撥款不足"
+  },
+  {
+    "term": "uptake",
+    "zh": "參與率；使用率；吸納量",
+    "pos": "n.",
+    "related": [
+      "uptake rate"
+    ],
+    "note": "計劃成效指標"
+  },
+  {
+    "term": "uptake rate",
+    "zh": "參與率；使用比率",
+    "pos": "n. phr.",
+    "related": [
+      "uptake"
+    ],
+    "note": ""
+  },
+  {
+    "term": "assess",
+    "zh": "評估；審視",
+    "pos": "v.",
+    "related": [
+      "assessment",
+      "assessed"
+    ],
+    "note": "分析段動詞"
+  },
+  {
+    "term": "assessment",
+    "zh": "評估；評核",
+    "pos": "n.",
+    "related": [
+      "assess",
+      "assessments"
+    ],
+    "note": ""
+  },
+  {
+    "term": "evaluate",
+    "zh": "評價；評估成效",
+    "pos": "v.",
+    "related": [
+      "evaluation",
+      "evaluated"
+    ],
+    "note": "檢討／監察"
+  },
+  {
+    "term": "evaluation",
+    "zh": "評估；成效檢討",
+    "pos": "n.",
+    "related": [
+      "evaluate",
+      "evaluative"
+    ],
+    "note": ""
+  },
+  {
+    "term": "prioritise",
+    "zh": "訂定優次；優先處理",
+    "pos": "v.",
+    "related": [
+      "prioritisation",
+      "priority",
+      "prioritize"
+    ],
+    "note": "英式拼寫；措施排序"
+  },
+  {
+    "term": "phase in",
+    "zh": "分階段引入；逐步實施",
+    "pos": "v. phr.",
+    "related": [
+      "phasing in",
+      "phased in"
+    ],
+    "note": "對應 phase out"
+  },
+  {
+    "term": "scale up",
+    "zh": "擴大規模；加大推行",
+    "pos": "v. phr.",
+    "related": [
+      "scaling up",
+      "scaled up"
+    ],
+    "note": "先導→全面"
+  },
+  {
+    "term": "oversight",
+    "zh": "監察；督導；監督",
+    "pos": "n.",
+    "related": [
+      "oversee",
+      "overseeing"
+    ],
+    "note": "問責／管治"
+  },
+  {
+    "term": "enforcement gap",
+    "zh": "執法缺口；執法不足之處",
+    "pos": "n. phr.",
+    "related": [
+      "compliance gap"
+    ],
+    "note": "問題診斷"
+  },
+  {
+    "term": "service gap",
+    "zh": "服務缺口；服務空白",
+    "pos": "n. phr.",
+    "related": [
+      "coverage gap"
+    ],
+    "note": "福利／醫療高頻"
+  },
+  {
+    "term": "waiting time",
+    "zh": "輪候時間",
+    "pos": "n. phr.",
+    "related": [
+      "waiting list",
+      "queue"
+    ],
+    "note": "公營服務指標"
+  },
+  {
+    "term": "fiscal implication",
+    "zh": "財政影響；財赤／開支含義",
+    "pos": "n. phr.",
+    "related": [
+      "fiscal implications",
+      "cost implication"
+    ],
+    "note": "措施必談資源"
+  },
+  {
+    "term": "timeframe",
+    "zh": "時限；時間表",
+    "pos": "n.",
+    "related": [
+      "time frame",
+      "timeline"
+    ],
+    "note": "who-when-resources"
+  },
+  {
+    "term": "timeline",
+    "zh": "時間線；推行日程",
+    "pos": "n.",
+    "related": [
+      "timeframe",
+      "milestones"
+    ],
+    "note": ""
+  },
+  {
+    "term": "accountable",
+    "zh": "須問責的；負責任的",
+    "pos": "adj.",
+    "related": [
+      "accountability",
+      "accountable officer"
+    ],
+    "note": "指定負責方"
+  },
+  {
+    "term": "means test",
+    "zh": "資產／入息審查",
+    "pos": "n. phr.",
+    "related": [
+      "means-tested",
+      "means-testing"
+    ],
+    "note": "資格機制"
+  },
+  {
+    "term": "resource constraint",
+    "zh": "資源限制；資源制約",
+    "pos": "n. phr.",
+    "related": [
+      "resource constraints",
+      "budget constraint"
+    ],
+    "note": ""
+  },
+  {
+    "term": "trade-off",
+    "zh": "取捨；權衡",
+    "pos": "n.",
+    "related": [
+      "trade-offs",
+      "trade off"
+    ],
+    "note": "分析對立目標"
+  },
+  {
+    "term": "feasibility",
+    "zh": "可行性",
+    "pos": "n.",
+    "related": [
+      "feasible",
+      "feasibility study"
+    ],
+    "note": "建議前必評"
+  },
+  {
+    "term": "cost-effectiveness",
+    "zh": "成本效益",
+    "pos": "n.",
+    "related": [
+      "cost-effective",
+      "value for money"
+    ],
+    "note": ""
+  },
+  {
+    "term": "interim measure",
+    "zh": "臨時措施；過渡安排",
+    "pos": "n. phr.",
+    "related": [
+      "interim measures",
+      "stopgap"
+    ],
+    "note": ""
+  },
+  {
+    "term": "stopgap",
+    "zh": "權宜之計；臨時湊合措施",
+    "pos": "n./adj.",
+    "related": [
+      "stopgap measure"
+    ],
+    "note": ""
+  },
+  {
+    "term": "root cause",
+    "zh": "根本原因；根源",
+    "pos": "n. phr.",
+    "related": [
+      "underlying cause"
+    ],
+    "note": "問題分析"
+  },
+  {
+    "term": "exacerbate",
+    "zh": "加劇；惡化",
+    "pos": "v.",
+    "related": [
+      "exacerbation",
+      "exacerbated"
+    ],
+    "note": "後果動詞"
+  },
+  {
+    "term": "compound",
+    "zh": "加重；使更複雜",
+    "pos": "v.",
+    "related": [
+      "compounding",
+      "compounded"
+    ],
+    "note": "問題疊加"
+  },
+  {
+    "term": "give rise to",
+    "zh": "引起；導致",
+    "pos": "v. phr.",
+    "related": [
+      "gave rise to",
+      "giving rise to"
+    ],
+    "note": "因果銜接"
+  },
+  {
+    "term": "entail",
+    "zh": "需要；意味著；牽涉",
+    "pos": "v.",
+    "related": [
+      "entails",
+      "entailed"
+    ],
+    "note": "措施代價"
+  },
+  {
+    "term": "necessitate",
+    "zh": "使成為必要；需要",
+    "pos": "v.",
+    "related": [
+      "necessity",
+      "necessary"
+    ],
+    "note": ""
+  },
+  {
+    "term": "warrant",
+    "zh": "值得；有充分理由需要",
+    "pos": "v.",
+    "related": [
+      "warrants",
+      "warranted"
+    ],
+    "note": "warrant attention / review"
+  },
+  {
+    "term": "tackle",
+    "zh": "處理；應對（難題）",
+    "pos": "v.",
+    "related": [
+      "tackling",
+      "tackled"
+    ],
+    "note": "措施動詞"
+  },
+  {
+    "term": "curb",
+    "zh": "遏抑；抑制",
+    "pos": "v./n.",
+    "related": [
+      "curbing",
+      "curbed"
+    ],
+    "note": "遏抑通脹／濫用"
+  },
+  {
+    "term": "plug the gap",
+    "zh": "填補缺口",
+    "pos": "v. phr.",
+    "related": [
+      "plugging the gap",
+      "close the gap"
+    ],
+    "note": "服務／執法缺口"
+  },
+  {
+    "term": "ring-fence",
+    "zh": "圈定（撥款／用途）；專款專用",
+    "pos": "v.",
+    "related": [
+      "ring-fenced",
+      "ringfencing"
+    ],
+    "note": "財政措施"
+  },
+  {
+    "term": "contingent on",
+    "zh": "取決於；視乎",
+    "pos": "adj. phr.",
+    "related": [
+      "contingent upon",
+      "subject to"
+    ],
+    "note": "條件句"
+  },
+  {
+    "term": "milestone",
+    "zh": "里程碑；階段目標",
+    "pos": "n.",
+    "related": [
+      "milestones"
+    ],
+    "note": "監察進度"
+  },
+  {
+    "term": "key performance indicator",
+    "zh": "關鍵績效指標",
+    "pos": "n. phr.",
+    "related": [
+      "KPI",
+      "KPIs"
+    ],
+    "note": "監察框架"
+  },
+  {
+    "term": "benchmark",
+    "zh": "基準；對標",
+    "pos": "n./v.",
+    "related": [
+      "benchmarking",
+      "benchmarked"
+    ],
+    "note": ""
+  },
+  {
+    "term": "baseline",
+    "zh": "基線；基準水平",
+    "pos": "n.",
+    "related": [
+      "baselines",
+      "baseline data"
+    ],
+    "note": "評估前後比較"
+  },
+  {
+    "term": "lead department",
+    "zh": "牽頭部門；主責部門",
+    "pos": "n. phr.",
+    "related": [
+      "lead bureau",
+      "coordinating department"
+    ],
+    "note": "who"
+  },
+  {
+    "term": "interdepartmental",
+    "zh": "跨部門的",
+    "pos": "adj.",
+    "related": [
+      "cross-bureau",
+      "inter-agency"
+    ],
+    "note": "協調措施"
+  },
+  {
+    "term": "phased approach",
+    "zh": "分階段做法",
+    "pos": "n. phr.",
+    "related": [
+      "phased implementation",
+      "phase in"
+    ],
+    "note": "建議常用"
+  },
+  {
+    "term": "rollout",
+    "zh": "推出；推展（名詞）",
+    "pos": "n.",
+    "related": [
+      "roll out",
+      "rolled out"
+    ],
+    "note": "與 roll out 動詞配套"
+  },
+  {
+    "term": "coverage",
+    "zh": "覆蓋範圍；涵蓋面",
+    "pos": "n.",
+    "related": [
+      "cover",
+      "coverage rate"
+    ],
+    "note": "服務／計劃覆蓋"
+  },
+  {
+    "term": "underutilisation",
+    "zh": "未獲充分利用；使用不足",
+    "pos": "n.",
+    "related": [
+      "underutilised",
+      "underutilization"
+    ],
+    "note": "與 uptake 對照"
+  }
 ]

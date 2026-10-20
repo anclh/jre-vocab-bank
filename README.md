@@ -56,6 +56,10 @@ A GitHub Action (`.github/workflows/refresh-feed.yml`) runs this **daily** and o
 | Today’s picks | Harder / longer matched terms, preferring today’s releases |
 | My list | Save cards in `localStorage` · export JSON |
 | Programme glossary | ~60 starter HK policy / scheme names EN↔ZH |
+| Q1 phrase bank | Discussion-paper frames: implications · assessment · recommend · monitor · who–when–resources · discourse markers |
+| Mini-drill | Weekly 20–25 min prompt from today’s picks + Q1 phrases (今日精選 panel) |
+
+See `EXPAND_BATCH1.md` for the latest lexicon / phrase counts.
 
 ## API (local `serve.py` only)
 
@@ -63,10 +67,12 @@ A GitHub Action (`.github/workflows/refresh-feed.yml`) runs this **daily** and o
 - `GET /api/feed` — RSS items + vocab matches (`?refresh=1` to force)
 - `GET /api/lexicon` — full seed lexicon
 - `GET /api/programmes` — programme glossary
+- `GET /api/q1-phrases` — Q1 discussion-paper phrase bank
 
 ## Data files
 
 - `data/lexicon.json` — curated HK gov / civil-service English terms (source of truth)
+- `data/q1_phrases.json` — Q1 discussion-paper phrase bank
 - `data/programmes.json` — starter「常見政府項目中英文對照表」
 - `docs/data/*` — copies + `feed.json` snapshot for Pages
 - `cache/last_feed.json` — written by local server / refresh script
@@ -97,8 +103,11 @@ jre-vocab-bank/
 │   └── data/
 │       ├── feed.json
 │       ├── lexicon.json
+│       ├── q1_phrases.json
 │       └── programmes.json
 ├── cache/                   # local / CI fetch cache
 ├── static/                  # mirror of frontend (kept in sync)
+├── obsidian/                # optional vault templates
+├── EXPAND_BATCH1.md         # latest expansion notes
 └── .github/workflows/refresh-feed.yml
 ```
