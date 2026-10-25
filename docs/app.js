@@ -275,6 +275,7 @@ function chipRow(label, items, cls) {
   }
 
   function renderQ1() {
+    if (!$("#q1Grid")) return;
     const q = ($("#q1Search")?.value || "").trim().toLowerCase();
     let list = state.q1?.items || [];
     if (state.q1Category !== "all") {
@@ -395,6 +396,7 @@ AFTERWARDS
   }
 
   function renderDrill() {
+    if (!$("#drillPrompt")) return;
     const meta = $("#drillMeta");
     const pre = $("#drillPrompt");
     if (!pre) return;
@@ -527,6 +529,7 @@ AFTERWARDS
   }
 
   function renderProgrammes() {
+    if (!$("#progBody")) return;
     const q = ($("#progSearch").value || "").trim().toLowerCase();
     let items = state.programmes?.items || [];
     if (state.progCategory !== "all") {
@@ -572,7 +575,6 @@ AFTERWARDS
     renderPicks();
     renderVocab();
     renderSaved();
-    renderDrill();
   }
 
   function updateStats() {
@@ -737,7 +739,8 @@ AFTERWARDS
     $("#vocabSearch").addEventListener("input", renderVocab);
     const feedSearch = $("#feedSearch");
     if (feedSearch) feedSearch.addEventListener("input", renderFeed);
-    $("#progSearch").addEventListener("input", renderProgrammes);
+    const progSearch = $("#progSearch");
+    if (progSearch) progSearch.addEventListener("input", renderProgrammes);
     $("#btnExport").addEventListener("click", () => {
       const blob = new Blob([JSON.stringify(state.saved, null, 2)], {
         type: "application/json",
@@ -787,7 +790,7 @@ AFTERWARDS
     initEvents();
     persistSaved();
     await loadLexicon();
-    await Promise.all([loadFeed(false), loadProgrammes(), loadQ1()]);
+    await loadFeed(false);
   }
 
   boot();

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="JRE English — HKSAR press-release vocabulary bank for exam prep" />
   <title>JRE 英文時事詞彙庫 · Vocab Bank</title>
-  <link rel="stylesheet" href="styles.css?v=20261025c" />
+  <link rel="stylesheet" href="styles.css?v=20261025d" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect rx='8' width='32' height='32' fill='%233d9cf0'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-size='14' font-family='sans-serif' font-weight='700' fill='%230a1220'%3EJRE%3C/text%3E%3C/svg%3E" />
 </head>
 <body>
@@ -15,19 +15,17 @@
         <div class="brand-mark">JRE</div>
         <div>
           <h1>英文時事詞彙庫</h1>
-          <p>HKSAR Press Releases · English Vocab Bank</p>
+          <p>English Vocabulary Bank · for learning</p>
         </div>
       </div>
       <nav class="nav-tabs" id="nav" aria-label="Sections">
         <button type="button" data-panel="today" class="active">今日精選</button>
         <button type="button" data-panel="vocab">詞彙卡</button>
-        <button type="button" data-panel="q1">Q1句式</button>
-        <button type="button" data-panel="programmes">項目對照</button>
         <button type="button" data-panel="saved">我的生字</button>
       </nav>
       <div class="header-actions">
         <button type="button" class="icon-btn" id="btnTheme" title="切換深淺色 / Toggle theme" aria-label="Toggle theme">◐</button>
-        <button type="button" class="icon-btn" id="btnRefresh" title="重新擷取 RSS / Refresh" aria-label="Refresh feed">↻</button>
+        <button type="button" class="icon-btn" id="btnRefresh" title="重新整理今日精選 / Refresh" aria-label="Refresh">↻</button>
       </div>
     </div>
   </header>
@@ -35,65 +33,41 @@
   <main>
     <section class="hero">
       <div class="hero-card">
-        <h2>從政府新聞學英文</h2>
+        <h2>專攻詞彙學習</h2>
         <p class="lede">
-          文章來源於 <strong>香港政府新聞網</strong>（info.gov.hk English RSS），配合精選公務員／政策英語詞彙，
-          幫助 JRE 考生累積時事用語與表達。內容為公開新聞稿衍生之學習工具，非官方教材。
+          以香港政府英文新聞用語為素材的<strong>詞彙學習卡</strong>：英文詞、中文解釋、同義詞、反義詞、例句。
+          幫助 JRE 考生累積時事英語詞彙。學習工具，非官方教材。
         </p>
         <div class="badge-row">
-          <span class="badge">政府常見英文詞彙</span>
-          <span class="badge">詞彙學習卡</span>
-          <span class="badge">項目中英對照</span>
-          <span class="badge">Q1 句式庫</span>
-          <span class="badge">本週迷你練習</span>
-          <span class="badge muted">本地儲存 · localStorage</span>
+          <span class="badge">詞 · 解釋 · 同義 · 反義 · 例句</span>
+          <span class="badge">今日精選</span>
+          <span class="badge">全詞庫搜尋</span>
+          <span class="badge muted">本地收藏 · localStorage</span>
         </div>
       </div>
       <div class="stat-card">
         <div class="stats" id="stats">
-          <div class="stat"><div class="n" id="statItems">—</div><div class="l">RSS 新聞稿</div></div>
-          <div class="stat"><div class="n" id="statMatches">—</div><div class="l">詞彙配對</div></div>
           <div class="stat"><div class="n" id="statLexicon">—</div><div class="l">詞庫詞條</div></div>
+          <div class="stat"><div class="n" id="statMatches">—</div><div class="l">今日新聞配對</div></div>
           <div class="stat"><div class="n" id="statSaved">—</div><div class="l">已收藏</div></div>
+          <div class="stat" hidden><div class="n" id="statItems">—</div><div class="l">RSS</div></div>
         </div>
         <div class="status-bar" id="statusBar" style="margin-top:0.85rem"></div>
       </div>
     </section>
 
-    <!-- Today -->
     <section class="panel active" id="panel-today">
       <div class="section-title">
         <h3>今日精選 Today's picks</h3>
-        <span>較罕用／較長的政府用語，優先來自今日稿件</span>
+        <span>從近期政府英文新聞配對出的詞彙卡</span>
       </div>
       <div class="card-grid three" id="picksGrid"></div>
-
-      <div class="mini-drill" id="miniDrill">
-        <div class="section-title" style="margin-top:1.5rem">
-          <h3>本週迷你練習 Mini-drill</h3>
-          <span>20–25 分鐘 · 非正式全卷</span>
-        </div>
-        <div class="drill-card">
-          <p class="drill-hint">
-            用今日精選詞彙 + Q1 句式，寫一段內部討論紙迷你練習（問題→影響→措施）。
-            正式計時全卷請另存至 Obsidian
-            <code>Personal/Learning/JRE 2026/05-English-Drills/</code>（見 Drill log.md）。
-          </p>
-          <div class="drill-meta" id="drillMeta"></div>
-          <pre class="drill-prompt" id="drillPrompt">載入中…</pre>
-          <div class="toolbar" style="margin-top:0.85rem;margin-bottom:0">
-            <button type="button" class="btn primary" id="btnCopyDrill">複製提示 Copy prompt</button>
-            <button type="button" class="btn" id="btnRegenDrill">重新抽題</button>
-          </div>
-        </div>
-      </div>
     </section>
 
-    <!-- Vocab -->
     <section class="panel" id="panel-vocab">
       <div class="toolbar">
         <div class="search">
-          <input type="search" id="vocabSearch" placeholder="搜尋英文／中文／詞性…" autocomplete="off" />
+          <input type="search" id="vocabSearch" placeholder="搜尋英文／中文／同義詞／反義詞…" autocomplete="off" />
         </div>
       </div>
       <div class="section-title">
@@ -103,52 +77,6 @@
       <div class="card-grid" id="vocabGrid"></div>
     </section>
 
-
-    <!-- Q1 phrases -->
-    <section class="panel" id="panel-q1">
-      <div class="disclaimer" id="q1Disclaimer"></div>
-      <div class="toolbar">
-        <div class="search">
-          <input type="search" id="q1Search" placeholder="搜尋句式英文／中文／類別…" autocomplete="off" />
-        </div>
-      </div>
-      <div class="prog-filters" id="q1Filters"></div>
-      <div class="section-title">
-        <h3>Q1 句式 Phrase bank</h3>
-        <span id="q1Count"></span>
-      </div>
-      <div class="card-grid" id="q1Grid"></div>
-    </section>
-
-    <!-- Programmes -->
-    <section class="panel" id="panel-programmes">
-      <div class="disclaimer" id="progDisclaimer"></div>
-      <div class="toolbar">
-        <div class="search">
-          <input type="search" id="progSearch" placeholder="搜尋計劃／機構英文或中文名稱…" autocomplete="off" />
-        </div>
-      </div>
-      <div class="prog-filters" id="progFilters"></div>
-      <div class="section-title">
-        <h3>常見政府項目中英文對照</h3>
-        <span id="progCount"></span>
-      </div>
-      <div class="prog-table-wrap">
-        <table class="prog">
-          <thead>
-            <tr>
-              <th>English</th>
-              <th>中文</th>
-              <th>Abbr</th>
-              <th>範疇</th>
-            </tr>
-          </thead>
-          <tbody id="progBody"></tbody>
-        </table>
-      </div>
-    </section>
-
-    <!-- Saved -->
     <section class="panel" id="panel-saved">
       <div class="section-title">
         <h3>我的生字 Saved list</h3>
@@ -164,13 +92,13 @@
 
   <footer class="footer">
     <p>
-      Data source: <a href="https://www.info.gov.hk/gia/rss/general_en.xml" target="_blank" rel="noopener">HKSAR Government Press Releases (English RSS)</a>.
-      Starter lexicon &amp; programme glossary are study aids — expand them as you revise.
-      Official names: always check <code>gov.hk</code> / <code>info.gov.hk</code>.
+      Vocabulary study aid for JRE English. Press-release matching uses
+      <a href="https://www.info.gov.hk/gia/rss/general_en.xml" target="_blank" rel="noopener">HKSAR GIA English RSS</a>
+      in the background — this app is for learning words, not browsing news.
     </p>
   </footer>
 
   <div class="toast" id="toast" role="status"></div>
-  <script src="app.js?v=20261025c"></script>
+  <script src="app.js?v=20261025d"></script>
 </body>
 </html>
