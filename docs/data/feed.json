@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "https://www.info.gov.hk/gia/rss/general_en.xml",
-  "fetchedAt": "2026-10-25T09:07:36.529210+08:00",
+  "fetchedAt": "2026-10-25T09:15:16.807928+08:00",
   "cached": true,
   "itemCount": 100,
   "matchCount": 91,
@@ -724,7 +724,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/24/P2026102400566.htm",
         "pubDate": "Sat, 24 Oct 2026 17:49:00 +0800",
         "pubDateIso": "2026-10-24T17:49:00+08:00"
-      }
+      },
+      "synonyms": [
+        "implementation of the law",
+        "policing",
+        "compulsion"
+      ],
+      "antonyms": [
+        "non-enforcement",
+        "laxity",
+        "toleration of breaches"
+      ],
+      "examples": [
+        {
+          "en": "Stepped-up enforcement targets illegal parking hotspots.",
+          "zh": "加強執法針對違例泊車黑點。"
+        },
+        {
+          "en": "Effective enforcement underpins a level playing field.",
+          "zh": "有效執法支撐公平競爭環境。"
+        },
+        {
+          "en": "Cross-agency enforcement improves detection rates.",
+          "zh": "跨機構執法提高偵查率。"
+        }
+      ]
     },
     {
       "term": "conviction",
@@ -742,7 +766,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/24/P2026102400566.htm",
         "pubDate": "Sat, 24 Oct 2026 17:49:00 +0800",
         "pubDateIso": "2026-10-24T17:49:00+08:00"
-      }
+      },
+      "synonyms": [
+        "guilty verdict",
+        "finding of guilt",
+        "condemnation by the court"
+      ],
+      "antonyms": [
+        "acquittal",
+        "exoneration",
+        "discharge"
+      ],
+      "examples": [
+        {
+          "en": "A prior conviction may affect sentencing.",
+          "zh": "過往定罪或影響量刑。"
+        },
+        {
+          "en": "The conviction was quashed on appeal.",
+          "zh": "定罪在上訴中被撤銷。"
+        },
+        {
+          "en": "Spent convictions are subject to rehabilitation provisions.",
+          "zh": "已失時效的定罪受更生條文規限。"
+        }
+      ]
     },
     {
       "term": "assessment",
@@ -760,7 +808,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/24/P2026102400566.htm",
         "pubDate": "Sat, 24 Oct 2026 17:49:00 +0800",
         "pubDateIso": "2026-10-24T17:49:00+08:00"
-      }
+      },
+      "synonyms": [
+        "appraisal",
+        "evaluation",
+        "review"
+      ],
+      "antonyms": [
+        "neglect of review",
+        "unexamined claim",
+        "unchecked assumption"
+      ],
+      "examples": [
+        {
+          "en": "An independent assessment confirmed the cost overrun.",
+          "zh": "獨立評估確認成本超支。"
+        },
+        {
+          "en": "Needs assessment guides resource allocation.",
+          "zh": "需要評估指導資源分配。"
+        },
+        {
+          "en": "Impact assessment is required for major works.",
+          "zh": "大型工程須進行影響評估。"
+        }
+      ]
     },
     {
       "term": "ordinance",
@@ -777,7 +849,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/24/P2026102400566.htm",
         "pubDate": "Sat, 24 Oct 2026 17:49:00 +0800",
         "pubDateIso": "2026-10-24T17:49:00+08:00"
-      }
+      },
+      "synonyms": [
+        "statute",
+        "legislation",
+        "enacted law"
+      ],
+      "antonyms": [
+        "soft law",
+        "guideline only",
+        "non-binding circular"
+      ],
+      "examples": [
+        {
+          "en": "The Personal Data (Privacy) Ordinance protects data subjects.",
+          "zh": "《個人資料（私隱）條例》保障資料當事人。"
+        },
+        {
+          "en": "Contravention of the ordinance may attract criminal liability.",
+          "zh": "違反條例或招致刑事責任。"
+        },
+        {
+          "en": "Subsidiary legislation supplements the principal ordinance.",
+          "zh": "附屬法例補充主體條例。"
+        }
+      ]
     },
     {
       "term": "national security",
@@ -794,7 +890,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/24/P2026102400513.htm",
         "pubDate": "Sat, 24 Oct 2026 16:50:28 +0800",
         "pubDateIso": "2026-10-24T16:50:28+08:00"
-      }
+      },
+      "synonyms": [
+        "state security",
+        "homeland security",
+        "sovereignty protection"
+      ],
+      "antonyms": [
+        "security vacuum",
+        "threat to the state",
+        "destabilisation"
+      ],
+      "examples": [
+        {
+          "en": "Safeguarding national security is a constitutional duty.",
+          "zh": "維護國家安全是憲制責任。"
+        },
+        {
+          "en": "The law closes loopholes that endanger national security.",
+          "zh": "法例堵塞危害國家安全的漏洞。"
+        },
+        {
+          "en": "Education on national security starts at school level.",
+          "zh": "國家安全教育由學校層面開始。"
+        }
+      ]
     },
     {
       "term": "contingency",
@@ -812,7 +932,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/24/P2026102400513.htm",
         "pubDate": "Sat, 24 Oct 2026 16:50:28 +0800",
         "pubDateIso": "2026-10-24T16:50:28+08:00"
-      }
+      },
+      "synonyms": [
+        "emergency arrangement",
+        "fallback plan",
+        "standby measure"
+      ],
+      "antonyms": [
+        "routine operation",
+        "business as usual",
+        "certainty"
+      ],
+      "examples": [
+        {
+          "en": "Each bureau must maintain an up-to-date contingency plan.",
+          "zh": "每個政策局須備存最新的應變計劃。"
+        },
+        {
+          "en": "Contingency stocks of medical supplies are held for epidemics.",
+          "zh": "為應對疫症而儲備醫療物資應急庫存。"
+        },
+        {
+          "en": "The drill tested contingency coordination among departments.",
+          "zh": "演習測試了部門之間的應變協調。"
+        }
+      ]
     },
     {
       "term": "strengthen",
@@ -830,7 +974,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/24/P2026102400513.htm",
         "pubDate": "Sat, 24 Oct 2026 16:50:28 +0800",
         "pubDateIso": "2026-10-24T16:50:28+08:00"
-      }
+      },
+      "synonyms": [
+        "reinforce",
+        "fortify",
+        "consolidate"
+      ],
+      "antonyms": [
+        "weaken",
+        "undermine",
+        "erode"
+      ],
+      "examples": [
+        {
+          "en": "The Government seeks to strengthen the rule of law.",
+          "zh": "政府致力強化法治。"
+        },
+        {
+          "en": "Cooperation with Mainland authorities has been strengthened.",
+          "zh": "與內地當局的合作已獲鞏固。"
+        },
+        {
+          "en": "Capacity building strengthens institutional resilience.",
+          "zh": "能力建設強化制度韌性。"
+        }
+      ]
     },
     {
       "term": "governance",
@@ -847,7 +1015,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/24/P2026102400513.htm",
         "pubDate": "Sat, 24 Oct 2026 16:50:28 +0800",
         "pubDateIso": "2026-10-24T16:50:28+08:00"
-      }
+      },
+      "synonyms": [
+        "administration",
+        "stewardship",
+        "institutional management"
+      ],
+      "antonyms": [
+        "mismanagement",
+        "maladministration",
+        "anarchy"
+      ],
+      "examples": [
+        {
+          "en": "Good governance requires transparency and the rule of law.",
+          "zh": "良好管治需要透明度與法治。"
+        },
+        {
+          "en": "Corporate governance standards protect minority investors.",
+          "zh": "企業管治標準保障少數投資者。"
+        },
+        {
+          "en": "Weak governance undermines delivery of public services.",
+          "zh": "管治薄弱會削弱公共服務提供。"
+        }
+      ]
     },
     {
       "term": "safeguard",
@@ -865,7 +1057,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/24/P2026102400513.htm",
         "pubDate": "Sat, 24 Oct 2026 16:50:28 +0800",
         "pubDateIso": "2026-10-24T16:50:28+08:00"
-      }
+      },
+      "synonyms": [
+        "protect",
+        "secure",
+        "preserve"
+      ],
+      "antonyms": [
+        "endanger",
+        "jeopardise",
+        "compromise"
+      ],
+      "examples": [
+        {
+          "en": "Strict controls safeguard national security and public order.",
+          "zh": "嚴格管制維護國家安全與公共秩序。"
+        },
+        {
+          "en": "Data privacy safeguards are built into the new system.",
+          "zh": "新制度內建資料私隱保障。"
+        },
+        {
+          "en": "The ordinance safeguards the rights of minority shareholders.",
+          "zh": "該條例保障少數股東權益。"
+        }
+      ]
     },
     {
       "term": "optimise",
@@ -884,7 +1100,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/24/P2026102400513.htm",
         "pubDate": "Sat, 24 Oct 2026 16:50:28 +0800",
         "pubDateIso": "2026-10-24T16:50:28+08:00"
-      }
+      },
+      "synonyms": [
+        "refine",
+        "maximise efficiency of",
+        "fine-tune"
+      ],
+      "antonyms": [
+        "squander",
+        "misallocate",
+        "waste"
+      ],
+      "examples": [
+        {
+          "en": "The plan seeks to optimise land use in the urban core.",
+          "zh": "計劃旨在優化市中心土地用途。"
+        },
+        {
+          "en": "AI tools help optimise rostering of healthcare staff.",
+          "zh": "人工智能工具有助優化醫護人手編更。"
+        },
+        {
+          "en": "Transport routes should be optimised to cut emissions.",
+          "zh": "交通路線應予優化以減排。"
+        }
+      ]
     },
     {
       "term": "enhance",
@@ -902,7 +1142,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/24/P2026102400513.htm",
         "pubDate": "Sat, 24 Oct 2026 16:50:28 +0800",
         "pubDateIso": "2026-10-24T16:50:28+08:00"
-      }
+      },
+      "synonyms": [
+        "improve",
+        "upgrade",
+        "augment"
+      ],
+      "antonyms": [
+        "impair",
+        "diminish",
+        "degrade"
+      ],
+      "examples": [
+        {
+          "en": "Digital tools enhance the efficiency of public service delivery.",
+          "zh": "數碼工具提升公共服務提供的效率。"
+        },
+        {
+          "en": "The reform aims to enhance transparency in procurement.",
+          "zh": "改革旨在提升採購透明度。"
+        },
+        {
+          "en": "Training programmes enhance the skills of frontline staff.",
+          "zh": "培訓計劃加強前線人員技能。"
+        }
+      ]
     },
     {
       "term": "holistic",
@@ -919,7 +1183,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/24/P2026102300526.htm",
         "pubDate": "Sat, 24 Oct 2026 15:15:00 +0800",
         "pubDateIso": "2026-10-24T15:15:00+08:00"
-      }
+      },
+      "synonyms": [
+        "comprehensive",
+        "integrated",
+        "all-round"
+      ],
+      "antonyms": [
+        "piecemeal",
+        "fragmented",
+        "narrow"
+      ],
+      "examples": [
+        {
+          "en": "A holistic strategy addresses housing, transport and jobs together.",
+          "zh": "全方位策略同時處理房屋、交通與就業。"
+        },
+        {
+          "en": "Holistic care covers physical and mental health needs.",
+          "zh": "整全護理涵蓋身心健康需要。"
+        },
+        {
+          "en": "Policy should take a holistic view of Greater Bay Area links.",
+          "zh": "政策應以整體視野看待大灣區連繫。"
+        }
+      ]
     },
     {
       "term": "milestone",
@@ -936,7 +1224,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300807.htm",
         "pubDate": "Fri, 23 Oct 2026 22:07:15 +0800",
         "pubDateIso": "2026-10-23T22:07:15+08:00"
-      }
+      },
+      "synonyms": [
+        "checkpoint",
+        "stage target",
+        "key date"
+      ],
+      "antonyms": [
+        "missed deadline",
+        "non-event",
+        "open-ended drift"
+      ],
+      "examples": [
+        {
+          "en": "Completion of foundation works is the next milestone.",
+          "zh": "完成地基工程是下一個里程碑。"
+        },
+        {
+          "en": "Clear milestones enable effective progress monitoring.",
+          "zh": "清晰里程碑使進度監察有效。"
+        },
+        {
+          "en": "The bill's passage marked a legislative milestone.",
+          "zh": "條例草案通過標誌立法里程碑。"
+        }
+      ]
     },
     {
       "term": "Greater Bay Area",
@@ -953,7 +1265,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300721.htm",
         "pubDate": "Fri, 23 Oct 2026 20:00:13 +0800",
         "pubDateIso": "2026-10-23T20:00:13+08:00"
-      }
+      },
+      "synonyms": [
+        "GBA",
+        "Guangdong-Hong Kong-Macao Bay Area",
+        "bay area cluster"
+      ],
+      "antonyms": [
+        "standalone city development",
+        "isolated local market",
+        "closed economy"
+      ],
+      "examples": [
+        {
+          "en": "The Greater Bay Area offers vast opportunities for professionals.",
+          "zh": "大灣區為專業人士提供龐大機遇。"
+        },
+        {
+          "en": "Cross-boundary infrastructure knits the Greater Bay Area together.",
+          "zh": "跨境基建把大灣區連成一體。"
+        },
+        {
+          "en": "Start-ups expand into the Greater Bay Area for scale.",
+          "zh": "初創企業進軍大灣區以擴大規模。"
+        }
+      ]
     },
     {
       "term": "sustainable",
@@ -971,7 +1307,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300721.htm",
         "pubDate": "Fri, 23 Oct 2026 20:00:13 +0800",
         "pubDateIso": "2026-10-23T20:00:13+08:00"
-      }
+      },
+      "synonyms": [
+        "viable long-term",
+        "enduring",
+        "environmentally sound"
+      ],
+      "antonyms": [
+        "unsustainable",
+        "short-lived",
+        "depleting"
+      ],
+      "examples": [
+        {
+          "en": "Sustainable development balances growth with conservation.",
+          "zh": "可持續發展在增長與保育之間取得平衡。"
+        },
+        {
+          "en": "The city needs a sustainable model for elderly care funding.",
+          "zh": "本港需要可持續的安老服務資助模式。"
+        },
+        {
+          "en": "Green bonds finance sustainable infrastructure projects.",
+          "zh": "綠色債券為可持續基建項目融資。"
+        }
+      ]
     },
     {
       "term": "vaccination",
@@ -989,7 +1349,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300702.htm",
         "pubDate": "Fri, 23 Oct 2026 19:25:00 +0800",
         "pubDateIso": "2026-10-23T19:25:00+08:00"
-      }
+      },
+      "synonyms": [
+        "immunisation",
+        "inoculation",
+        "vaccine uptake"
+      ],
+      "antonyms": [
+        "vaccine refusal",
+        "non-immunisation",
+        "vaccine hesitancy"
+      ],
+      "examples": [
+        {
+          "en": "High vaccination coverage reduces severe disease.",
+          "zh": "高接種覆蓋率減低重症。"
+        },
+        {
+          "en": "Schools promote childhood vaccination programmes.",
+          "zh": "學校推廣兒童疫苗接種計劃。"
+        },
+        {
+          "en": "Mobile teams bring vaccination to elderly homes.",
+          "zh": "流動隊伍為安老院舍提供接種。"
+        }
+      ]
     },
     {
       "term": "baseline",
@@ -1007,7 +1391,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300702.htm",
         "pubDate": "Fri, 23 Oct 2026 19:25:00 +0800",
         "pubDateIso": "2026-10-23T19:25:00+08:00"
-      }
+      },
+      "synonyms": [
+        "starting level",
+        "reference line",
+        "initial measurement"
+      ],
+      "antonyms": [
+        "post-intervention level",
+        "moving target only",
+        "unmeasured start"
+      ],
+      "examples": [
+        {
+          "en": "Baseline data are essential for before-and-after evaluation.",
+          "zh": "基線數據對前後對比評估至關重要。"
+        },
+        {
+          "en": "Emissions fell 15% from the 2005 baseline.",
+          "zh": "排放較二零零五年基線下降百分之十五。"
+        },
+        {
+          "en": "Without a baseline, claimed improvements cannot be verified.",
+          "zh": "沒有基線，聲稱的改善無法核實。"
+        }
+      ]
     },
     {
       "term": "integration",
@@ -1025,7 +1433,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300498.htm",
         "pubDate": "Fri, 23 Oct 2026 19:16:00 +0800",
         "pubDateIso": "2026-10-23T19:16:00+08:00"
-      }
+      },
+      "synonyms": [
+        "inclusion",
+        "assimilation into community",
+        "social incorporation"
+      ],
+      "antonyms": [
+        "segregation",
+        "marginalisation",
+        "social exclusion"
+      ],
+      "examples": [
+        {
+          "en": "Language programmes aid the integration of new arrivals.",
+          "zh": "語文計劃協助新來港人士融入。"
+        },
+        {
+          "en": "Economic integration with the Mainland deepens under GBA plans.",
+          "zh": "在大灣區規劃下與內地經濟融合加深。"
+        },
+        {
+          "en": "Schools foster integration among students of diverse backgrounds.",
+          "zh": "學校促進不同背景學生共融。"
+        }
+      ]
     },
     {
       "term": "facilitate",
@@ -1043,7 +1475,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300498.htm",
         "pubDate": "Fri, 23 Oct 2026 19:16:00 +0800",
         "pubDateIso": "2026-10-23T19:16:00+08:00"
-      }
+      },
+      "synonyms": [
+        "enable",
+        "expedite",
+        "smooth the way for"
+      ],
+      "antonyms": [
+        "hinder",
+        "impede",
+        "obstruct"
+      ],
+      "examples": [
+        {
+          "en": "One-stop centres facilitate access to government services.",
+          "zh": "一站式中心便利市民使用政府服務。"
+        },
+        {
+          "en": "Clear guidelines facilitate compliance by industry stakeholders.",
+          "zh": "清晰指引促進業界持份者遵從。"
+        },
+        {
+          "en": "Cross-boundary transport links facilitate people flows in the GBA.",
+          "zh": "跨境交通連接促進大灣區人流。"
+        }
+      ]
     },
     {
       "term": "proactive",
@@ -1060,7 +1516,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300498.htm",
         "pubDate": "Fri, 23 Oct 2026 19:16:00 +0800",
         "pubDateIso": "2026-10-23T19:16:00+08:00"
-      }
+      },
+      "synonyms": [
+        "forward-looking",
+        "anticipatory",
+        "pre-emptive"
+      ],
+      "antonyms": [
+        "reactive",
+        "passive",
+        "complacent"
+      ],
+      "examples": [
+        {
+          "en": "A proactive stance on cyber security prevents major breaches.",
+          "zh": "對網絡安全採取主動可防重大漏洞。"
+        },
+        {
+          "en": "Departments are urged to be proactive in engaging stakeholders.",
+          "zh": "部門獲促請主動接觸持份者。"
+        },
+        {
+          "en": "Proactive maintenance cuts costly emergency repairs.",
+          "zh": "主動維修減少昂貴的緊急修理。"
+        }
+      ]
     },
     {
       "term": "interdepartmental",
@@ -1078,7 +1558,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300674.htm",
         "pubDate": "Fri, 23 Oct 2026 18:56:00 +0800",
         "pubDateIso": "2026-10-23T18:56:00+08:00"
-      }
+      },
+      "synonyms": [
+        "cross-department",
+        "cross-bureau",
+        "inter-agency"
+      ],
+      "antonyms": [
+        "single-department",
+        "siloed",
+        "intra-department only"
+      ],
+      "examples": [
+        {
+          "en": "An interdepartmental working group coordinates the response.",
+          "zh": "跨部門工作小組協調應對。"
+        },
+        {
+          "en": "Complex problems require interdepartmental collaboration.",
+          "zh": "複雜問題需要跨部門協作。"
+        },
+        {
+          "en": "Interdepartmental clearance slowed the approval process.",
+          "zh": "跨部門審批拖慢核准流程。"
+        }
+      ]
     },
     {
       "term": "surveillance",
@@ -1095,7 +1599,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300674.htm",
         "pubDate": "Fri, 23 Oct 2026 18:56:00 +0800",
         "pubDateIso": "2026-10-23T18:56:00+08:00"
-      }
+      },
+      "synonyms": [
+        "monitoring",
+        "watchfulness",
+        "systematic observation"
+      ],
+      "antonyms": [
+        "neglect",
+        "blind spot",
+        "non-monitoring"
+      ],
+      "examples": [
+        {
+          "en": "Disease surveillance detects outbreaks at an early stage.",
+          "zh": "疾病監察可及早發現爆發。"
+        },
+        {
+          "en": "Market surveillance deters manipulative trading.",
+          "zh": "市場監察遏阻操控交易。"
+        },
+        {
+          "en": "CCTV surveillance supports public safety in busy districts.",
+          "zh": "閉路電視監察支援繁忙地區公共安全。"
+        }
+      ]
     },
     {
       "term": "statutory",
@@ -1113,7 +1641,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300674.htm",
         "pubDate": "Fri, 23 Oct 2026 18:56:00 +0800",
         "pubDateIso": "2026-10-23T18:56:00+08:00"
-      }
+      },
+      "synonyms": [
+        "legally mandated",
+        "by statute",
+        "enacted"
+      ],
+      "antonyms": [
+        "non-statutory",
+        "voluntary",
+        "extra-legal"
+      ],
+      "examples": [
+        {
+          "en": "Statutory bodies must comply with disclosure duties.",
+          "zh": "法定機構必須遵守披露責任。"
+        },
+        {
+          "en": "A statutory minimum wage protects low-paid workers.",
+          "zh": "法定最低工資保障低收入工人。"
+        },
+        {
+          "en": "Statutory timelines bind the approving authority.",
+          "zh": "法定時限約束審批當局。"
+        }
+      ]
     },
     {
       "term": "timeframe",
@@ -1131,7 +1683,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300674.htm",
         "pubDate": "Fri, 23 Oct 2026 18:56:00 +0800",
         "pubDateIso": "2026-10-23T18:56:00+08:00"
-      }
+      },
+      "synonyms": [
+        "time limit",
+        "schedule window",
+        "period allowed"
+      ],
+      "antonyms": [
+        "open-ended schedule",
+        "no deadline",
+        "indefinite period"
+      ],
+      "examples": [
+        {
+          "en": "The review will be completed within a six-month timeframe.",
+          "zh": "檢討將於六個月時限內完成。"
+        },
+        {
+          "en": "A realistic timeframe avoids rushed and flawed delivery.",
+          "zh": "務實時間表避免倉卒而有缺陷的推行。"
+        },
+        {
+          "en": "Stakeholders sought a clearer timeframe for compensation.",
+          "zh": "持份者要求更清晰的補償時限。"
+        }
+      ]
     },
     {
       "term": "regime",
@@ -1152,14 +1728,14 @@
         "pubDateIso": "2026-10-23T18:47:00+08:00"
       },
       "synonyms": [
-        "government",
-        "administration",
-        "system"
+        "system",
+        "framework",
+        "order"
       ],
       "antonyms": [
         "anarchy",
-        "chaos",
-        "disorder"
+        "deregulation",
+        "lawlessness"
       ],
       "examples": [
         {
@@ -1192,7 +1768,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300579.htm",
         "pubDate": "Fri, 23 Oct 2026 18:46:00 +0800",
         "pubDateIso": "2026-10-23T18:46:00+08:00"
-      }
+      },
+      "synonyms": [
+        "all-embracing",
+        "broad-based",
+        "non-exclusionary"
+      ],
+      "antonyms": [
+        "exclusive",
+        "exclusionary",
+        "narrow"
+      ],
+      "examples": [
+        {
+          "en": "An inclusive society ensures equal access to public services.",
+          "zh": "共融社會確保平等享用公共服務。"
+        },
+        {
+          "en": "Inclusive education supports students with diverse needs.",
+          "zh": "共融教育支援有不同需要的學生。"
+        },
+        {
+          "en": "Growth should be inclusive so that grassroots share the gains.",
+          "zh": "增長應具包容性，讓基層分享成果。"
+        }
+      ]
     },
     {
       "term": "promote",
@@ -1210,7 +1810,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300579.htm",
         "pubDate": "Fri, 23 Oct 2026 18:46:00 +0800",
         "pubDateIso": "2026-10-23T18:46:00+08:00"
-      }
+      },
+      "synonyms": [
+        "advance",
+        "champion",
+        "further"
+      ],
+      "antonyms": [
+        "discourage",
+        "hinder",
+        "suppress"
+      ],
+      "examples": [
+        {
+          "en": "The bureau will promote innovation and technology.",
+          "zh": "政策局將推動創新科技。"
+        },
+        {
+          "en": "Public campaigns promote healthy lifestyles.",
+          "zh": "公眾運動推廣健康生活。"
+        },
+        {
+          "en": "Trade offices promote Hong Kong overseas.",
+          "zh": "經貿辦在海外推廣香港。"
+        }
+      ]
     },
     {
       "term": "foster",
@@ -1228,7 +1852,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300579.htm",
         "pubDate": "Fri, 23 Oct 2026 18:46:00 +0800",
         "pubDateIso": "2026-10-23T18:46:00+08:00"
-      }
+      },
+      "synonyms": [
+        "cultivate",
+        "nurture",
+        "promote"
+      ],
+      "antonyms": [
+        "stifle",
+        "discourage",
+        "suppress"
+      ],
+      "examples": [
+        {
+          "en": "Policies foster innovation and entrepreneurship among youth.",
+          "zh": "政策培養青年創新與創業精神。"
+        },
+        {
+          "en": "Schools foster a sense of national identity.",
+          "zh": "學校培養國民身分認同。"
+        },
+        {
+          "en": "Open dialogue fosters trust between government and stakeholders.",
+          "zh": "開放對話促進政府與持份者之間的信任。"
+        }
+      ]
     },
     {
       "term": "contravention",
@@ -1288,7 +1936,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300657.htm",
         "pubDate": "Fri, 23 Oct 2026 18:18:00 +0800",
         "pubDateIso": "2026-10-23T18:18:00+08:00"
-      }
+      },
+      "synonyms": [
+        "1C2S",
+        "high degree of autonomy framework",
+        "Basic Law arrangement"
+      ],
+      "antonyms": [
+        "one country, one system",
+        "unitary assimilation",
+        "loss of separate systems"
+      ],
+      "examples": [
+        {
+          "en": "'One country, two systems' underpins Hong Kong's unique status.",
+          "zh": "「一國兩制」支撐香港獨特地位。"
+        },
+        {
+          "en": "The Policy Address reaffirms 'one country, two systems'.",
+          "zh": "施政報告重申「一國兩制」。"
+        },
+        {
+          "en": "Investors value the predictability of 'one country, two systems'.",
+          "zh": "投資者重視「一國兩制」的可預期性。"
+        }
+      ]
     },
     {
       "term": "consultation",
@@ -1306,7 +1978,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300657.htm",
         "pubDate": "Fri, 23 Oct 2026 18:18:00 +0800",
         "pubDateIso": "2026-10-23T18:18:00+08:00"
-      }
+      },
+      "synonyms": [
+        "engagement exercise",
+        "sounding-out",
+        "stakeholder dialogue"
+      ],
+      "antonyms": [
+        "unilateral decision",
+        "fait accompli",
+        "non-consultation"
+      ],
+      "examples": [
+        {
+          "en": "A three-month consultation sought views on the bill.",
+          "zh": "為期三個月的諮詢就條例草案徵集意見。"
+        },
+        {
+          "en": "Online consultation widens participation.",
+          "zh": "網上諮詢擴大參與。"
+        },
+        {
+          "en": "Feedback from consultation shaped the final proposal.",
+          "zh": "諮詢意見塑造最終方案。"
+        }
+      ]
     },
     {
       "term": "stakeholder",
@@ -1323,7 +2019,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300657.htm",
         "pubDate": "Fri, 23 Oct 2026 18:18:00 +0800",
         "pubDateIso": "2026-10-23T18:18:00+08:00"
-      }
+      },
+      "synonyms": [
+        "interested party",
+        "participant",
+        "constituency"
+      ],
+      "antonyms": [
+        "bystander",
+        "outsider",
+        "non-participant"
+      ],
+      "examples": [
+        {
+          "en": "The bureau consulted key stakeholders before gazetting the bill.",
+          "zh": "政策局在刊憲條例草案前諮詢主要持份者。"
+        },
+        {
+          "en": "Industry stakeholders support a phased rollout.",
+          "zh": "業界持份者支持分階段推出。"
+        },
+        {
+          "en": "Patients are important stakeholders in healthcare reform.",
+          "zh": "病人是醫療改革的重要持份者。"
+        }
+      ]
     },
     {
       "term": "amendment",
@@ -1341,7 +2061,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300657.htm",
         "pubDate": "Fri, 23 Oct 2026 18:18:00 +0800",
         "pubDateIso": "2026-10-23T18:18:00+08:00"
-      }
+      },
+      "synonyms": [
+        "revision",
+        "modification",
+        "alteration"
+      ],
+      "antonyms": [
+        "repeal",
+        "unchanged text",
+        "status quo"
+      ],
+      "examples": [
+        {
+          "en": "The Legislative Council scrutinised the bill and its amendments.",
+          "zh": "立法會審議條例草案及其修訂。"
+        },
+        {
+          "en": "Technical amendments clarify the scope of the ordinance.",
+          "zh": "技術性修訂釐清條例適用範圍。"
+        },
+        {
+          "en": "Further amendment may be needed after public consultation.",
+          "zh": "公眾諮詢後或需再作修訂。"
+        }
+      ]
     },
     {
       "term": "synergy",
@@ -1359,7 +2103,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300657.htm",
         "pubDate": "Fri, 23 Oct 2026 18:18:00 +0800",
         "pubDateIso": "2026-10-23T18:18:00+08:00"
-      }
+      },
+      "synonyms": [
+        "complementarity",
+        "mutual reinforcement",
+        "combined advantage"
+      ],
+      "antonyms": [
+        "conflict",
+        "duplication",
+        "fragmentation"
+      ],
+      "examples": [
+        {
+          "en": "GBA cooperation seeks synergy between Hong Kong and Mainland cities.",
+          "zh": "大灣區合作尋求香港與內地城市的協同效應。"
+        },
+        {
+          "en": "Public-private partnerships can create synergy in delivery.",
+          "zh": "公私營合作可在推行上產生協同。"
+        },
+        {
+          "en": "Without coordination, agencies lose potential synergy.",
+          "zh": "缺乏協調，機構會失去潛在協同。"
+        }
+      ]
     },
     {
       "term": "blueprint",
@@ -1376,7 +2144,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102100279.htm",
         "pubDate": "Fri, 23 Oct 2026 18:10:00 +0800",
         "pubDateIso": "2026-10-23T18:10:00+08:00"
-      }
+      },
+      "synonyms": [
+        "master plan",
+        "strategic outline",
+        "framework plan"
+      ],
+      "antonyms": [
+        "ad-hoc plan",
+        "improvisation",
+        "unplanned approach"
+      ],
+      "examples": [
+        {
+          "en": "The blueprint sets a 10-year vision for the industry.",
+          "zh": "藍圖訂立業界十年願景。"
+        },
+        {
+          "en": "A development blueprint guides Northern Metropolis works.",
+          "zh": "發展藍圖指導北部都會區工程。"
+        },
+        {
+          "en": "Stakeholders endorsed the policy blueprint in principle.",
+          "zh": "持份者原則上支持政策藍圖。"
+        }
+      ]
     },
     {
       "term": "fintech",
@@ -1393,7 +2185,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102100279.htm",
         "pubDate": "Fri, 23 Oct 2026 18:10:00 +0800",
         "pubDateIso": "2026-10-23T18:10:00+08:00"
-      }
+      },
+      "synonyms": [
+        "financial technology",
+        "digital finance",
+        "tech-enabled finance"
+      ],
+      "antonyms": [
+        "traditional banking only",
+        "analogue finance",
+        "non-digital finance"
+      ],
+      "examples": [
+        {
+          "en": "Hong Kong promotes fintech through a regulatory sandbox.",
+          "zh": "香港以監管沙盒推動金融科技。"
+        },
+        {
+          "en": "Fintech lowers the cost of cross-border payments.",
+          "zh": "金融科技降低跨境支付成本。"
+        },
+        {
+          "en": "Talent schemes attract fintech specialists to the city.",
+          "zh": "人才計劃吸引金融科技專才來港。"
+        }
+      ]
     },
     {
       "term": "implement",
@@ -1411,7 +2227,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300472.htm",
         "pubDate": "Fri, 23 Oct 2026 18:04:00 +0800",
         "pubDateIso": "2026-10-23T18:04:00+08:00"
-      }
+      },
+      "synonyms": [
+        "carry out",
+        "put into effect",
+        "execute"
+      ],
+      "antonyms": [
+        "shelve",
+        "abandon",
+        "fail to deliver"
+      ],
+      "examples": [
+        {
+          "en": "Departments will implement the recommendations within a year.",
+          "zh": "部門將於一年內落實建議。"
+        },
+        {
+          "en": "Successful implementation requires clear ownership.",
+          "zh": "成功推行需要清晰主責。"
+        },
+        {
+          "en": "Pilot results inform how to implement the full scheme.",
+          "zh": "先導結果為全面推行提供依據。"
+        }
+      ]
     },
     {
       "term": "uphold",
@@ -1429,7 +2269,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300472.htm",
         "pubDate": "Fri, 23 Oct 2026 18:04:00 +0800",
         "pubDateIso": "2026-10-23T18:04:00+08:00"
-      }
+      },
+      "synonyms": [
+        "maintain",
+        "defend",
+        "stand by"
+      ],
+      "antonyms": [
+        "abandon",
+        "violate",
+        "betray"
+      ],
+      "examples": [
+        {
+          "en": "Courts uphold the Basic Law and judicial independence.",
+          "zh": "法院維護《基本法》與司法獨立。"
+        },
+        {
+          "en": "Officials must uphold integrity and impartiality.",
+          "zh": "官員必須堅持廉潔與公正。"
+        },
+        {
+          "en": "The city continues to uphold 'one country, two systems'.",
+          "zh": "本港繼續維護「一國兩制」。"
+        }
+      ]
     },
     {
       "term": "memorandum of understanding",
@@ -1447,7 +2311,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300606.htm",
         "pubDate": "Fri, 23 Oct 2026 17:50:47 +0800",
         "pubDateIso": "2026-10-23T17:50:47+08:00"
-      }
+      },
+      "synonyms": [
+        "MoU",
+        "cooperation accord",
+        "framework agreement"
+      ],
+      "antonyms": [
+        "binding contract",
+        "enforceable treaty",
+        "adversarial dispute"
+      ],
+      "examples": [
+        {
+          "en": "The MoU sets out areas of bilateral cooperation.",
+          "zh": "諒解備忘錄訂明雙邊合作範疇。"
+        },
+        {
+          "en": "Universities signed an MoU on student exchange.",
+          "zh": "大學就學生交流簽署諒解備忘錄。"
+        },
+        {
+          "en": "An MoU is usually non-binding but signals commitment.",
+          "zh": "諒解備忘錄通常不具約束力但顯示承諾。"
+        }
+      ]
     },
     {
       "term": "consolidate",
@@ -1465,13 +2353,41 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300606.htm",
         "pubDate": "Fri, 23 Oct 2026 17:50:47 +0800",
         "pubDateIso": "2026-10-23T17:50:47+08:00"
-      }
+      },
+      "synonyms": [
+        "unify",
+        "integrate",
+        "cement"
+      ],
+      "antonyms": [
+        "fragment",
+        "disperse",
+        "dilute"
+      ],
+      "examples": [
+        {
+          "en": "The merger consolidates overlapping regulatory functions.",
+          "zh": "合併整合重疊的規管職能。"
+        },
+        {
+          "en": "Efforts consolidate Hong Kong's role as an international hub.",
+          "zh": "措施鞏固香港作為國際樞紐的角色。"
+        },
+        {
+          "en": "Gains from the pilot should be consolidated before scaling up.",
+          "zh": "先導成果應在擴展前先予鞏固。"
+        }
+      ]
     },
     {
       "term": "in accordance with",
       "zh": "按照；依據",
       "pos": "prep. phr.",
-      "related": [],
+      "related": [
+        "pursuant to",
+        "consistent with",
+        "as required by"
+      ],
       "note": "",
       "example": "…and Poisons Ordinance, any person who possesses any poison included in Part I of the Poisons List other than in accordance with provisions commits an offence. The maximum penalty upon conviction is a fine of $100,000 and imprisonment for…",
       "matchedSpan": "in accordance with",
@@ -1480,7 +2396,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300607.htm",
         "pubDate": "Fri, 23 Oct 2026 17:45:00 +0800",
         "pubDateIso": "2026-10-23T17:45:00+08:00"
-      }
+      },
+      "synonyms": [
+        "pursuant to",
+        "consistent with",
+        "as required by"
+      ],
+      "antonyms": [
+        "in conflict with",
+        "contrary to",
+        "in defiance of"
+      ],
+      "examples": [
+        {
+          "en": "Procedures were followed in accordance with the manual.",
+          "zh": "程序按手冊規定執行。"
+        },
+        {
+          "en": "Disposal of waste must be in accordance with the law.",
+          "zh": "廢物處置必須依法進行。"
+        },
+        {
+          "en": "Budgets are prepared in accordance with fiscal guidelines.",
+          "zh": "預算按財政指引編製。"
+        }
+      ]
     },
     {
       "term": "epidemic",
@@ -1498,7 +2438,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300485.htm",
         "pubDate": "Fri, 23 Oct 2026 17:30:00 +0800",
         "pubDateIso": "2026-10-23T17:30:00+08:00"
-      }
+      },
+      "synonyms": [
+        "outbreak",
+        "contagion wave",
+        "widespread infection"
+      ],
+      "antonyms": [
+        "eradication",
+        "containment success",
+        "disease-free status"
+      ],
+      "examples": [
+        {
+          "en": "The epidemic strained public hospital capacity.",
+          "zh": "疫症令公營醫院負荷緊張。"
+        },
+        {
+          "en": "Epidemic preparedness includes stockpiles and surge plans.",
+          "zh": "防疫準備包括物資儲備及擴容計劃。"
+        },
+        {
+          "en": "Lessons from the epidemic inform future health policy.",
+          "zh": "疫症經驗為日後衛生政策提供參考。"
+        }
+      ]
     },
     {
       "term": "conservation",
@@ -1516,7 +2480,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300546.htm",
         "pubDate": "Fri, 23 Oct 2026 16:00:00 +0800",
         "pubDateIso": "2026-10-23T16:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "preservation",
+        "protection",
+        "safeguarding"
+      ],
+      "antonyms": [
+        "destruction",
+        "exploitation",
+        "demolition"
+      ],
+      "examples": [
+        {
+          "en": "Nature conservation protects country-park biodiversity.",
+          "zh": "自然保育保護郊野公園生物多樣性。"
+        },
+        {
+          "en": "Built-heritage conservation retains historic fabric.",
+          "zh": "建築文物保育保留歷史肌理。"
+        },
+        {
+          "en": "Marine conservation zones restrict damaging fishing practices.",
+          "zh": "海洋保育區限制具破壞性的捕魚活動。"
+        }
+      ]
     },
     {
       "term": "allocation",
@@ -1534,7 +2522,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300477.htm",
         "pubDate": "Fri, 23 Oct 2026 15:15:00 +0800",
         "pubDateIso": "2026-10-23T15:15:00+08:00"
-      }
+      },
+      "synonyms": [
+        "apportionment",
+        "distribution",
+        "assignment"
+      ],
+      "antonyms": [
+        "withholding",
+        "misallocation",
+        "diversion"
+      ],
+      "examples": [
+        {
+          "en": "Budget allocation to education rose this financial year.",
+          "zh": "本財政年度教育撥款有所增加。"
+        },
+        {
+          "en": "Fair allocation of school places remains a public concern.",
+          "zh": "公平分配學位仍是公眾關注。"
+        },
+        {
+          "en": "Land allocation for public housing is being accelerated.",
+          "zh": "公營房屋土地分配正在加快。"
+        }
+      ]
     },
     {
       "term": "tender",
@@ -1552,7 +2564,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300477.htm",
         "pubDate": "Fri, 23 Oct 2026 15:15:00 +0800",
         "pubDateIso": "2026-10-23T15:15:00+08:00"
-      }
+      },
+      "synonyms": [
+        "bid invitation",
+        "competitive bidding",
+        "procurement contest"
+      ],
+      "antonyms": [
+        "direct award",
+        "single-source purchase",
+        "non-competitive award"
+      ],
+      "examples": [
+        {
+          "en": "The contract will be awarded through open tender.",
+          "zh": "合約將以公開招標批出。"
+        },
+        {
+          "en": "Electronic tendering improves efficiency and fairness.",
+          "zh": "電子招標提高效率與公平。"
+        },
+        {
+          "en": "Unsuccessful tenderers may request a debriefing.",
+          "zh": "未中標者可要求簡報。"
+        }
+      ]
     },
     {
       "term": "advisory",
@@ -1570,7 +2606,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300282.htm",
         "pubDate": "Fri, 23 Oct 2026 15:00:00 +0800",
         "pubDateIso": "2026-10-23T15:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "consultative",
+        "recommending",
+        "counsel-giving"
+      ],
+      "antonyms": [
+        "executive",
+        "decision-making",
+        "binding"
+      ],
+      "examples": [
+        {
+          "en": "An advisory committee reviews technical standards.",
+          "zh": "諮詢委員會檢視技術標準。"
+        },
+        {
+          "en": "Advisory opinions guide but do not bind the authority.",
+          "zh": "諮詢意見指導但不約束當局。"
+        },
+        {
+          "en": "The panel plays a purely advisory role.",
+          "zh": "小組只擔當諮詢角色。"
+        }
+      ]
     },
     {
       "term": "carbon neutrality",
@@ -1588,7 +2648,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102200341.htm",
         "pubDate": "Fri, 23 Oct 2026 14:42:00 +0800",
         "pubDateIso": "2026-10-23T14:42:00+08:00"
-      }
+      },
+      "synonyms": [
+        "net-zero carbon",
+        "climate neutrality",
+        "carbon balance"
+      ],
+      "antonyms": [
+        "carbon intensity",
+        "high emissions",
+        "fossil dependence"
+      ],
+      "examples": [
+        {
+          "en": "Hong Kong targets carbon neutrality before 2050.",
+          "zh": "香港以二零五零年前達致碳中和為目標。"
+        },
+        {
+          "en": "Electrifying transport advances carbon neutrality.",
+          "zh": "運輸電氣化推進碳中和。"
+        },
+        {
+          "en": "Carbon neutrality requires deep cuts across all sectors.",
+          "zh": "碳中和需要各行業大幅減排。"
+        }
+      ]
     },
     {
       "term": "coverage",
@@ -1606,7 +2690,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102200341.htm",
         "pubDate": "Fri, 23 Oct 2026 14:42:00 +0800",
         "pubDateIso": "2026-10-23T14:42:00+08:00"
-      }
+      },
+      "synonyms": [
+        "reach",
+        "scope of provision",
+        "extent of inclusion"
+      ],
+      "antonyms": [
+        "exclusion",
+        "narrow reach",
+        "service desert"
+      ],
+      "examples": [
+        {
+          "en": "Vaccination coverage exceeded 90% among the elderly.",
+          "zh": "長者疫苗接種覆蓋率超過九成。"
+        },
+        {
+          "en": "Insurance coverage for mental health remains limited.",
+          "zh": "精神健康保險涵蓋仍然有限。"
+        },
+        {
+          "en": "Expanding coverage to remote areas is a priority.",
+          "zh": "擴大偏遠地區覆蓋是優先事項。"
+        }
+      ]
     },
     {
       "term": "compliance",
@@ -1624,13 +2732,41 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300316.htm",
         "pubDate": "Fri, 23 Oct 2026 13:11:29 +0800",
         "pubDateIso": "2026-10-23T13:11:29+08:00"
-      }
+      },
+      "synonyms": [
+        "adherence",
+        "conformity",
+        "observance"
+      ],
+      "antonyms": [
+        "non-compliance",
+        "breach",
+        "contravention"
+      ],
+      "examples": [
+        {
+          "en": "Firms must demonstrate compliance with listing rules.",
+          "zh": "公司須證明符合上市規則。"
+        },
+        {
+          "en": "Compliance audits identify gaps before enforcement action.",
+          "zh": "合規審計在執法前找出缺口。"
+        },
+        {
+          "en": "Voluntary compliance reduces the need for penalties.",
+          "zh": "自願遵從減少罰則需要。"
+        }
+      ]
     },
     {
       "term": "judicial independence",
       "zh": "司法獨立",
       "pos": "n. phr.",
-      "related": [],
+      "related": [
+        "court autonomy",
+        "impartial judiciary",
+        "independent adjudication"
+      ],
       "note": "",
       "example": "…an a genuine concern for the rule of law and human rights. The LegCo spokesperson emphasised that Hong Kong's judicial independence is fully protected by the Basic Law. Courts independently adjudicate cases strictly based on evidence and the…",
       "matchedSpan": "judicial independence",
@@ -1639,7 +2775,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300351.htm",
         "pubDate": "Fri, 23 Oct 2026 12:50:00 +0800",
         "pubDateIso": "2026-10-23T12:50:00+08:00"
-      }
+      },
+      "synonyms": [
+        "court autonomy",
+        "impartial judiciary",
+        "independent adjudication"
+      ],
+      "antonyms": [
+        "political interference",
+        "judicial subordination",
+        "biased adjudication"
+      ],
+      "examples": [
+        {
+          "en": "Judicial independence is guaranteed by the Basic Law.",
+          "zh": "司法獨立受《基本法》保障。"
+        },
+        {
+          "en": "Respect for judicial independence strengthens confidence.",
+          "zh": "尊重司法獨立加強信心。"
+        },
+        {
+          "en": "Appointment processes protect judicial independence.",
+          "zh": "任命程序保障司法獨立。"
+        }
+      ]
     },
     {
       "term": "jurisdiction",
@@ -1656,13 +2816,41 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300351.htm",
         "pubDate": "Fri, 23 Oct 2026 12:50:00 +0800",
         "pubDateIso": "2026-10-23T12:50:00+08:00"
-      }
+      },
+      "synonyms": [
+        "legal authority",
+        "ambit",
+        "competence of the court"
+      ],
+      "antonyms": [
+        "lack of competence",
+        "extraterritorial bar",
+        "non-justiciability"
+      ],
+      "examples": [
+        {
+          "en": "The High Court has jurisdiction over the dispute.",
+          "zh": "高等法院對該爭議具司法管轄權。"
+        },
+        {
+          "en": "Cross-boundary cases raise complex jurisdictional issues.",
+          "zh": "跨境案件引起複雜的管轄問題。"
+        },
+        {
+          "en": "Regulatory jurisdiction over virtual assets has been clarified.",
+          "zh": "虛擬資產的規管管轄範圍已獲釐清。"
+        }
+      ]
     },
     {
       "term": "rule of law",
       "zh": "法治",
       "pos": "n. phr.",
-      "related": [],
+      "related": [
+        "legal supremacy",
+        "equality before the law",
+        "law-based governance"
+      ],
       "note": "",
       "example": "…ards precisely expose the political manipulation essence of the report, rather than a genuine concern for the rule of law and human rights. The LegCo spokesperson emphasised that Hong Kong's judicial independence is fully protected…",
       "matchedSpan": "rule of law",
@@ -1671,7 +2859,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300351.htm",
         "pubDate": "Fri, 23 Oct 2026 12:50:00 +0800",
         "pubDateIso": "2026-10-23T12:50:00+08:00"
-      }
+      },
+      "synonyms": [
+        "legal supremacy",
+        "equality before the law",
+        "law-based governance"
+      ],
+      "antonyms": [
+        "rule by whim",
+        "lawlessness",
+        "arbitrary rule"
+      ],
+      "examples": [
+        {
+          "en": "The rule of law underpins Hong Kong's success.",
+          "zh": "法治是香港成功的基石。"
+        },
+        {
+          "en": "Independent courts uphold the rule of law.",
+          "zh": "獨立法院維護法治。"
+        },
+        {
+          "en": "Investors cite the rule of law as a key advantage.",
+          "zh": "投資者視法治為主要優勢。"
+        }
+      ]
     },
     {
       "term": "accountable",
@@ -1689,7 +2901,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300351.htm",
         "pubDate": "Fri, 23 Oct 2026 12:50:00 +0800",
         "pubDateIso": "2026-10-23T12:50:00+08:00"
-      }
+      },
+      "synonyms": [
+        "answerable",
+        "responsible",
+        "liable to explain"
+      ],
+      "antonyms": [
+        "unaccountable",
+        "unanswerable",
+        "above scrutiny"
+      ],
+      "examples": [
+        {
+          "en": "Controlling officers are accountable for proper use of funds.",
+          "zh": "管制人員須對妥善運用公帑問責。"
+        },
+        {
+          "en": "Clear ownership makes teams more accountable for outcomes.",
+          "zh": "清晰主責使團隊更為成果問責。"
+        },
+        {
+          "en": "Public bodies must remain accountable to the legislature.",
+          "zh": "公共機構必須向立法機關問責。"
+        }
+      ]
     },
     {
       "term": "livelihood",
@@ -1706,7 +2942,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300351.htm",
         "pubDate": "Fri, 23 Oct 2026 12:50:00 +0800",
         "pubDateIso": "2026-10-23T12:50:00+08:00"
-      }
+      },
+      "synonyms": [
+        "means of living",
+        "subsistence",
+        "daily welfare"
+      ],
+      "antonyms": [
+        "destitution",
+        "hardship",
+        "joblessness"
+      ],
+      "examples": [
+        {
+          "en": "Livelihood measures remain a priority in the Policy Address.",
+          "zh": "民生措施仍是施政報告的優先事項。"
+        },
+        {
+          "en": "Rising rents threaten the livelihood of small shop operators.",
+          "zh": "租金上升威脅小商戶的生計。"
+        },
+        {
+          "en": "The package supports the livelihood of grassroots families.",
+          "zh": "措施組合支援基層家庭民生。"
+        }
+      ]
     },
     {
       "term": "prosperity",
@@ -1724,7 +2984,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300351.htm",
         "pubDate": "Fri, 23 Oct 2026 12:50:00 +0800",
         "pubDateIso": "2026-10-23T12:50:00+08:00"
-      }
+      },
+      "synonyms": [
+        "affluence",
+        "economic well-being",
+        "thriving fortunes"
+      ],
+      "antonyms": [
+        "recession",
+        "hardship",
+        "impoverishment"
+      ],
+      "examples": [
+        {
+          "en": "Stability and prosperity remain twin policy goals.",
+          "zh": "穩定與繁榮仍是雙重政策目標。"
+        },
+        {
+          "en": "Trade openness underpins long-term prosperity.",
+          "zh": "貿易開放支撐長遠繁榮。"
+        },
+        {
+          "en": "Shared prosperity requires inclusive growth.",
+          "zh": "共享繁榮需要包容性增長。"
+        }
+      ]
     },
     {
       "term": "stability",
@@ -1742,7 +3026,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300351.htm",
         "pubDate": "Fri, 23 Oct 2026 12:50:00 +0800",
         "pubDateIso": "2026-10-23T12:50:00+08:00"
-      }
+      },
+      "synonyms": [
+        "steadiness",
+        "equilibrium",
+        "order"
+      ],
+      "antonyms": [
+        "instability",
+        "volatility",
+        "turmoil"
+      ],
+      "examples": [
+        {
+          "en": "Social stability is a prerequisite for investment.",
+          "zh": "社會穩定是投資的先決條件。"
+        },
+        {
+          "en": "Price stability is a core monetary objective.",
+          "zh": "物價穩定是貨幣政策核心目標。"
+        },
+        {
+          "en": "Policy consistency supports market stability.",
+          "zh": "政策一致性支持市場穩定。"
+        }
+      ]
     },
     {
       "term": "infrastructure",
@@ -1759,7 +3067,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300353.htm",
         "pubDate": "Fri, 23 Oct 2026 12:42:00 +0800",
         "pubDateIso": "2026-10-23T12:42:00+08:00"
-      }
+      },
+      "synonyms": [
+        "public works",
+        "capital facilities",
+        "built systems"
+      ],
+      "antonyms": [
+        "disrepair",
+        "dilapidation",
+        "underinvestment"
+      ],
+      "examples": [
+        {
+          "en": "Major infrastructure supports the Northern Metropolis plan.",
+          "zh": "大型基建支援北部都會區計劃。"
+        },
+        {
+          "en": "Digital infrastructure underpins smart-city services.",
+          "zh": "數碼基建支撐智慧城市服務。"
+        },
+        {
+          "en": "Ageing infrastructure requires timely maintenance.",
+          "zh": "老化基建需要適時維修。"
+        }
+      ]
     },
     {
       "term": "virtual asset",
@@ -1777,7 +3109,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300353.htm",
         "pubDate": "Fri, 23 Oct 2026 12:42:00 +0800",
         "pubDateIso": "2026-10-23T12:42:00+08:00"
-      }
+      },
+      "synonyms": [
+        "crypto-asset",
+        "digital asset",
+        "tokenised asset"
+      ],
+      "antonyms": [
+        "traditional security only",
+        "physical asset only",
+        "fiat cash only"
+      ],
+      "examples": [
+        {
+          "en": "Licensing regimes cover virtual asset trading platforms.",
+          "zh": "發牌制度涵蓋虛擬資產交易平台。"
+        },
+        {
+          "en": "Investor education on virtual assets is being stepped up.",
+          "zh": "當局加強虛擬資產投資者教育。"
+        },
+        {
+          "en": "AML rules apply fully to virtual asset service providers.",
+          "zh": "反洗錢規則全面適用於虛擬資產服務提供者。"
+        }
+      ]
     },
     {
       "term": "tokenisation",
@@ -1795,7 +3151,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300353.htm",
         "pubDate": "Fri, 23 Oct 2026 12:42:00 +0800",
         "pubDateIso": "2026-10-23T12:42:00+08:00"
-      }
+      },
+      "synonyms": [
+        "asset digitisation",
+        "on-chain representation",
+        "token-based issuance"
+      ],
+      "antonyms": [
+        "paper-based issuance",
+        "analogue custody only",
+        "non-token settlement"
+      ],
+      "examples": [
+        {
+          "en": "Tokenisation of bonds can shorten settlement cycles.",
+          "zh": "債券代幣化可縮短交收周期。"
+        },
+        {
+          "en": "Regulators study risks arising from tokenisation.",
+          "zh": "監管機構研究代幣化帶來的風險。"
+        },
+        {
+          "en": "Real-estate tokenisation may broaden investor access.",
+          "zh": "房地產代幣化或擴大投資者參與。"
+        }
+      ]
     },
     {
       "term": "feasibility",
@@ -1813,7 +3193,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300353.htm",
         "pubDate": "Fri, 23 Oct 2026 12:42:00 +0800",
         "pubDateIso": "2026-10-23T12:42:00+08:00"
-      }
+      },
+      "synonyms": [
+        "practicability",
+        "workability",
+        "viability"
+      ],
+      "antonyms": [
+        "infeasibility",
+        "impracticability",
+        "unworkability"
+      ],
+      "examples": [
+        {
+          "en": "A feasibility study precedes major capital commitment.",
+          "zh": "可行性研究先於重大資本投放。"
+        },
+        {
+          "en": "Technical feasibility is clear; political feasibility is not.",
+          "zh": "技術可行性明確；政治可行性則否。"
+        },
+        {
+          "en": "Cost overruns raise doubts about continued feasibility.",
+          "zh": "成本超支令持續可行性成疑。"
+        }
+      ]
     },
     {
       "term": "stablecoin",
@@ -1830,7 +3234,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300353.htm",
         "pubDate": "Fri, 23 Oct 2026 12:42:00 +0800",
         "pubDateIso": "2026-10-23T12:42:00+08:00"
-      }
+      },
+      "synonyms": [
+        "fiat-referenced token",
+        "price-stable crypto",
+        "pegged digital token"
+      ],
+      "antonyms": [
+        "volatile cryptocurrency",
+        "unbacked token",
+        "free-floating coin"
+      ],
+      "examples": [
+        {
+          "en": "Proposed rules will regulate fiat-referenced stablecoin issuers.",
+          "zh": "建議規則將規管法幣掛鈎穩定幣發行人。"
+        },
+        {
+          "en": "Stablecoins can facilitate efficient on-chain settlement.",
+          "zh": "穩定幣可促進高效鏈上結算。"
+        },
+        {
+          "en": "Reserves backing a stablecoin must be high-quality and liquid.",
+          "zh": "穩定幣儲備須為優質及具流動性。"
+        }
+      ]
     },
     {
       "term": "Belt and Road",
@@ -1847,7 +3275,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102200642.htm",
         "pubDate": "Fri, 23 Oct 2026 12:15:00 +0800",
         "pubDateIso": "2026-10-23T12:15:00+08:00"
-      }
+      },
+      "synonyms": [
+        "BRI",
+        "Silk Road Initiative",
+        "B&R cooperation"
+      ],
+      "antonyms": [
+        "isolationism",
+        "decoupling",
+        "withdrawal from BRI"
+      ],
+      "examples": [
+        {
+          "en": "Hong Kong serves as a hub for Belt and Road financing.",
+          "zh": "香港作為「一帶一路」融資樞紐。"
+        },
+        {
+          "en": "Professional services support Belt and Road projects.",
+          "zh": "專業服務支援「一帶一路」項目。"
+        },
+        {
+          "en": "Belt and Road forums attract international investors.",
+          "zh": "「一帶一路」論壇吸引國際投資者。"
+        }
+      ]
     },
     {
       "term": "prosecution",
@@ -1865,7 +3317,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300281.htm",
         "pubDate": "Fri, 23 Oct 2026 11:30:00 +0800",
         "pubDateIso": "2026-10-23T11:30:00+08:00"
-      }
+      },
+      "synonyms": [
+        "criminal proceedings",
+        "bringing of charges",
+        "indictment process"
+      ],
+      "antonyms": [
+        "acquittal process",
+        "withdrawal of charges",
+        "non-prosecution"
+      ],
+      "examples": [
+        {
+          "en": "The Department of Justice decides independently on prosecution.",
+          "zh": "律政司獨立決定是否檢控。"
+        },
+        {
+          "en": "Successful prosecution depends on sufficient admissible evidence.",
+          "zh": "成功檢控取決於充分可接納證據。"
+        },
+        {
+          "en": "Prosecution policy emphasises fairness and the public interest.",
+          "zh": "檢控政策強調公平及公眾利益。"
+        }
+      ]
     },
     {
       "term": "decarbonisation",
@@ -1883,7 +3359,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102200350.htm",
         "pubDate": "Fri, 23 Oct 2026 10:00:00 +0800",
         "pubDateIso": "2026-10-23T10:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "emissions reduction",
+        "low-carbon transition",
+        "defossilisation"
+      ],
+      "antonyms": [
+        "carbonisation",
+        "emissions growth",
+        "fossil expansion"
+      ],
+      "examples": [
+        {
+          "en": "Power-sector decarbonisation is central to climate policy.",
+          "zh": "電力行業減碳是氣候政策的核心。"
+        },
+        {
+          "en": "Green finance channels capital into decarbonisation projects.",
+          "zh": "綠色金融把資金導向減碳項目。"
+        },
+        {
+          "en": "Industry roadmaps set timelines for decarbonisation.",
+          "zh": "業界路線圖訂定減碳時間表。"
+        }
+      ]
     },
     {
       "term": "pilot scheme",
@@ -1900,7 +3400,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102200350.htm",
         "pubDate": "Fri, 23 Oct 2026 10:00:00 +0800",
         "pubDateIso": "2026-10-23T10:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "trial programme",
+        "demonstration project",
+        "test-bed scheme"
+      ],
+      "antonyms": [
+        "full-scale rollout",
+        "permanent programme",
+        "territory-wide scheme"
+      ],
+      "examples": [
+        {
+          "en": "A pilot scheme will test the new subsidy model.",
+          "zh": "先導計劃將測試新資助模式。"
+        },
+        {
+          "en": "Successful pilots may be extended territory-wide.",
+          "zh": "成功先導或擴展至全港。"
+        },
+        {
+          "en": "Evaluation criteria were set before the pilot scheme began.",
+          "zh": "先導計劃開始前已訂評估準則。"
+        }
+      ]
     },
     {
       "term": "phase out",
@@ -1917,7 +3441,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102200350.htm",
         "pubDate": "Fri, 23 Oct 2026 10:00:00 +0800",
         "pubDateIso": "2026-10-23T10:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "gradually withdraw",
+        "discontinue stepwise",
+        "retire progressively"
+      ],
+      "antonyms": [
+        "phase in",
+        "retain indefinitely",
+        "expand"
+      ],
+      "examples": [
+        {
+          "en": "Coal-fired generation will be phased out under the climate plan.",
+          "zh": "按氣候計劃燃煤發電將逐步淘汰。"
+        },
+        {
+          "en": "Single-use plastics are being phased out in government venues.",
+          "zh": "政府場地正逐步淘汰即棄塑膠。"
+        },
+        {
+          "en": "Legacy systems will be phased out after migration.",
+          "zh": "舊系統在遷移後將逐步停用。"
+        }
+      ]
     },
     {
       "term": "roadmap",
@@ -1934,13 +3482,41 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102200350.htm",
         "pubDate": "Fri, 23 Oct 2026 10:00:00 +0800",
         "pubDateIso": "2026-10-23T10:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "action plan",
+        "timed pathway",
+        "implementation route"
+      ],
+      "antonyms": [
+        "aimless drift",
+        "no timeline",
+        "unsequenced actions"
+      ],
+      "examples": [
+        {
+          "en": "The decarbonisation roadmap sets sectoral milestones.",
+          "zh": "減碳路線圖訂立行業里程碑。"
+        },
+        {
+          "en": "A clear roadmap helps investors plan with certainty.",
+          "zh": "清晰路線圖協助投資者有把握地規劃。"
+        },
+        {
+          "en": "The roadmap will be updated after mid-term review.",
+          "zh": "路線圖將於中期檢討後更新。"
+        }
+      ]
     },
     {
       "term": "national education",
       "zh": "國民教育",
       "pos": "n. phr.",
-      "related": [],
+      "related": [
+        "patriotic education",
+        "civic-national curriculum",
+        "nationhood education"
+      ],
       "note": "",
       "example": "…althy democratic politics that suits Hong Kong’s actual circumstances and is effective and viable.\" Enhancing National Education The HKSAR Government spokesman pointed out, \"Schools are places for students to learn and grow. It is the obl…",
       "matchedSpan": "National Education",
@@ -1949,13 +3525,41 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300030.htm",
         "pubDate": "Fri, 23 Oct 2026 01:28:49 +0800",
         "pubDateIso": "2026-10-23T01:28:49+08:00"
-      }
+      },
+      "synonyms": [
+        "patriotic education",
+        "civic-national curriculum",
+        "nationhood education"
+      ],
+      "antonyms": [
+        "apolitical schooling only",
+        "anti-national curriculum",
+        "civic void"
+      ],
+      "examples": [
+        {
+          "en": "National education strengthens students' sense of belonging.",
+          "zh": "國民教育加強學生歸屬感。"
+        },
+        {
+          "en": "Teacher training supports quality national education.",
+          "zh": "教師培訓支援優質國民教育。"
+        },
+        {
+          "en": "National education is integrated across subjects.",
+          "zh": "國民教育跨科目融入。"
+        }
+      ]
     },
     {
       "term": "pursuant to",
       "zh": "根據；依據",
       "pos": "prep. phr.",
-      "related": [],
+      "related": [
+        "in accordance with",
+        "under",
+        "by virtue of"
+      ],
       "note": "法律英語高頻",
       "example": "…and passed by the Parliament within a month. As of June 2026, the UK authorities arrested nearly 4 000 people pursuant to national security and counter-terrorism laws; representing 15 times increase compared to the same period of t…",
       "matchedSpan": "pursuant to",
@@ -1964,7 +3568,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300030.htm",
         "pubDate": "Fri, 23 Oct 2026 01:28:49 +0800",
         "pubDateIso": "2026-10-23T01:28:49+08:00"
-      }
+      },
+      "synonyms": [
+        "in accordance with",
+        "under",
+        "by virtue of"
+      ],
+      "antonyms": [
+        "contrary to",
+        "in breach of",
+        "regardless of"
+      ],
+      "examples": [
+        {
+          "en": "Action was taken pursuant to section 5 of the ordinance.",
+          "zh": "行動依據條例第5條採取。"
+        },
+        {
+          "en": "Fees are charged pursuant to the gazetted schedule.",
+          "zh": "費用按刊憲附表收取。"
+        },
+        {
+          "en": "Appointments are made pursuant to the relevant regulation.",
+          "zh": "任命依據相關規例作出。"
+        }
+      ]
     },
     {
       "term": "curriculum",
@@ -1982,7 +3610,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300030.htm",
         "pubDate": "Fri, 23 Oct 2026 01:28:49 +0800",
         "pubDateIso": "2026-10-23T01:28:49+08:00"
-      }
+      },
+      "synonyms": [
+        "syllabus",
+        "programme of study",
+        "course framework"
+      ],
+      "antonyms": [
+        "extracurricular only",
+        "unstructured learning",
+        "ad-hoc content"
+      ],
+      "examples": [
+        {
+          "en": "The curriculum emphasises national education and values.",
+          "zh": "課程強調國民教育與價值觀。"
+        },
+        {
+          "en": "STEM is embedded across the secondary curriculum.",
+          "zh": "STEM已融入中學課程。"
+        },
+        {
+          "en": "Curriculum reform requires teacher professional development.",
+          "zh": "課程改革需要教師專業發展。"
+        }
+      ]
     },
     {
       "term": "stipulate",
@@ -2000,7 +3652,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300030.htm",
         "pubDate": "Fri, 23 Oct 2026 01:28:49 +0800",
         "pubDateIso": "2026-10-23T01:28:49+08:00"
-      }
+      },
+      "synonyms": [
+        "specify",
+        "prescribe",
+        "lay down"
+      ],
+      "antonyms": [
+        "leave unspecified",
+        "omit",
+        "remain silent on"
+      ],
+      "examples": [
+        {
+          "en": "The ordinance stipulates maximum working hours for drivers.",
+          "zh": "條例訂明司機最高工作時數。"
+        },
+        {
+          "en": "Contracts stipulate penalties for late delivery.",
+          "zh": "合約訂明遲交罰款。"
+        },
+        {
+          "en": "Guidelines stipulate the documents required for application.",
+          "zh": "指引訂明申請所需文件。"
+        }
+      ]
     },
     {
       "term": "reiterate",
@@ -2018,7 +3694,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300030.htm",
         "pubDate": "Fri, 23 Oct 2026 01:28:49 +0800",
         "pubDateIso": "2026-10-23T01:28:49+08:00"
-      }
+      },
+      "synonyms": [
+        "restate",
+        "reaffirm",
+        "repeat"
+      ],
+      "antonyms": [
+        "retract",
+        "withdraw",
+        "contradict"
+      ],
+      "examples": [
+        {
+          "en": "The Chief Executive reiterated the commitment to the rule of law.",
+          "zh": "行政長官重申對法治的承諾。"
+        },
+        {
+          "en": "Officials reiterate that public health comes first.",
+          "zh": "官員重申公共衛生優先。"
+        },
+        {
+          "en": "The circular reiterates existing safety requirements.",
+          "zh": "通告重申現行安全規定。"
+        }
+      ]
     },
     {
       "term": "expedite",
@@ -2036,7 +3736,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300030.htm",
         "pubDate": "Fri, 23 Oct 2026 01:28:49 +0800",
         "pubDateIso": "2026-10-23T01:28:49+08:00"
-      }
+      },
+      "synonyms": [
+        "accelerate",
+        "hasten",
+        "fast-track"
+      ],
+      "antonyms": [
+        "delay",
+        "defer",
+        "protract"
+      ],
+      "examples": [
+        {
+          "en": "The bureau will expedite land disposal for public housing.",
+          "zh": "政策局將加快公營房屋土地批出。"
+        },
+        {
+          "en": "Digital submission expedites the processing of applications.",
+          "zh": "電子遞交加快申請處理。"
+        },
+        {
+          "en": "Stakeholders urged the Government to expedite legislative amendments.",
+          "zh": "持份者促請政府從速辦理法例修訂。"
+        }
+      ]
     },
     {
       "term": "mitigate",
@@ -2054,7 +3778,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300030.htm",
         "pubDate": "Fri, 23 Oct 2026 01:28:49 +0800",
         "pubDateIso": "2026-10-23T01:28:49+08:00"
-      }
+      },
+      "synonyms": [
+        "lessen",
+        "cushion",
+        "temper"
+      ],
+      "antonyms": [
+        "aggravate",
+        "amplify",
+        "exacerbate"
+      ],
+      "examples": [
+        {
+          "en": "Green buffers mitigate the impact of new highways on residents.",
+          "zh": "綠化緩衝帶緩解新公路對居民的影響。"
+        },
+        {
+          "en": "Risk assessments help mitigate project delays.",
+          "zh": "風險評估有助減輕項目延誤。"
+        },
+        {
+          "en": "Insurance schemes mitigate financial losses from extreme weather.",
+          "zh": "保險計劃減輕極端天氣造成的財務損失。"
+        }
+      ]
     },
     {
       "term": "underscoring",
@@ -2072,7 +3820,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200546.htm",
         "pubDate": "Thu, 22 Oct 2026 17:58:00 +0800",
         "pubDateIso": "2026-10-22T17:58:00+08:00"
-      }
+      },
+      "synonyms": [
+        "highlighting",
+        "emphasising",
+        "stressing"
+      ],
+      "antonyms": [
+        "downplaying",
+        "understating",
+        "glossing over"
+      ],
+      "examples": [
+        {
+          "en": "The Secretary spoke, underscoring the urgency of housing supply.",
+          "zh": "局長發言時強調房屋供應的迫切性。"
+        },
+        {
+          "en": "Rising complaints are underscoring service gaps.",
+          "zh": "投訴上升凸顯服務缺口。"
+        },
+        {
+          "en": "The report closes by underscoring the need for oversight.",
+          "zh": "報告結尾強調監察的需要。"
+        }
+      ]
     },
     {
       "term": "accountability",
@@ -2089,7 +3861,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200511.htm",
         "pubDate": "Thu, 22 Oct 2026 17:00:00 +0800",
         "pubDateIso": "2026-10-22T17:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "answerability",
+        "responsibility",
+        "liability to account"
+      ],
+      "antonyms": [
+        "impunity",
+        "unaccountability",
+        "evasion of responsibility"
+      ],
+      "examples": [
+        {
+          "en": "Clear lines of accountability improve governance.",
+          "zh": "清晰的問責界線改善管治。"
+        },
+        {
+          "en": "Officials face accountability for misuse of public funds.",
+          "zh": "官員須為濫用公帑承擔問責。"
+        },
+        {
+          "en": "Independent audits reinforce accountability in NGOs.",
+          "zh": "獨立審計加強非政府機構的問責。"
+        }
+      ]
     },
     {
       "term": "task force",
@@ -2106,7 +3902,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200511.htm",
         "pubDate": "Thu, 22 Oct 2026 17:00:00 +0800",
         "pubDateIso": "2026-10-22T17:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "working group",
+        "special team",
+        "ad-hoc committee"
+      ],
+      "antonyms": [
+        "standing bureaucracy",
+        "permanent department",
+        "idle committee"
+      ],
+      "examples": [
+        {
+          "en": "A cross-bureau task force coordinates the response.",
+          "zh": "跨政策局專責小組協調應對。"
+        },
+        {
+          "en": "The task force will report within six months.",
+          "zh": "專責小組將於六個月內提交報告。"
+        },
+        {
+          "en": "Industry experts sit on the anti-scam task force.",
+          "zh": "業界專家加入反詐騙專責小組。"
+        }
+      ]
     },
     {
       "term": "enactment",
@@ -2124,7 +3944,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200511.htm",
         "pubDate": "Thu, 22 Oct 2026 17:00:00 +0800",
         "pubDateIso": "2026-10-22T17:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "passage into law",
+        "legislation",
+        "statute-making"
+      ],
+      "antonyms": [
+        "repeal",
+        "nullification",
+        "rescission"
+      ],
+      "examples": [
+        {
+          "en": "Enactment of the bill followed lengthy committee scrutiny.",
+          "zh": "條例草案經委員會詳細審議後制定。"
+        },
+        {
+          "en": "The enactment clarifies duties of licensed operators.",
+          "zh": "成文法則釐清持牌營運者的責任。"
+        },
+        {
+          "en": "Stakeholders welcomed early enactment of consumer safeguards.",
+          "zh": "持份者歡迎盡早制定消費者保障。"
+        }
+      ]
     },
     {
       "term": "liaison",
@@ -2145,14 +3989,14 @@
         "pubDateIso": "2026-10-22T17:00:00+08:00"
       },
       "synonyms": [
-        "connection",
         "coordination",
-        "communication"
+        "intermediary link",
+        "contact channel"
       ],
       "antonyms": [
-        "disconnection",
         "isolation",
-        "separation"
+        "disconnection",
+        "siloed working"
       ],
       "examples": [
         {
@@ -2185,7 +4029,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200511.htm",
         "pubDate": "Thu, 22 Oct 2026 17:00:00 +0800",
         "pubDateIso": "2026-10-22T17:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "appraise",
+        "gauge",
+        "evaluate"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook",
+        "disregard"
+      ],
+      "examples": [
+        {
+          "en": "Officials will assess the environmental impact of the project.",
+          "zh": "官員將評估項目的環境影響。"
+        },
+        {
+          "en": "Schools assess student progress through continuous assessment.",
+          "zh": "學校以持續評估衡量學生進度。"
+        },
+        {
+          "en": "Risks must be assessed before capital is committed.",
+          "zh": "投入資金前必須評估風險。"
+        }
+      ]
     },
     {
       "term": "tackle",
@@ -2203,7 +4071,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200511.htm",
         "pubDate": "Thu, 22 Oct 2026 17:00:00 +0800",
         "pubDateIso": "2026-10-22T17:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "address",
+        "combat",
+        "grapple with"
+      ],
+      "antonyms": [
+        "ignore",
+        "sidestep",
+        "leave unaddressed"
+      ],
+      "examples": [
+        {
+          "en": "A multi-pronged strategy is needed to tackle housing supply.",
+          "zh": "處理房屋供應需要多管齊下策略。"
+        },
+        {
+          "en": "Cross-border task forces tackle telecom fraud.",
+          "zh": "跨境專責小組打擊電訊詐騙。"
+        },
+        {
+          "en": "Schools tackle learning loss through targeted tutoring.",
+          "zh": "學校以針對性補習處理學習損失。"
+        }
+      ]
     },
     {
       "term": "comprehensive social security assistance",
@@ -2220,13 +4112,41 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200282.htm",
         "pubDate": "Thu, 22 Oct 2026 17:00:00 +0800",
         "pubDateIso": "2026-10-22T17:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "CSSA",
+        "means-tested welfare",
+        "social assistance"
+      ],
+      "antonyms": [
+        "self-reliance without aid",
+        "contributory benefits only",
+        "no safety-net support"
+      ],
+      "examples": [
+        {
+          "en": "CSSA provides a safety net for those in financial hardship.",
+          "zh": "綜援為經濟困難人士提供安全網。"
+        },
+        {
+          "en": "Able-bodied recipients are encouraged to seek employment.",
+          "zh": "健全受助人獲鼓勵尋找工作。"
+        },
+        {
+          "en": "Asset limits determine eligibility for CSSA.",
+          "zh": "資產限額決定綜援資格。"
+        }
+      ]
     },
     {
       "term": "influx",
       "zh": "湧入；流入",
       "pos": "n.",
-      "related": [],
+      "related": [
+        "inflow",
+        "surge of arrivals",
+        "inrush"
+      ],
       "note": "人才／資金湧入",
       "example": "…o 2.0%. Over the same period, both the labour force and total employment increased further amid the continued influx of fresh graduates and school leavers into the labour market.\" Looking ahead, Mr Sun said, \"The sustained exp…",
       "matchedSpan": "influx",
@@ -2235,7 +4155,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200430.htm",
         "pubDate": "Thu, 22 Oct 2026 16:30:00 +0800",
         "pubDateIso": "2026-10-22T16:30:00+08:00"
-      }
+      },
+      "synonyms": [
+        "inflow",
+        "surge of arrivals",
+        "inrush"
+      ],
+      "antonyms": [
+        "exodus",
+        "outflow",
+        "drain"
+      ],
+      "examples": [
+        {
+          "en": "An influx of visitors boosted retail sales.",
+          "zh": "旅客湧入提振零售銷售。"
+        },
+        {
+          "en": "The city prepared for an influx of cross-boundary students.",
+          "zh": "本港為跨境學生湧入作好準備。"
+        },
+        {
+          "en": "Capital influx supported the equity market.",
+          "zh": "資金流入支持股市。"
+        }
+      ]
     },
     {
       "term": "outbound",
@@ -2252,7 +4196,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200426.htm",
         "pubDate": "Thu, 22 Oct 2026 16:30:00 +0800",
         "pubDateIso": "2026-10-22T16:30:00+08:00"
-      }
+      },
+      "synonyms": [
+        "outward-bound",
+        "departing",
+        "emigrant"
+      ],
+      "antonyms": [
+        "inbound",
+        "arriving",
+        "incoming"
+      ],
+      "examples": [
+        {
+          "en": "Outbound tourism rebounded after border reopening.",
+          "zh": "開關後出境旅遊反彈。"
+        },
+        {
+          "en": "Outbound investment into the Mainland continues to grow.",
+          "zh": "對內地的對外投資持續增長。"
+        },
+        {
+          "en": "Outbound student mobility broadens global exposure.",
+          "zh": "學生外流流動擴闊國際視野。"
+        }
+      ]
     },
     {
       "term": "inbound",
@@ -2269,7 +4237,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200426.htm",
         "pubDate": "Thu, 22 Oct 2026 16:30:00 +0800",
         "pubDateIso": "2026-10-22T16:30:00+08:00"
-      }
+      },
+      "synonyms": [
+        "incoming",
+        "arriving",
+        "inward"
+      ],
+      "antonyms": [
+        "outbound",
+        "departing",
+        "outward"
+      ],
+      "examples": [
+        {
+          "en": "Inbound tourism is a pillar of the local economy.",
+          "zh": "入境旅遊是本地經濟支柱。"
+        },
+        {
+          "en": "Inbound talent strengthens the professional workforce.",
+          "zh": "入境人才強化專業人力。"
+        },
+        {
+          "en": "Health checks apply to inbound travellers from risk areas.",
+          "zh": "來自風險地區的入境旅客須接受健康檢查。"
+        }
+      ]
     },
     {
       "term": "compound",
@@ -2287,13 +4279,41 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200504.htm",
         "pubDate": "Thu, 22 Oct 2026 16:15:00 +0800",
         "pubDateIso": "2026-10-22T16:15:00+08:00"
-      }
+      },
+      "synonyms": [
+        "aggravate further",
+        "add to",
+        "magnify"
+      ],
+      "antonyms": [
+        "offset",
+        "ameliorate",
+        "lessen"
+      ],
+      "examples": [
+        {
+          "en": "Staff shortages compound existing service delays.",
+          "zh": "人手短缺加重既有服務延誤。"
+        },
+        {
+          "en": "Multiple shocks compounded pressure on fiscal reserves.",
+          "zh": "多重衝擊加重財政儲備壓力。"
+        },
+        {
+          "en": "Misinformation can compound public anxiety in a crisis.",
+          "zh": "錯誤資訊會加重危機中的公眾焦慮。"
+        }
+      ]
     },
     {
       "term": "public consultation",
       "zh": "公眾諮詢",
       "pos": "n. phr.",
-      "related": [],
+      "related": [
+        "public engagement",
+        "open consultation",
+        "community sounding"
+      ],
       "note": "",
       "example": "…027 Rural Ordinary Election to be held early next year and rural by-elections thereafter. The EAC conducted a public consultation on the proposed Guidelines from July 20 to August 18. The EAC expresses its sincere gratitude to members of t…",
       "matchedSpan": "public consultation",
@@ -2302,7 +4322,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200510.htm",
         "pubDate": "Thu, 22 Oct 2026 16:00:00 +0800",
         "pubDateIso": "2026-10-22T16:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "public engagement",
+        "open consultation",
+        "community sounding"
+      ],
+      "antonyms": [
+        "closed-door decision",
+        "no public input",
+        "rubber-stamp process"
+      ],
+      "examples": [
+        {
+          "en": "Public consultation on land use ran for eight weeks.",
+          "zh": "土地用途公眾諮詢為期八周。"
+        },
+        {
+          "en": "Results of the public consultation were published online.",
+          "zh": "公眾諮詢結果已於網上公布。"
+        },
+        {
+          "en": "Meaningful public consultation builds legitimacy.",
+          "zh": "有意義的公眾諮詢建立認受性。"
+        }
+      ]
     },
     {
       "term": "scale up",
@@ -2320,7 +4364,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200493.htm",
         "pubDate": "Thu, 22 Oct 2026 15:50:00 +0800",
         "pubDateIso": "2026-10-22T15:50:00+08:00"
-      }
+      },
+      "synonyms": [
+        "expand",
+        "enlarge",
+        "amplify delivery of"
+      ],
+      "antonyms": [
+        "scale down",
+        "contract",
+        "shrink"
+      ],
+      "examples": [
+        {
+          "en": "Successful pilots will be scaled up territory-wide.",
+          "zh": "成功先導將擴展至全港。"
+        },
+        {
+          "en": "NGOs need funding certainty before they can scale up.",
+          "zh": "非政府機構需要穩定撥款才能擴大規模。"
+        },
+        {
+          "en": "Digital platforms make it easier to scale up services.",
+          "zh": "數碼平台使擴大服務更容易。"
+        }
+      ]
     },
     {
       "term": "deploy",
@@ -2338,7 +4406,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200493.htm",
         "pubDate": "Thu, 22 Oct 2026 15:50:00 +0800",
         "pubDateIso": "2026-10-22T15:50:00+08:00"
-      }
+      },
+      "synonyms": [
+        "station",
+        "assign",
+        "mobilise"
+      ],
+      "antonyms": [
+        "withdraw",
+        "recall",
+        "demobilise"
+      ],
+      "examples": [
+        {
+          "en": "Additional officers will be deployed to crowded districts.",
+          "zh": "將增派人員到人流密集地區。"
+        },
+        {
+          "en": "AI tools are being deployed to detect fraud.",
+          "zh": "正部署人工智能工具偵測欺詐。"
+        },
+        {
+          "en": "Resources were rapidly deployed after the typhoon.",
+          "zh": "颱風後迅速調配資源。"
+        }
+      ]
     },
     {
       "term": "eligibility",
@@ -2356,7 +4448,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102100637.htm",
         "pubDate": "Thu, 22 Oct 2026 11:00:00 +0800",
         "pubDateIso": "2026-10-22T11:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "qualification",
+        "entitlement criteria",
+        "admission criteria"
+      ],
+      "antonyms": [
+        "ineligibility",
+        "disqualification",
+        "exclusion"
+      ],
+      "examples": [
+        {
+          "en": "Eligibility for the allowance is based on age and residence.",
+          "zh": "津貼資格按年齡及居港年期釐定。"
+        },
+        {
+          "en": "Tightening eligibility focuses resources on those in need.",
+          "zh": "收緊資格可把資源集中於有需要人士。"
+        },
+        {
+          "en": "Applicants must meet eligibility rules before enrolment.",
+          "zh": "申請人在登記前須符合資格規定。"
+        }
+      ]
     },
     {
       "term": "resilient",
@@ -2373,7 +4489,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/21/P2026102100915.htm",
         "pubDate": "Wed, 21 Oct 2026 23:18:00 +0800",
         "pubDateIso": "2026-10-21T23:18:00+08:00"
-      }
+      },
+      "synonyms": [
+        "robust",
+        "adaptable",
+        "shock-resistant"
+      ],
+      "antonyms": [
+        "fragile",
+        "vulnerable",
+        "brittle"
+      ],
+      "examples": [
+        {
+          "en": "A resilient economy can absorb external shocks.",
+          "zh": "具韌性的經濟可承受外來衝擊。"
+        },
+        {
+          "en": "Climate-resilient infrastructure reduces flood risk.",
+          "zh": "氣候韌性基建減低水浸風險。"
+        },
+        {
+          "en": "Community networks make districts more resilient in crises.",
+          "zh": "社區網絡使地區在危機中更抗逆。"
+        }
+      ]
     }
   ],
   "todaysPicks": [
@@ -2392,7 +4532,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200282.htm",
         "pubDate": "Thu, 22 Oct 2026 17:00:00 +0800",
         "pubDateIso": "2026-10-22T17:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "CSSA",
+        "means-tested welfare",
+        "social assistance"
+      ],
+      "antonyms": [
+        "self-reliance without aid",
+        "contributory benefits only",
+        "no safety-net support"
+      ],
+      "examples": [
+        {
+          "en": "CSSA provides a safety net for those in financial hardship.",
+          "zh": "綜援為經濟困難人士提供安全網。"
+        },
+        {
+          "en": "Able-bodied recipients are encouraged to seek employment.",
+          "zh": "健全受助人獲鼓勵尋找工作。"
+        },
+        {
+          "en": "Asset limits determine eligibility for CSSA.",
+          "zh": "資產限額決定綜援資格。"
+        }
+      ]
     },
     {
       "term": "memorandum of understanding",
@@ -2410,7 +4574,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300606.htm",
         "pubDate": "Fri, 23 Oct 2026 17:50:47 +0800",
         "pubDateIso": "2026-10-23T17:50:47+08:00"
-      }
+      },
+      "synonyms": [
+        "MoU",
+        "cooperation accord",
+        "framework agreement"
+      ],
+      "antonyms": [
+        "binding contract",
+        "enforceable treaty",
+        "adversarial dispute"
+      ],
+      "examples": [
+        {
+          "en": "The MoU sets out areas of bilateral cooperation.",
+          "zh": "諒解備忘錄訂明雙邊合作範疇。"
+        },
+        {
+          "en": "Universities signed an MoU on student exchange.",
+          "zh": "大學就學生交流簽署諒解備忘錄。"
+        },
+        {
+          "en": "An MoU is usually non-binding but signals commitment.",
+          "zh": "諒解備忘錄通常不具約束力但顯示承諾。"
+        }
+      ]
     },
     {
       "term": "one country, two systems",
@@ -2427,13 +4615,41 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300657.htm",
         "pubDate": "Fri, 23 Oct 2026 18:18:00 +0800",
         "pubDateIso": "2026-10-23T18:18:00+08:00"
-      }
+      },
+      "synonyms": [
+        "1C2S",
+        "high degree of autonomy framework",
+        "Basic Law arrangement"
+      ],
+      "antonyms": [
+        "one country, one system",
+        "unitary assimilation",
+        "loss of separate systems"
+      ],
+      "examples": [
+        {
+          "en": "'One country, two systems' underpins Hong Kong's unique status.",
+          "zh": "「一國兩制」支撐香港獨特地位。"
+        },
+        {
+          "en": "The Policy Address reaffirms 'one country, two systems'.",
+          "zh": "施政報告重申「一國兩制」。"
+        },
+        {
+          "en": "Investors value the predictability of 'one country, two systems'.",
+          "zh": "投資者重視「一國兩制」的可預期性。"
+        }
+      ]
     },
     {
       "term": "judicial independence",
       "zh": "司法獨立",
       "pos": "n. phr.",
-      "related": [],
+      "related": [
+        "court autonomy",
+        "impartial judiciary",
+        "independent adjudication"
+      ],
       "note": "",
       "example": "…an a genuine concern for the rule of law and human rights. The LegCo spokesperson emphasised that Hong Kong's judicial independence is fully protected by the Basic Law. Courts independently adjudicate cases strictly based on evidence and the…",
       "matchedSpan": "judicial independence",
@@ -2442,13 +4658,41 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300351.htm",
         "pubDate": "Fri, 23 Oct 2026 12:50:00 +0800",
         "pubDateIso": "2026-10-23T12:50:00+08:00"
-      }
+      },
+      "synonyms": [
+        "court autonomy",
+        "impartial judiciary",
+        "independent adjudication"
+      ],
+      "antonyms": [
+        "political interference",
+        "judicial subordination",
+        "biased adjudication"
+      ],
+      "examples": [
+        {
+          "en": "Judicial independence is guaranteed by the Basic Law.",
+          "zh": "司法獨立受《基本法》保障。"
+        },
+        {
+          "en": "Respect for judicial independence strengthens confidence.",
+          "zh": "尊重司法獨立加強信心。"
+        },
+        {
+          "en": "Appointment processes protect judicial independence.",
+          "zh": "任命程序保障司法獨立。"
+        }
+      ]
     },
     {
       "term": "public consultation",
       "zh": "公眾諮詢",
       "pos": "n. phr.",
-      "related": [],
+      "related": [
+        "public engagement",
+        "open consultation",
+        "community sounding"
+      ],
       "note": "",
       "example": "…027 Rural Ordinary Election to be held early next year and rural by-elections thereafter. The EAC conducted a public consultation on the proposed Guidelines from July 20 to August 18. The EAC expresses its sincere gratitude to members of t…",
       "matchedSpan": "public consultation",
@@ -2457,13 +4701,41 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200510.htm",
         "pubDate": "Thu, 22 Oct 2026 16:00:00 +0800",
         "pubDateIso": "2026-10-22T16:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "public engagement",
+        "open consultation",
+        "community sounding"
+      ],
+      "antonyms": [
+        "closed-door decision",
+        "no public input",
+        "rubber-stamp process"
+      ],
+      "examples": [
+        {
+          "en": "Public consultation on land use ran for eight weeks.",
+          "zh": "土地用途公眾諮詢為期八周。"
+        },
+        {
+          "en": "Results of the public consultation were published online.",
+          "zh": "公眾諮詢結果已於網上公布。"
+        },
+        {
+          "en": "Meaningful public consultation builds legitimacy.",
+          "zh": "有意義的公眾諮詢建立認受性。"
+        }
+      ]
     },
     {
       "term": "in accordance with",
       "zh": "按照；依據",
       "pos": "prep. phr.",
-      "related": [],
+      "related": [
+        "pursuant to",
+        "consistent with",
+        "as required by"
+      ],
       "note": "",
       "example": "…and Poisons Ordinance, any person who possesses any poison included in Part I of the Poisons List other than in accordance with provisions commits an offence. The maximum penalty upon conviction is a fine of $100,000 and imprisonment for…",
       "matchedSpan": "in accordance with",
@@ -2472,13 +4744,41 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300607.htm",
         "pubDate": "Fri, 23 Oct 2026 17:45:00 +0800",
         "pubDateIso": "2026-10-23T17:45:00+08:00"
-      }
+      },
+      "synonyms": [
+        "pursuant to",
+        "consistent with",
+        "as required by"
+      ],
+      "antonyms": [
+        "in conflict with",
+        "contrary to",
+        "in defiance of"
+      ],
+      "examples": [
+        {
+          "en": "Procedures were followed in accordance with the manual.",
+          "zh": "程序按手冊規定執行。"
+        },
+        {
+          "en": "Disposal of waste must be in accordance with the law.",
+          "zh": "廢物處置必須依法進行。"
+        },
+        {
+          "en": "Budgets are prepared in accordance with fiscal guidelines.",
+          "zh": "預算按財政指引編製。"
+        }
+      ]
     },
     {
       "term": "national education",
       "zh": "國民教育",
       "pos": "n. phr.",
-      "related": [],
+      "related": [
+        "patriotic education",
+        "civic-national curriculum",
+        "nationhood education"
+      ],
       "note": "",
       "example": "…althy democratic politics that suits Hong Kong’s actual circumstances and is effective and viable.\" Enhancing National Education The HKSAR Government spokesman pointed out, \"Schools are places for students to learn and grow. It is the obl…",
       "matchedSpan": "National Education",
@@ -2487,7 +4787,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300030.htm",
         "pubDate": "Fri, 23 Oct 2026 01:28:49 +0800",
         "pubDateIso": "2026-10-23T01:28:49+08:00"
-      }
+      },
+      "synonyms": [
+        "patriotic education",
+        "civic-national curriculum",
+        "nationhood education"
+      ],
+      "antonyms": [
+        "apolitical schooling only",
+        "anti-national curriculum",
+        "civic void"
+      ],
+      "examples": [
+        {
+          "en": "National education strengthens students' sense of belonging.",
+          "zh": "國民教育加強學生歸屬感。"
+        },
+        {
+          "en": "Teacher training supports quality national education.",
+          "zh": "教師培訓支援優質國民教育。"
+        },
+        {
+          "en": "National education is integrated across subjects.",
+          "zh": "國民教育跨科目融入。"
+        }
+      ]
     },
     {
       "term": "national security",
@@ -2504,7 +4828,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/24/P2026102400513.htm",
         "pubDate": "Sat, 24 Oct 2026 16:50:28 +0800",
         "pubDateIso": "2026-10-24T16:50:28+08:00"
-      }
+      },
+      "synonyms": [
+        "state security",
+        "homeland security",
+        "sovereignty protection"
+      ],
+      "antonyms": [
+        "security vacuum",
+        "threat to the state",
+        "destabilisation"
+      ],
+      "examples": [
+        {
+          "en": "Safeguarding national security is a constitutional duty.",
+          "zh": "維護國家安全是憲制責任。"
+        },
+        {
+          "en": "The law closes loopholes that endanger national security.",
+          "zh": "法例堵塞危害國家安全的漏洞。"
+        },
+        {
+          "en": "Education on national security starts at school level.",
+          "zh": "國家安全教育由學校層面開始。"
+        }
+      ]
     }
   ],
   "lexiconSize": 203,
