@@ -269,13 +269,17 @@
   },
   {
     "term": "liaison",
-    "zh": "聯繫；聯絡",
+    "zh": "聯絡；協調",
     "pos": "n.",
     "related": [
+      "connection",
+      "coordination",
+      "communication",
       "liaise",
       "liaising"
     ],
-    "note": "政府部門聯繫"
+    "note": "跨部門／跨機構聯絡；亦作 liaison officer。反義：disconnection、isolation、separation",
+    "example": "She serves as the liaison between the two departments."
   },
   {
     "term": "stakeholder",
@@ -1815,5 +1819,148 @@
       "underutilization"
     ],
     "note": "與 uptake 對照"
+  },
+  {
+    "term": "malfunction",
+    "zh": "故障；失靈",
+    "pos": "n. / v.",
+    "related": [
+      "breakdown",
+      "failure",
+      "defect",
+      "malfunctioning"
+    ],
+    "note": "設備／系統故障；公文常見 the equipment malfunctioned。反義：function、work、operate",
+    "example": "The equipment malfunction caused a temporary shutdown."
+  },
+  {
+    "term": "contravention",
+    "zh": "違反；違背",
+    "pos": "n.",
+    "related": [
+      "violation",
+      "breach",
+      "infringement",
+      "contravene"
+    ],
+    "note": "法規／協議違反；in contravention of…。反義：compliance、adherence、observance",
+    "example": "This action is in contravention of the safety regulations."
+  },
+  {
+    "term": "allegation",
+    "zh": "指控；聲稱",
+    "pos": "n.",
+    "related": [
+      "accusation",
+      "claim",
+      "assertion",
+      "allege"
+    ],
+    "note": "未證實的指控；調查報告常用。反義：denial、refutation、vindication",
+    "example": "The allegation against the minister was thoroughly investigated."
+  },
+  {
+    "term": "litigation",
+    "zh": "訴訟；法律訴訟",
+    "pos": "n.",
+    "related": [
+      "lawsuit",
+      "legal action",
+      "court case",
+      "litigate"
+    ],
+    "note": "司法程序；政策文件常寫 avoid costly litigation。反義：settlement、mediation、arbitration",
+    "example": "The company wants to avoid costly litigation."
+  },
+  {
+    "term": "impartiality",
+    "zh": "公正；不偏不倚",
+    "pos": "n.",
+    "related": [
+      "neutrality",
+      "fairness",
+      "objectivity",
+      "impartial"
+    ],
+    "note": "調解／裁決／監管機構核心價值。反義：bias、prejudice、favoritism",
+    "example": "Impartiality is essential for effective mediation."
+  },
+  {
+    "term": "ascertain",
+    "zh": "確定；查明",
+    "pos": "v.",
+    "related": [
+      "determine",
+      "establish",
+      "discover",
+      "ascertainment"
+    ],
+    "note": "調查／核實事實；公文：ascertain the facts／cause。反義：assume、guess、speculate",
+    "example": "We need to ascertain the facts before making a decision."
+  },
+  {
+    "term": "regime",
+    "zh": "制度；規管制度",
+    "pos": "n.",
+    "related": [
+      "system",
+      "administration",
+      "regulatory regime",
+      "government"
+    ],
+    "note": "JRE／政策文優先「制度／規管制度」（如 licensing regime）；「政權」為次要政治義。反義：anarchy、chaos、disorder",
+    "example": "Under the current regime, economic growth has improved."
+  },
+  {
+    "term": "attested",
+    "zh": "證實的；經證明的",
+    "pos": "adj.",
+    "related": [
+      "verified",
+      "confirmed",
+      "validated",
+      "attest"
+    ],
+    "note": "文件核證／證人證實；attested copy。反義：unproven、disputed、questionable",
+    "example": "The document must be attested by a qualified witness."
+  },
+  {
+    "term": "paramount",
+    "zh": "至關重要的；首要的",
+    "pos": "adj.",
+    "related": [
+      "supreme",
+      "utmost",
+      "primary",
+      "paramountcy"
+    ],
+    "note": "of paramount importance／concern；政策優先次序。反義：minor、secondary、trivial",
+    "example": "Safety is of paramount importance in this project."
+  },
+  {
+    "term": "infuse",
+    "zh": "注入；灌輸",
+    "pos": "v.",
+    "related": [
+      "instill",
+      "inject",
+      "introduce",
+      "infusion"
+    ],
+    "note": "為流程／團隊注入新元素；infuse … into …。反義：extract、remove、withdraw",
+    "example": "We need to infuse innovation into our traditional processes."
+  },
+  {
+    "term": "deterrence",
+    "zh": "威懾；阻嚇",
+    "pos": "n.",
+    "related": [
+      "prevention",
+      "discouragement",
+      "restraint",
+      "deterrent"
+    ],
+    "note": "阻嚇作用；亦常作 a deterrent（to crime／violations）。反義：encouragement、incentive、motivation",
+    "example": "The security measures serve as a deterrence to crime."
   }
 ]

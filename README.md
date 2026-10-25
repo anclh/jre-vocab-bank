@@ -59,7 +59,7 @@ A GitHub Action (`.github/workflows/refresh-feed.yml`) runs this **daily** and o
 | Q1 phrase bank | Discussion-paper frames: implications · assessment · recommend · monitor · who–when–resources · discourse markers |
 | Mini-drill | Weekly 20–25 min prompt from today’s picks + Q1 phrases (今日精選 panel) |
 
-See `EXPAND_BATCH1.md` for the latest lexicon / phrase counts.
+See `EXPAND_BATCH2.md` (and `EXPAND_BATCH1.md`) for the latest lexicon / phrase counts. Lexicon ≈ **203** terms.
 
 ## API (local `serve.py` only)
 
@@ -108,6 +108,7 @@ jre-vocab-bank/
 ├── cache/                   # local / CI fetch cache
 ├── static/                  # mirror of frontend (kept in sync)
 ├── obsidian/                # optional vault templates
-├── EXPAND_BATCH1.md         # latest expansion notes
+├── EXPAND_BATCH1.md         # expansion notes (batch 1)
+├── EXPAND_BATCH2.md         # expansion notes (batch 2; latest lexicon count)
 └── .github/workflows/refresh-feed.yml
 ```
