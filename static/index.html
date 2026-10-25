@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="JRE English — HKSAR press-release vocabulary bank for exam prep" />
   <title>JRE 英文時事詞彙庫 · Vocab Bank</title>
-  <link rel="stylesheet" href="styles.css?v=20261025b" />
+  <link rel="stylesheet" href="styles.css?v=20261025c" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect rx='8' width='32' height='32' fill='%233d9cf0'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-size='14' font-family='sans-serif' font-weight='700' fill='%230a1220'%3EJRE%3C/text%3E%3C/svg%3E" />
 </head>
 <body>
@@ -22,7 +22,6 @@
         <button type="button" data-panel="today" class="active">今日精選</button>
         <button type="button" data-panel="vocab">詞彙卡</button>
         <button type="button" data-panel="q1">Q1句式</button>
-        <button type="button" data-panel="feed">新聞稿</button>
         <button type="button" data-panel="programmes">項目對照</button>
         <button type="button" data-panel="saved">我的生字</button>
       </nav>
@@ -121,20 +120,6 @@
       <div class="card-grid" id="q1Grid"></div>
     </section>
 
-    <!-- Feed -->
-    <section class="panel" id="panel-feed">
-      <div class="toolbar">
-        <div class="search">
-          <input type="search" id="feedSearch" placeholder="搜尋新聞稿標題／內容…" autocomplete="off" />
-        </div>
-      </div>
-      <div class="section-title">
-        <h3>最新英文新聞稿</h3>
-        <span>來源：info.gov.hk GIA RSS</span>
-      </div>
-      <div class="feed-list" id="feedList"></div>
-    </section>
-
     <!-- Programmes -->
     <section class="panel" id="panel-programmes">
       <div class="disclaimer" id="progDisclaimer"></div>
@@ -186,6 +171,6 @@
   </footer>
 
   <div class="toast" id="toast" role="status"></div>
-  <script src="app.js?v=20261025b"></script>
+  <script src="app.js?v=20261025c"></script>
 </body>
 </html>

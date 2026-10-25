@@ -472,7 +472,8 @@ AFTERWARDS
   }
 
   function renderFeed() {
-    const q = ($("#feedSearch").value || "").trim().toLowerCase();
+    if (!$("#feedList")) return;
+    const q = (($("#feedSearch") && $("#feedSearch").value) || "").trim().toLowerCase();
     let items = state.feed?.items || [];
     if (q) {
       items = items.filter((it) =>
@@ -734,7 +735,8 @@ AFTERWARDS
   function initEvents() {
     $("#btnRefresh").addEventListener("click", () => loadFeed(true));
     $("#vocabSearch").addEventListener("input", renderVocab);
-    $("#feedSearch").addEventListener("input", renderFeed);
+    const feedSearch = $("#feedSearch");
+    if (feedSearch) feedSearch.addEventListener("input", renderFeed);
     $("#progSearch").addEventListener("input", renderProgrammes);
     $("#btnExport").addEventListener("click", () => {
       const blob = new Blob([JSON.stringify(state.saved, null, 2)], {
