@@ -11,6 +11,7 @@
     programmes: null,
     q1: null,
     saved: loadSaved(),
+    lexicon: [],
     progCategory: "all",
     q1Category: "all",
     dataMode: null, // 'api' | 'static' once resolved
@@ -169,10 +170,14 @@ function chipRow(label, items, cls) {
   }
 
   function findCard(term) {
+    const key = (term || "").toLowerCase();
     const feed = state.feed;
-    if (!feed) return null;
-    const all = [...(feed.todaysPicks || []), ...(feed.matches || [])];
-    return all.find((c) => c.term.toLowerCase() === term.toLowerCase()) || null;
+    const fromFeed = feed
+      ? [...(feed.todaysPicks || []), ...(feed.matches || [])].find((c) => c.term.toLowerCase() === key)
+      : null;
+    const fromLex = (state.lexicon || []).find((c) => c.term.toLowerCase() === key);
+    if (fromFeed && fromLex) return enrichFromLexicon(fromFeed);
+    return fromFeed || fromLex || null;
   }
 
   const Q1_CAT_LABELS = {
@@ -403,25 +408,58 @@ AFTERWARDS
   }
 
 
+  function enrichFromLexicon(card) {
+    const entry = (state.lexicon || []).find((e) => e.term.toLowerCase() === (card.term || "").toLowerCase());
+    if (!entry) return card;
+    return {
+      ...entry,
+      ...card,
+      synonyms: entry.synonyms || card.synonyms,
+      antonyms: entry.antonyms || card.antonyms,
+      examples: entry.examples || card.examples,
+      related: entry.related || entry.synonyms || card.related,
+      note: entry.note || card.note,
+      zh: entry.zh || card.zh,
+      pos: entry.pos || card.pos,
+    };
+  }
+
   function renderPicks() {
     const grid = $("#picksGrid");
     const picks = state.feed?.todaysPicks || [];
     if (!picks.length) {
-      grid.innerHTML = `<div class="empty">暫無今日精選 — 請稍後重新擷取，或查看「詞彙卡」全部配對。</div>`;
+      grid.innerHTML = `<div class="empty">暫無今日精選 — 請稍後重新擷取，或查看「詞彙卡」全部詞庫。</div>`;
       return;
     }
-    grid.innerHTML = picks.map(vocabCardHTML).join("");
+    grid.innerHTML = picks.map((c) => vocabCardHTML(enrichFromLexicon(c))).join("");
     bindCardActions(grid);
+  }
+
+  function lexiconBlob(c) {
+    return `${c.term} ${c.zh} ${c.pos} ${(c.synonyms || c.related || []).join(" ")} ${(c.antonyms || []).join(" ")} ${c.note || ""} ${(c.examples || []).map((x) => (typeof x === "string" ? x : `${x.en || ""} ${x.zh || ""}`)).join(" ")} ${c.example || ""}`.toLowerCase();
+  }
+
+  function vocabBankList() {
+    const matches = state.feed?.matches || [];
+    const byTerm = Object.fromEntries(matches.map((c) => [c.term.toLowerCase(), c]));
+    const bank = state.lexicon.length ? state.lexicon : matches;
+    return bank.map((entry) => {
+      const hit = byTerm[entry.term.toLowerCase()];
+      if (!hit) return entry;
+      return {
+        ...entry,
+        example: hit.example || entry.example,
+        matchedSpan: hit.matchedSpan,
+        source: hit.source || entry.source,
+      };
+    });
   }
 
   function renderVocab() {
     const q = ($("#vocabSearch").value || "").trim().toLowerCase();
-    let list = state.feed?.matches || [];
+    let list = vocabBankList();
     if (q) {
-      list = list.filter((c) => {
-        const blob = `${c.term} ${c.zh} ${c.pos} ${(c.synonyms || c.related || []).join(" ")} ${(c.antonyms || []).join(" ")} ${c.note || ""} ${(c.examples || []).map((x) => (typeof x === "string" ? x : `${x.en || ""} ${x.zh || ""}`)).join(" ")} ${c.example || ""}`.toLowerCase();
-        return blob.includes(q);
-      });
+      list = list.filter((c) => lexiconBlob(c).includes(q));
     }
     $("#vocabCount").textContent = `${list.length} 張卡`;
     const grid = $("#vocabGrid");
@@ -626,6 +664,18 @@ AFTERWARDS
     }
   }
 
+
+  async function loadLexicon() {
+    try {
+      const data = await loadJson("/api/lexicon", "data/lexicon.json");
+      // API: { ok, items } ; static: bare array
+      state.lexicon = Array.isArray(data) ? data : data.items || [];
+    } catch (e) {
+      state.lexicon = [];
+      console.warn("lexicon load failed", e);
+    }
+  }
+
   async function loadProgrammes() {
     const data = await loadJson("/api/programmes", "data/programmes.json");
     // API wraps with { ok, disclaimer, items }; static file is { disclaimer, items }
@@ -734,6 +784,7 @@ AFTERWARDS
     initTheme();
     initEvents();
     persistSaved();
+    await loadLexicon();
     await Promise.all([loadFeed(false), loadProgrammes(), loadQ1()]);
   }
 

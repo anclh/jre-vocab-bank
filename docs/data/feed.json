@@ -1,7 +1,7 @@
 {
   "ok": true,
   "source": "https://www.info.gov.hk/gia/rss/general_en.xml",
-  "fetchedAt": "2026-10-25T08:55:13.206858+08:00",
+  "fetchedAt": "2026-10-25T09:07:36.529210+08:00",
   "cached": true,
   "itemCount": 100,
   "matchCount": 91,
@@ -1135,15 +1135,14 @@
     },
     {
       "term": "regime",
-      "zh": "制度；規管制度",
+      "zh": "政權，制度",
       "pos": "n.",
       "related": [
-        "system",
+        "government",
         "administration",
-        "regulatory regime",
-        "government"
+        "system"
       ],
-      "note": "JRE／政策文優先「制度／規管制度」（如 licensing regime）；「政權」為次要政治義。反義：anarchy、chaos、disorder",
+      "note": "JRE／政策文常指「制度／規管制度」（licensing regime）；「政權」為政治義。",
       "example": "…HK$120,000 while not being a Category B registrant under the Dealers in Precious Metals and Stones Regulatory Regime. The investigation is ongoing. According to the Anti-Money Laundering and Counter-Terrorist Financing Ordinan…",
       "matchedSpan": "Regime",
       "source": {
@@ -1151,7 +1150,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300686.htm",
         "pubDate": "Fri, 23 Oct 2026 18:47:00 +0800",
         "pubDateIso": "2026-10-23T18:47:00+08:00"
-      }
+      },
+      "synonyms": [
+        "government",
+        "administration",
+        "system"
+      ],
+      "antonyms": [
+        "anarchy",
+        "chaos",
+        "disorder"
+      ],
+      "examples": [
+        {
+          "en": "The new regime implemented significant policy changes.",
+          "zh": "新政權實施了重大政策變化。"
+        },
+        {
+          "en": "Under the current regime, economic growth has improved.",
+          "zh": "在現行制度下，經濟增長有所改善。"
+        },
+        {
+          "en": "The regime has been criticized for its human rights record.",
+          "zh": "該政權因其人權記錄而受到批評。"
+        }
+      ]
     },
     {
       "term": "inclusive",
@@ -1209,15 +1232,14 @@
     },
     {
       "term": "contravention",
-      "zh": "違反；違背",
+      "zh": "違反，違背",
       "pos": "n.",
       "related": [
         "violation",
         "breach",
-        "infringement",
-        "contravene"
+        "infringement"
       ],
-      "note": "法規／協議違反；in contravention of…。反義：compliance、adherence、observance",
+      "note": "法規／協議違反；常用 in contravention of…。",
       "example": "…today (October 23) for importing duty-not-paid cigarettes and failing to declare them to Customs officers, in contravention of the Dutiable Commodities Ordinance (DCO) (Cap. 109). One of them was also found to be importing alternativ…",
       "matchedSpan": "contravention",
       "source": {
@@ -1225,7 +1247,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/23/P2026102300615.htm",
         "pubDate": "Fri, 23 Oct 2026 18:25:00 +0800",
         "pubDateIso": "2026-10-23T18:25:00+08:00"
-      }
+      },
+      "synonyms": [
+        "violation",
+        "breach",
+        "infringement"
+      ],
+      "antonyms": [
+        "compliance",
+        "adherence",
+        "observance"
+      ],
+      "examples": [
+        {
+          "en": "This action is in contravention of the safety regulations.",
+          "zh": "這一行為違反了安全法規。"
+        },
+        {
+          "en": "The company was fined for contravention of environmental laws.",
+          "zh": "該公司因違反環境法律而被罰款。"
+        },
+        {
+          "en": "Any contravention of the agreement will result in penalties.",
+          "zh": "任何違反協議的行為都將導致處罰。"
+        }
+      ]
     },
     {
       "term": "one country, two systems",
@@ -2082,16 +2128,14 @@
     },
     {
       "term": "liaison",
-      "zh": "聯絡；協調",
+      "zh": "聯絡，協調",
       "pos": "n.",
       "related": [
         "connection",
         "coordination",
-        "communication",
-        "liaise",
-        "liaising"
+        "communication"
       ],
-      "note": "跨部門／跨機構聯絡；亦作 liaison officer。反義：disconnection、isolation、separation",
+      "note": "跨部門／跨機構聯絡；亦作 liaison officer。",
       "example": "…n at immediate risk, locate offenders, or prevent the circulation of harmful material. By maintaining regular liaison at both the strategic and operational levels, we can significantly improve our ability to identify offenders…",
       "matchedSpan": "liaison",
       "source": {
@@ -2099,7 +2143,31 @@
         "link": "https://www.info.gov.hk/gia/general/202610/22/P2026102200511.htm",
         "pubDate": "Thu, 22 Oct 2026 17:00:00 +0800",
         "pubDateIso": "2026-10-22T17:00:00+08:00"
-      }
+      },
+      "synonyms": [
+        "connection",
+        "coordination",
+        "communication"
+      ],
+      "antonyms": [
+        "disconnection",
+        "isolation",
+        "separation"
+      ],
+      "examples": [
+        {
+          "en": "She serves as the liaison between the two departments.",
+          "zh": "她擔任兩個部門之間的聯絡員。"
+        },
+        {
+          "en": "Effective liaison is crucial for project success.",
+          "zh": "有效的聯絡對項目成功至關重要。"
+        },
+        {
+          "en": "The liaison officer will coordinate all communications.",
+          "zh": "聯絡官將協調所有通訊。"
+        }
+      ]
     },
     {
       "term": "assess",

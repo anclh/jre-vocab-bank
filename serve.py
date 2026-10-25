@@ -147,12 +147,11 @@ def match_vocab(items: list[dict], lexicon: list[dict]) -> list[dict]:
                 continue
             used_terms.add(term_key)
             example = excerpt_around(hay, m)
-            results.append(
-                {
+            card = {
                     "term": entry["term"],
                     "zh": entry.get("zh", ""),
                     "pos": entry.get("pos", ""),
-                    "related": entry.get("related") or [],
+                    "related": entry.get("related") or entry.get("synonyms") or [],
                     "note": entry.get("note") or "",
                     "example": example,
                     "matchedSpan": m.group(0),
@@ -163,7 +162,13 @@ def match_vocab(items: list[dict], lexicon: list[dict]) -> list[dict]:
                         "pubDateIso": item.get("pubDateIso"),
                     },
                 }
-            )
+            if entry.get("synonyms"):
+                card["synonyms"] = entry["synonyms"]
+            if entry.get("antonyms"):
+                card["antonyms"] = entry["antonyms"]
+            if entry.get("examples"):
+                card["examples"] = entry["examples"]
+            results.append(card)
     return results
 
 
