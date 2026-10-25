@@ -478,6 +478,54 @@ main {
   border-radius: 2px;
 }
 
+
+.lex-block {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.lex-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--text-muted);
+  text-transform: none;
+}
+
+.chip-syn {
+  background: color-mix(in srgb, var(--accent) 14%, var(--bg-elevated));
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+  color: var(--text);
+}
+
+.chip-ant {
+  background: color-mix(in srgb, #e11d48 10%, var(--bg-elevated));
+  border-color: color-mix(in srgb, #e11d48 28%, var(--border));
+  color: var(--text);
+}
+
+.example-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.55rem;
+}
+
+.example-item {
+  margin: 0;
+}
+
+.example-zh {
+  margin: 0.25rem 0 0;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  padding-left: 0.7rem;
+}
+
+
 .source-link {
   font-size: 0.78rem;
   display: flex;

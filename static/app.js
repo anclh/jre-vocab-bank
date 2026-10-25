@@ -100,11 +100,37 @@
     renderAllCards();
   }
 
+function chipRow(label, items, cls) {
+    const list = (items || []).filter(Boolean);
+    if (!list.length) return "";
+    const chips = list.map((r) => `<span class="chip ${cls || ""}">${escapeHtml(r)}</span>`).join("");
+    return `<div class="lex-block"><div class="lex-label">${label}</div><div class="related">${chips}</div></div>`;
+  }
+
+  function examplesHTML(card) {
+    const examples = Array.isArray(card.examples) && card.examples.length
+      ? card.examples
+      : card.example
+        ? [{ en: card.example, zh: "" }]
+        : [];
+    if (!examples.length) return "";
+    const items = examples
+      .map((ex) => {
+        const en = typeof ex === "string" ? ex : ex.en || "";
+        const zh = typeof ex === "string" ? "" : ex.zh || "";
+        return `<li class="example-item">
+  <p class="example">${highlightExample(en, card.matchedSpan)}</p>
+  ${zh ? `<p class="example-zh">${escapeHtml(zh)}</p>` : ""}
+</li>`;
+      })
+      .join("");
+    return `<div class="lex-block"><div class="lex-label">例句</div><ol class="example-list">${items}</ol></div>`;
+  }
+
   function vocabCardHTML(card) {
     const saved = isSaved(card.term);
-    const related = (card.related || [])
-      .map((r) => `<span class="chip">${escapeHtml(r)}</span>`)
-      .join("");
+    const synonyms = card.synonyms || card.related || [];
+    const antonyms = card.antonyms || [];
     const src = card.source || {};
     return `
 <article class="vocab-card ${saved ? "saved" : ""}" data-term="${escapeHtml(card.term)}">
@@ -113,8 +139,9 @@
   </div>
   <div class="zh">${escapeHtml(card.zh || "")}</div>
   ${card.note ? `<div class="meta-line">${escapeHtml(card.note)}</div>` : ""}
-  ${related ? `<div class="related">${related}</div>` : ""}
-  <p class="example">${highlightExample(card.example || "", card.matchedSpan)}</p>
+  ${chipRow("同義詞", synonyms, "chip-syn")}
+  ${chipRow("反義詞", antonyms, "chip-ant")}
+  ${examplesHTML(card)}
   ${
     src.link
       ? `<div class="source-link">
@@ -392,7 +419,7 @@ AFTERWARDS
     let list = state.feed?.matches || [];
     if (q) {
       list = list.filter((c) => {
-        const blob = `${c.term} ${c.zh} ${c.pos} ${(c.related || []).join(" ")} ${c.note || ""}`.toLowerCase();
+        const blob = `${c.term} ${c.zh} ${c.pos} ${(c.synonyms || c.related || []).join(" ")} ${(c.antonyms || []).join(" ")} ${c.note || ""} ${(c.examples || []).map((x) => (typeof x === "string" ? x : `${x.en || ""} ${x.zh || ""}`)).join(" ")} ${c.example || ""}`.toLowerCase();
         return blob.includes(q);
       });
     }

@@ -269,17 +269,39 @@
   },
   {
     "term": "liaison",
-    "zh": "聯絡；協調",
+    "zh": "聯絡，協調",
     "pos": "n.",
     "related": [
       "connection",
       "coordination",
-      "communication",
-      "liaise",
-      "liaising"
+      "communication"
     ],
-    "note": "跨部門／跨機構聯絡；亦作 liaison officer。反義：disconnection、isolation、separation",
-    "example": "She serves as the liaison between the two departments."
+    "note": "跨部門／跨機構聯絡；亦作 liaison officer。",
+    "example": "She serves as the liaison between the two departments.",
+    "synonyms": [
+      "connection",
+      "coordination",
+      "communication"
+    ],
+    "antonyms": [
+      "disconnection",
+      "isolation",
+      "separation"
+    ],
+    "examples": [
+      {
+        "en": "She serves as the liaison between the two departments.",
+        "zh": "她擔任兩個部門之間的聯絡員。"
+      },
+      {
+        "en": "Effective liaison is crucial for project success.",
+        "zh": "有效的聯絡對項目成功至關重要。"
+      },
+      {
+        "en": "The liaison officer will coordinate all communications.",
+        "zh": "聯絡官將協調所有通訊。"
+      }
+    ]
   },
   {
     "term": "stakeholder",
@@ -1822,145 +1844,398 @@
   },
   {
     "term": "malfunction",
-    "zh": "故障；失靈",
+    "zh": "故障，失靈",
     "pos": "n. / v.",
     "related": [
       "breakdown",
       "failure",
-      "defect",
-      "malfunctioning"
+      "defect"
     ],
-    "note": "設備／系統故障；公文常見 the equipment malfunctioned。反義：function、work、operate",
-    "example": "The equipment malfunction caused a temporary shutdown."
+    "note": "設備／系統故障；公文常見 the equipment malfunctioned。",
+    "example": "The equipment malfunction caused a temporary shutdown.",
+    "synonyms": [
+      "breakdown",
+      "failure",
+      "defect"
+    ],
+    "antonyms": [
+      "function",
+      "work",
+      "operate"
+    ],
+    "examples": [
+      {
+        "en": "The equipment malfunction caused a temporary shutdown.",
+        "zh": "設備故障導致了臨時停機。"
+      },
+      {
+        "en": "We need to investigate the malfunction in the system.",
+        "zh": "我們需要調查系統中的故障。"
+      },
+      {
+        "en": "The printer malfunction delayed our report submission.",
+        "zh": "打印機故障延遲了我們的報告提交。"
+      }
+    ]
   },
   {
     "term": "contravention",
-    "zh": "違反；違背",
+    "zh": "違反，違背",
     "pos": "n.",
     "related": [
       "violation",
       "breach",
-      "infringement",
-      "contravene"
+      "infringement"
     ],
-    "note": "法規／協議違反；in contravention of…。反義：compliance、adherence、observance",
-    "example": "This action is in contravention of the safety regulations."
+    "note": "法規／協議違反；常用 in contravention of…。",
+    "example": "This action is in contravention of the safety regulations.",
+    "synonyms": [
+      "violation",
+      "breach",
+      "infringement"
+    ],
+    "antonyms": [
+      "compliance",
+      "adherence",
+      "observance"
+    ],
+    "examples": [
+      {
+        "en": "This action is in contravention of the safety regulations.",
+        "zh": "這一行為違反了安全法規。"
+      },
+      {
+        "en": "The company was fined for contravention of environmental laws.",
+        "zh": "該公司因違反環境法律而被罰款。"
+      },
+      {
+        "en": "Any contravention of the agreement will result in penalties.",
+        "zh": "任何違反協議的行為都將導致處罰。"
+      }
+    ]
   },
   {
     "term": "allegation",
-    "zh": "指控；聲稱",
+    "zh": "指控，聲稱",
     "pos": "n.",
     "related": [
       "accusation",
       "claim",
-      "assertion",
-      "allege"
+      "assertion"
     ],
-    "note": "未證實的指控；調查報告常用。反義：denial、refutation、vindication",
-    "example": "The allegation against the minister was thoroughly investigated."
+    "note": "未證實的指控；調查報告常用。",
+    "example": "The allegation against the minister was thoroughly investigated.",
+    "synonyms": [
+      "accusation",
+      "claim",
+      "assertion"
+    ],
+    "antonyms": [
+      "denial",
+      "refutation",
+      "vindication"
+    ],
+    "examples": [
+      {
+        "en": "The allegation against the minister was thoroughly investigated.",
+        "zh": "針對部長的指控得到了徹底調查。"
+      },
+      {
+        "en": "She denied all allegations of misconduct.",
+        "zh": "她否認了所有不當行為的指控。"
+      },
+      {
+        "en": "These are serious allegations that require immediate attention.",
+        "zh": "這些是需要立即關注的嚴重指控。"
+      }
+    ]
   },
   {
     "term": "litigation",
-    "zh": "訴訟；法律訴訟",
+    "zh": "訴訟，法律訴訟",
     "pos": "n.",
     "related": [
       "lawsuit",
       "legal action",
-      "court case",
-      "litigate"
+      "court case"
     ],
-    "note": "司法程序；政策文件常寫 avoid costly litigation。反義：settlement、mediation、arbitration",
-    "example": "The company wants to avoid costly litigation."
+    "note": "司法程序；政策文件常寫 avoid costly litigation。",
+    "example": "The company wants to avoid costly litigation.",
+    "synonyms": [
+      "lawsuit",
+      "legal action",
+      "court case"
+    ],
+    "antonyms": [
+      "settlement",
+      "mediation",
+      "arbitration"
+    ],
+    "examples": [
+      {
+        "en": "The company wants to avoid costly litigation.",
+        "zh": "公司希望避免昂貴的訴訟。"
+      },
+      {
+        "en": "The litigation process may take several years.",
+        "zh": "訴訟過程可能需要幾年時間。"
+      },
+      {
+        "en": "Both parties agreed to settle without litigation.",
+        "zh": "雙方同意在不進行訴訟的情況下和解。"
+      }
+    ]
   },
   {
     "term": "impartiality",
-    "zh": "公正；不偏不倚",
+    "zh": "公正，不偏不倚",
     "pos": "n.",
     "related": [
       "neutrality",
       "fairness",
-      "objectivity",
-      "impartial"
+      "objectivity"
     ],
-    "note": "調解／裁決／監管機構核心價值。反義：bias、prejudice、favoritism",
-    "example": "Impartiality is essential for effective mediation."
+    "note": "調解／裁決／監管機構核心價值。",
+    "example": "The judge maintained complete impartiality throughout the trial.",
+    "synonyms": [
+      "neutrality",
+      "fairness",
+      "objectivity"
+    ],
+    "antonyms": [
+      "bias",
+      "prejudice",
+      "favoritism"
+    ],
+    "examples": [
+      {
+        "en": "The judge maintained complete impartiality throughout the trial.",
+        "zh": "法官在整個審判過程中保持完全公正。"
+      },
+      {
+        "en": "Impartiality is essential for effective mediation.",
+        "zh": "公正對於有效調解至關重要。"
+      },
+      {
+        "en": "The report was praised for its impartiality and accuracy.",
+        "zh": "該報告因其公正性和準確性而受到讚揚。"
+      }
+    ]
   },
   {
     "term": "ascertain",
-    "zh": "確定；查明",
+    "zh": "確定，查明",
     "pos": "v.",
     "related": [
       "determine",
       "establish",
-      "discover",
-      "ascertainment"
+      "discover"
     ],
-    "note": "調查／核實事實；公文：ascertain the facts／cause。反義：assume、guess、speculate",
-    "example": "We need to ascertain the facts before making a decision."
+    "note": "調查／核實事實；公文：ascertain the facts／cause。",
+    "example": "We need to ascertain the facts before making a decision.",
+    "synonyms": [
+      "determine",
+      "establish",
+      "discover"
+    ],
+    "antonyms": [
+      "assume",
+      "guess",
+      "speculate"
+    ],
+    "examples": [
+      {
+        "en": "We need to ascertain the facts before making a decision.",
+        "zh": "我們需要在做決定之前確定事實。"
+      },
+      {
+        "en": "The investigation will ascertain the cause of the accident.",
+        "zh": "調查將查明事故原因。"
+      },
+      {
+        "en": "Please ascertain whether the information is accurate.",
+        "zh": "請確定信息是否準確。"
+      }
+    ]
   },
   {
     "term": "regime",
-    "zh": "制度；規管制度",
+    "zh": "政權，制度",
     "pos": "n.",
     "related": [
-      "system",
+      "government",
       "administration",
-      "regulatory regime",
-      "government"
+      "system"
     ],
-    "note": "JRE／政策文優先「制度／規管制度」（如 licensing regime）；「政權」為次要政治義。反義：anarchy、chaos、disorder",
-    "example": "Under the current regime, economic growth has improved."
+    "note": "JRE／政策文常指「制度／規管制度」（licensing regime）；「政權」為政治義。",
+    "example": "The new regime implemented significant policy changes.",
+    "synonyms": [
+      "government",
+      "administration",
+      "system"
+    ],
+    "antonyms": [
+      "anarchy",
+      "chaos",
+      "disorder"
+    ],
+    "examples": [
+      {
+        "en": "The new regime implemented significant policy changes.",
+        "zh": "新政權實施了重大政策變化。"
+      },
+      {
+        "en": "Under the current regime, economic growth has improved.",
+        "zh": "在現行制度下，經濟增長有所改善。"
+      },
+      {
+        "en": "The regime has been criticized for its human rights record.",
+        "zh": "該政權因其人權記錄而受到批評。"
+      }
+    ]
   },
   {
     "term": "attested",
-    "zh": "證實的；經證明的",
+    "zh": "證實的，經證明的",
     "pos": "adj.",
     "related": [
       "verified",
       "confirmed",
-      "validated",
-      "attest"
+      "validated"
     ],
-    "note": "文件核證／證人證實；attested copy。反義：unproven、disputed、questionable",
-    "example": "The document must be attested by a qualified witness."
+    "note": "文件核證／證人證實；attested copy。",
+    "example": "The document must be attested by a qualified witness.",
+    "synonyms": [
+      "verified",
+      "confirmed",
+      "validated"
+    ],
+    "antonyms": [
+      "unproven",
+      "disputed",
+      "questionable"
+    ],
+    "examples": [
+      {
+        "en": "The document must be attested by a qualified witness.",
+        "zh": "文件必須由合格證人證實。"
+      },
+      {
+        "en": "His expertise is well attested by his published research.",
+        "zh": "他的專業知識通過已發表的研究得到了很好的證實。"
+      },
+      {
+        "en": "The attested copy of the certificate is required for submission.",
+        "zh": "提交時需要經過證實的證書副本。"
+      }
+    ]
   },
   {
     "term": "paramount",
-    "zh": "至關重要的；首要的",
+    "zh": "至關重要的，首要的",
     "pos": "adj.",
     "related": [
       "supreme",
       "utmost",
-      "primary",
-      "paramountcy"
+      "primary"
     ],
-    "note": "of paramount importance／concern；政策優先次序。反義：minor、secondary、trivial",
-    "example": "Safety is of paramount importance in this project."
+    "note": "of paramount importance／concern；政策優先次序。",
+    "example": "Safety is of paramount importance in this project.",
+    "synonyms": [
+      "supreme",
+      "utmost",
+      "primary"
+    ],
+    "antonyms": [
+      "minor",
+      "secondary",
+      "trivial"
+    ],
+    "examples": [
+      {
+        "en": "Safety is of paramount importance in this project.",
+        "zh": "安全在這個項目中至關重要。"
+      },
+      {
+        "en": "Maintaining quality is paramount to our success.",
+        "zh": "保持質量對我們的成功至關重要。"
+      },
+      {
+        "en": "The paramount concern is protecting public health.",
+        "zh": "首要關注的是保護公眾健康。"
+      }
+    ]
   },
   {
     "term": "infuse",
-    "zh": "注入；灌輸",
+    "zh": "注入，灌輸",
     "pos": "v.",
     "related": [
       "instill",
       "inject",
-      "introduce",
-      "infusion"
+      "introduce"
     ],
-    "note": "為流程／團隊注入新元素；infuse … into …。反義：extract、remove、withdraw",
-    "example": "We need to infuse innovation into our traditional processes."
+    "note": "為流程／團隊注入新元素；infuse … into …。",
+    "example": "The new manager tried to infuse energy into the team.",
+    "synonyms": [
+      "instill",
+      "inject",
+      "introduce"
+    ],
+    "antonyms": [
+      "extract",
+      "remove",
+      "withdraw"
+    ],
+    "examples": [
+      {
+        "en": "The new manager tried to infuse energy into the team.",
+        "zh": "新經理試圖為團隊注入活力。"
+      },
+      {
+        "en": "We need to infuse innovation into our traditional processes.",
+        "zh": "我們需要將創新注入傳統流程中。"
+      },
+      {
+        "en": "The training program will infuse new skills into the workforce.",
+        "zh": "培訓計劃將為員工隊伍注入新技能。"
+      }
+    ]
   },
   {
     "term": "deterrence",
-    "zh": "威懾；阻嚇",
+    "zh": "威懾，阻嚇",
     "pos": "n.",
     "related": [
       "prevention",
       "discouragement",
-      "restraint",
-      "deterrent"
+      "restraint"
     ],
-    "note": "阻嚇作用；亦常作 a deterrent（to crime／violations）。反義：encouragement、incentive、motivation",
-    "example": "The security measures serve as a deterrence to crime."
+    "note": "阻嚇作用；亦常作 a deterrent（to crime／violations）。",
+    "example": "The security measures serve as a deterrence to crime.",
+    "synonyms": [
+      "prevention",
+      "discouragement",
+      "restraint"
+    ],
+    "antonyms": [
+      "encouragement",
+      "incentive",
+      "motivation"
+    ],
+    "examples": [
+      {
+        "en": "The security measures serve as a deterrence to crime.",
+        "zh": "安全措施起到對犯罪的威懾作用。"
+      },
+      {
+        "en": "Nuclear deterrence has maintained peace for decades.",
+        "zh": "核威懾數十年來維持了和平。"
+      },
+      {
+        "en": "The harsh penalties act as a deterrence to violations.",
+        "zh": "嚴厲的懲罰對違規行為起到威懾作用。"
+      }
+    ]
   }
 ]
